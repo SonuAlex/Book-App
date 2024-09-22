@@ -1,0 +1,173 @@
+2024-09-16 19:21:39,151 - INFO - User Sonu requested book Example
+2024-09-16 19:23:40,038 - INFO - User Sonu requested book Example
+2024-09-16 19:24:01,033 - INFO - User Sonu requested book Example
+2024-09-16 19:24:20,273 - INFO - User <Sonu> requested book Example
+2024-09-16 19:24:35,357 - INFO - User 'Sonu' requested book Example
+2024-09-16 19:25:18,639 - INFO - User 'Sonu' requested book 'Example'
+2024-09-16 19:26:06,303 - INFO - Request: POST http://localhost:8000/book
+2024-09-16 19:26:06,305 - INFO - User 'Sonu' requested book 'Example'
+2024-09-16 19:26:57,685 - INFO - Request: POST - http://localhost:8000/book
+2024-09-16 19:26:57,687 - INFO - User: Sonu - Book: Example
+2024-09-16 19:30:07,974 - INFO - User: Sonu - Book: Example
+2024-09-16 19:30:07,975 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 19:32:11,805 - INFO - User: <Sonu> request book with cover embedding
+2024-09-16 19:32:11,805 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-16 19:33:04,136 - INFO - User: Sonu - Cover
+2024-09-16 19:33:04,137 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-16 19:33:39,708 - INFO - User: Sonu - Cover
+2024-09-16 19:33:39,709 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-16 19:33:43,501 - INFO - User: Sonu - Book: Example
+2024-09-16 19:33:43,503 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:01:51,394 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:01:51,395 - ERROR - Error processing request: unsupported operand type(s) for +: 'NoneType' and 'str'
+2024-09-16 20:02:18,042 - INFO - User: Sonu - Book: The+Alchemist
+2024-09-16 20:02:18,042 - ERROR - Error processing request: unsupported operand type(s) for +: 'NoneType' and 'str'
+2024-09-16 20:02:55,351 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:02:55,352 - ERROR - Error processing request: unsupported operand type(s) for +: 'NoneType' and 'str'
+2024-09-16 20:03:54,649 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:03:54,650 - ERROR - Error processing request: unsupported operand type(s) for +: 'NoneType' and 'str'
+2024-09-16 20:04:35,815 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:04:35,816 - ERROR - Error processing request: cannot access local variable 'work_id' where it is not associated with a value
+2024-09-16 20:05:25,385 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:05:25,387 - ERROR - Error processing request: cannot access local variable 'work_id' where it is not associated with a value
+2024-09-16 20:05:55,722 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:05:55,722 - ERROR - Error processing default request: module 'fastapi.requests' has no attribute 'get'
+2024-09-16 20:05:55,723 - INFO - POST http://localhost:8000/book - Status: 500
+2024-09-16 20:08:22,616 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:08:30,177 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:09:07,805 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:09:14,277 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:09:44,319 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:09:50,217 - ERROR - Error processing request: name 'imageResponses' is not defined
+2024-09-16 20:10:16,059 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:10:37,070 - ERROR - Error processing default request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /search.json?title=The%20Alchemist&limit=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000020B82691E50>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-09-16 20:10:37,070 - INFO - POST http://localhost:8000/book - Status: 500
+2024-09-16 20:10:46,171 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:11:12,493 - ERROR - Error processing request: [TypeError("'property' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 20:11:54,527 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:11:58,419 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:17:51,536 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:17:55,574 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:19:02,658 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 20:19:05,421 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:19:40,426 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 20:19:44,185 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 20:20:00,441 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 20:20:03,077 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 21:45:29,559 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:46:03,114 - ERROR - Error processing request: SSL handshake failed: cluster0-shard-00-00.4nuga.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: cluster0-shard-00-02.4nuga.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: cluster0-shard-00-01.4nuga.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006), Timeout: 30s, Topology Description: <TopologyDescription id: 66e8599c94332d18d499d7a8, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.4nuga.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-00.4nuga.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('cluster0-shard-00-01.4nuga.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-01.4nuga.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('cluster0-shard-00-02.4nuga.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: cluster0-shard-00-02.4nuga.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>]>
+2024-09-16 21:48:31,315 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:48:42,651 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:52:50,697 - INFO - API status check
+2024-09-16 21:52:50,699 - INFO - GET http://localhost:8000/status - Status: 200
+2024-09-16 21:52:58,863 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:53:00,776 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:54:14,318 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:54:16,381 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:54:43,198 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:54:45,174 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:55:18,116 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:55:19,964 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:55:57,186 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:55:58,978 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:57:00,936 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:57:02,454 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:57:23,876 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:57:25,296 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:57:37,295 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:57:38,737 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:57:50,601 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:57:52,536 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 21:58:11,549 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:58:12,976 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 21:58:24,093 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 21:58:26,056 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 21:58:32,165 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 21:58:35,687 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 21:59:30,865 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 21:59:34,617 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 22:01:00,035 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 22:01:04,228 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 22:01:29,782 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:01:32,661 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 22:01:46,964 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:01:49,381 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 22:02:33,689 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:02:39,421 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-09-16 22:02:44,011 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:02:46,377 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 22:03:53,442 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:03:57,264 - ERROR - Error processing request: 'Response' object is not subscriptable
+2024-09-16 22:04:54,503 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:06:36,673 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:08:46,352 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:10:59,401 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:11:05,872 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 22:12:01,364 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 22:17:41,023 - INFO - User: Sonu - Book: Fourth Wing
+2024-09-16 22:19:02,798 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 22:19:06,457 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 22:19:14,691 - INFO - User: Sonu - Book: The Alchemist
+2024-09-16 22:19:17,141 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 22:20:43,650 - INFO - User: Sonu - Book: Oliver Twist
+2024-09-16 22:21:04,712 - ERROR - Error processing default request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /search.json?title=Oliver%20Twist&limit=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFA33EF8D0>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-09-16 22:21:04,712 - INFO - POST http://localhost:8000/book - Status: 500
+2024-09-16 22:21:19,103 - INFO - User: Sonu - Book: Oliver Twist
+2024-09-16 22:21:26,002 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-16 22:21:51,462 - INFO - User: Sonu - Book: David Copperfield
+2024-09-16 22:22:18,023 - ERROR - Error processing work request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL10322056W.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFA3469050>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-09-16 22:22:18,023 - INFO - POST http://localhost:8000/book - Status: 500
+2024-09-16 22:22:33,769 - INFO - User: Sonu - Book: David Copperfield
+2024-09-16 22:22:58,140 - ERROR - Error processing work request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL10322056W.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFA3468150>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-09-16 22:22:58,140 - INFO - POST http://localhost:8000/book - Status: 500
+2024-09-16 22:24:24,519 - INFO - User: Sonu - Book: David Copperfield
+2024-09-16 22:24:29,350 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-21 22:22:29,771 - INFO - User: Sonu - Book: David Copperfield
+2024-09-21 22:22:59,506 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-21 22:23:40,520 - INFO - GET http://localhost:8000/submit - Status: 405
+2024-09-21 22:23:46,658 - INFO - User: Sonu - Submit
+2024-09-21 22:23:47,490 - ERROR - Error processing request: JSONResponse.__init__() got an unexpected keyword argument 'status'
+2024-09-21 22:26:56,747 - INFO - User: Sonu - Submit
+2024-09-21 22:26:57,658 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:27:21,380 - INFO - User: Sonu - Book: Alchemist
+2024-09-21 22:28:06,026 - ERROR - Error processing work request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL796465W.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F81B8DCAD0>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-09-21 22:28:06,027 - INFO - POST http://localhost:8000/book - Status: 500
+2024-09-21 22:28:15,638 - INFO - User: Sonu - Book: Alchemist
+2024-09-21 22:28:19,441 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-21 22:28:34,645 - INFO - User: Sonu - Submit
+2024-09-21 22:28:34,801 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:39:10,455 - INFO - User: Sonu - User Created
+2024-09-21 22:39:11,230 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-21 22:39:14,874 - INFO - User: Sonu - User Created
+2024-09-21 22:39:14,953 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-21 22:41:14,355 - INFO - User: Sonu - Submit
+2024-09-21 22:41:14,535 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:41:27,736 - INFO - User: Sonu - Submit
+2024-09-21 22:41:27,896 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:46:30,006 - INFO - User: Sonu - Submit
+2024-09-21 22:46:30,176 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:48:31,946 - INFO - User: Sonu - Submit
+2024-09-21 22:48:32,716 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:48:44,144 - INFO - User: Sonu - Submit
+2024-09-21 22:48:44,325 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 22:51:24,968 - INFO - User: Sonu - User Created
+2024-09-21 22:51:25,260 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-21 22:51:59,543 - INFO - User: Sonu - User Created
+2024-09-21 22:52:00,842 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-21 23:00:55,596 - INFO - User: Sonu - Submit
+2024-09-21 23:00:55,819 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 23:01:06,425 - INFO - User: Sonu - Submit
+2024-09-21 23:01:06,712 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 23:01:37,594 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=David%20Copperfield - Status: 404
+2024-09-21 23:01:52,800 - INFO - User: Sonu - Borrow: David Copperfield
+2024-09-21 23:01:53,539 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=David%20Copperfield - Status: 200
+2024-09-21 23:08:01,223 - INFO - User: Sonu - User Created
+2024-09-21 23:08:02,075 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-21 23:08:07,199 - INFO - User: Sonu - Submit
+2024-09-21 23:08:07,560 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 23:08:14,621 - INFO - User: Sonu - Submit
+2024-09-21 23:08:14,796 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-21 23:08:22,285 - INFO - User: Sonu - Borrow: David Copperfield
+2024-09-21 23:08:22,620 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=David%20Copperfield - Status: 200
+2024-09-21 23:08:38,023 - INFO - User: Sonu - Borrow: The Alchemist
+2024-09-21 23:08:38,276 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=The%20Alchemist - Status: 200
