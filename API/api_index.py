@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import pymongo
 import uvicorn
@@ -49,6 +49,7 @@ try:
     db = client["bookstore"]
     collection = db["books"]
     userCollection = db["users"]
+    registerCollection = db["register"]
 except Exception as e:
     logging.error(f"Error connecting to MongoDB: {e}")
     raise
@@ -71,7 +72,7 @@ def read_root():
 
 # Example request: {"user_id": "123", "title": "The Great Gatsby"}
 @app.post('/book')  # POST request to /book
-def handle_book_request(request: BookRequest):
+def handle_book_request(request: BookRequest):  # When a user wants to search for a book detail by title
     logging.info(f"User: {request.user_id} - Book: {request.title}")
 
     # Search logic here
@@ -82,7 +83,7 @@ def handle_book_request(request: BookRequest):
     return result
 
 @app.post('/cover') # POST request to /cover
-def handle_cover_request(request: CoverRequest):
+def handle_cover_request(request: CoverRequest):    # When a user wants to search for a book detail by cover    - not implemented yet
     logging.info(f"User: {request.user_id} - Cover")
 
     # Cover search logic here
@@ -91,7 +92,7 @@ def handle_cover_request(request: CoverRequest):
     return {"status": "OK", "timestamp": datetime.now().isoformat(), "user_id": request.user_id, "coverImageEmbedding": request.coverImageEmbedding}
 
 @app.post('/submit')
-def handle_submit_request(request: BookDetails):
+def handle_submit_request(request: BookDetails):    # When a user wants to submit a book
     logging.info(f"User: {request.user_id} - Submit")
     # Submit logic here
     if collection.find_one({"title": request.title}):
@@ -102,7 +103,7 @@ def handle_submit_request(request: BookDetails):
         return {"status":200, "message": "Book submitted successfully"}
 
 @app.post('/user')
-def handle_user_creation(user: userDetails):
+def handle_user_creation(user: userDetails):    #Creating new user in the system
     logging.info(f"User: {user.user_id} - User Created")
 
     # User creation logic here
@@ -117,7 +118,7 @@ def handle_user_creation(user: userDetails):
         return {"status":200, "message": "User created successfully"}
 
 @app.get('/borrow')
-def handle_borrow_request(user_id: str, title: str):
+def handle_borrow_request(user_id: str, title: str):    # When a user whants to borrow a book
     logging.info(f"User: {user_id} - Borrow: {title}")
 
     # Borrow logic here
@@ -126,11 +127,29 @@ def handle_borrow_request(user_id: str, title: str):
         if book["available"]:
             userCollection.update_one({"user_id": user_id}, {"$inc": {"borrowed_books": 1}, "$push": {"borrowed_titles": title}})
             collection.update_one({"title": title}, {"$set": {"available": False, "borrowed_by": user_id}})
-            return {"status":200, "message": "Book borrowed successfully"}
+            registerCollection.insert_one({"user_id": user_id, "title": title, "borrowed_on": datetime.now().isoformat(), "deadline": (datetime.now() + timedelta(days=7)).isoformat(), "returned": ""})
+            logging.info(f"Book {title} borrowed by {user_id}")
+            return {"status":200, "message": "Book borrowed successfully", "deadline": (datetime.now() + timedelta(days=7)).isoformat()}
         else:
             return {"status":400, "message": "Book not available"}
     else:
         return {"status":400, "message": "Book not found"}
+
+@app.get('/return')
+def handle_return_request(user_id: str, title: str):    # When a user wants to return
+    logging.info(f"User: {user_id} - Return: {title}")
+
+    # Return logic here
+    book = collection.find_one({"title": title})
+    try:
+        userCollection.update_one({"user_id": user_id}, {"$inc": {"borrowed_books": -1}, "$pull": {"borrowed_titles": title}})
+        collection.update_one({"title": title}, {"$set": {"available": True, "borrowed_by": ""}})
+        registerCollection.update_one({"title": title}, {"$set": {"returned": datetime.now().isoformat()}})
+        logging.info(f"Book {title} returned by {user_id}")
+        return {"status":200, "message": "Book returned successfully"}
+    except Exception as e:
+        logging.error(f"Error returning book: {e}")
+        return {"status":400, "message": "Book Return Failed"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
