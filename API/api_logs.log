@@ -171,3 +171,19 @@
 2024-09-21 23:08:22,620 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=David%20Copperfield - Status: 200
 2024-09-21 23:08:38,023 - INFO - User: Sonu - Borrow: The Alchemist
 2024-09-21 23:08:38,276 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=The%20Alchemist - Status: 200
+2024-09-22 12:37:51,934 - INFO - User: Sonu - User Created
+2024-09-22 12:37:52,567 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-22 12:37:57,962 - INFO - User: Sonu - Submit
+2024-09-22 12:37:58,201 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-22 12:38:02,802 - INFO - User: Sonu - Borrow: The Alchemist
+2024-09-22 12:38:03,225 - INFO - Book The Alchemist borrowed by Sonu
+2024-09-22 12:38:03,225 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=The%20Alchemist - Status: 200
+2024-09-22 12:38:23,228 - INFO - User: Sonu - Return: The Alchemist
+2024-09-22 12:38:23,513 - INFO - Book The Alchemist returned by Sonu
+2024-09-22 12:38:23,513 - INFO - GET http://localhost:8000/return?user_id=Sonu&title=The%20Alchemist - Status: 200
+2024-09-22 12:49:16,336 - INFO - User: Sonu - Borrow: The Alchemist
+2024-09-22 12:49:17,156 - INFO - Book The Alchemist borrowed by Sonu
+2024-09-22 12:49:17,157 - INFO - GET http://localhost:8000/borrow?user_id=Sonu&title=The%20Alchemist - Status: 200
+2024-09-22 12:49:39,904 - INFO - User: Sonu - Return: The Alchemist
+2024-09-22 12:49:40,245 - INFO - Book The Alchemist returned by Sonu
+2024-09-22 12:49:40,246 - INFO - GET http://localhost:8000/return?user_id=Sonu&title=The%20Alchemist - Status: 200
