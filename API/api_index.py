@@ -16,6 +16,7 @@ load_dotenv()
 app = FastAPI()
 
 MONGODB_API = os.environ.get('MONGODB_API_STRING')
+local_host = 'mongodb://localhost:27017'
 
 # Initializing classes
 class userDetails(BaseModel):
@@ -45,7 +46,7 @@ class BookDetails(BaseModel):
     borrowed_by: str = Field(default="")
 
 try:
-    client = pymongo.MongoClient(MONGODB_API)
+    client = pymongo.MongoClient(local_host)
     db = client["bookstore"]
     collection = db["books"]
     userCollection = db["users"]
