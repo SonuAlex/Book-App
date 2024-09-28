@@ -7,9 +7,10 @@ import os
 
 load_dotenv()
 MONGODB_API = os.environ.get("MONGODB_API_STRING")
+local_host = "mongodb://localhost:27017"
 
 # MongoDB connection
-client = pymongo.MongoClient(MONGODB_API)
+client = pymongo.MongoClient(local_host)
 db = client["bookstore"]
 collection = db["cache"]
 
@@ -44,7 +45,7 @@ def get_book_data(query, title, OL_API_STRING) -> JSONResponse:
 
     if not caching(title):
         work_id = book["key"].split("/")[-1]
-        image = OL_API_STRING + "/b/olid/" + work_id + "-L.jpg"
+        image = "https://covers.openlibrary.org/b/id/" + str(book["cover_i"]) + "-L.jpg"
         work = OL_API_STRING + "/works/" + work_id + ".json"
         
         # Work request
@@ -61,7 +62,7 @@ def get_book_data(query, title, OL_API_STRING) -> JSONResponse:
             "coverImage": image,
             "title": book["title"],
             "author": book["author_name"][0],
-            "description": workResponse.json()["description"]
+            "description": workResponse.json().get("description", "Description not available")
         }
         collection.insert_one(result.copy())
     
