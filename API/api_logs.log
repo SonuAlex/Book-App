@@ -187,3 +187,33 @@
 2024-09-22 12:49:39,904 - INFO - User: Sonu - Return: The Alchemist
 2024-09-22 12:49:40,245 - INFO - Book The Alchemist returned by Sonu
 2024-09-22 12:49:40,246 - INFO - GET http://localhost:8000/return?user_id=Sonu&title=The%20Alchemist - Status: 200
+2024-09-25 21:12:41,628 - INFO - User: Sonu - Book: Paulo Coelho
+2024-09-25 21:12:47,170 - ERROR - Error processing request: 'description'
+2024-09-25 21:13:03,002 - INFO - User: Sonu - Book: Paulo Coelho
+2024-09-25 21:13:06,604 - ERROR - Error processing request: 'description'
+2024-09-25 21:25:08,435 - INFO - User: Sonu - Book: Alchemist
+2024-09-25 21:25:35,883 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-25 21:26:22,312 - INFO - User: Sonu - Book: Alchemist
+2024-09-25 21:26:26,623 - ERROR - Error processing request: can only concatenate str (not "int") to str
+2024-09-25 21:32:59,339 - INFO - User: Sonu - Book: Alchemist
+2024-09-25 21:33:04,110 - ERROR - Error processing request: can only concatenate str (not "int") to str
+2024-09-25 21:33:15,917 - INFO - User: Sonu - Book: Alchemist
+2024-09-25 21:33:34,240 - ERROR - Error processing request: can only concatenate str (not "int") to str
+2024-09-25 21:34:01,943 - INFO - User: Sonu - Book: Alchemist
+2024-09-25 21:34:04,070 - ERROR - Error processing request: can only concatenate str (not "int") to str
+2024-09-25 21:34:12,234 - INFO - User: Sonu - Book: Alchemist
+2024-09-25 21:34:17,180 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-28 16:14:51,542 - INFO - User: Sonu - Book: Quest, The
+2024-09-28 16:14:55,665 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-28 16:16:04,165 - INFO - User: Sonu - Book: Quest, The
+2024-09-28 16:16:07,405 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-28 16:16:35,061 - INFO - User: Sonu - Submit
+2024-09-28 16:16:35,098 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-09-28 16:17:36,742 - INFO - User: Sonu - Book: Quest, The
+2024-09-28 16:17:39,665 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-28 16:18:10,574 - INFO - User: Sonu - Book: Le guide de la cuisine étudiante
+2024-09-28 16:18:12,780 - ERROR - Error processing request: 'description'
+2024-09-28 16:18:26,058 - INFO - User: Sonu - Book: Le guide de la cuisine étudiante
+2024-09-28 16:18:28,649 - ERROR - Error processing request: 'description'
+2024-09-28 16:21:59,660 - INFO - User: Sonu - Book: Le guide de la cuisine étudiante
+2024-09-28 16:22:01,741 - INFO - POST http://localhost:8000/book - Status: 200
