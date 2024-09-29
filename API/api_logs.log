@@ -217,3 +217,122 @@
 2024-09-28 16:18:28,649 - ERROR - Error processing request: 'description'
 2024-09-28 16:21:59,660 - INFO - User: Sonu - Book: Le guide de la cuisine étudiante
 2024-09-28 16:22:01,741 - INFO - POST http://localhost:8000/book - Status: 200
+2024-09-30 01:51:06,583 - INFO - POST http://localhost:8000/cover - Status: 422
+2024-09-30 01:52:38,014 - INFO - POST http://localhost:8000/cover - Status: 422
+2024-09-30 01:55:28,814 - INFO - User: Sonu - Cover
+2024-09-30 01:55:53,240 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 01:56:57,947 - INFO - User: Sonu - Cover
+2024-09-30 01:56:59,945 - ERROR - Error processing default request: bad operand type for unary +: 'str'
+2024-09-30 01:56:59,946 - INFO - POST http://localhost:8000/cover - Status: 500
+2024-09-30 01:57:40,493 - INFO - User: Sonu - Cover
+2024-09-30 01:57:45,884 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 02:00:50,933 - INFO - User: Sonu - Cover
+2024-09-30 02:00:56,940 - ERROR - Error processing request: 'dict' object has no attribute 'find'
+2024-09-30 02:01:54,846 - INFO - User: Sonu - Cover
+2024-09-30 02:01:59,825 - ERROR - Error processing request: 'dict' object has no attribute 'find'
+2024-09-30 02:02:32,083 - INFO - User: Sonu - Cover
+2024-09-30 02:02:36,933 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 02:03:18,176 - INFO - User: Sonu - Cover
+2024-09-30 02:03:23,482 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 02:08:08,631 - INFO - User: Sonu - Cover
+2024-09-30 02:08:13,764 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 02:08:55,611 - INFO - User: Sonu - Cover
+2024-09-30 02:08:58,804 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:12:05,271 - INFO - User: Sonu - Cover
+2024-09-30 02:12:07,386 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:12:08,730 - INFO - User: Sonu - Cover
+2024-09-30 02:12:31,765 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:13:08,082 - INFO - User: Sonu - Cover
+2024-09-30 02:13:11,136 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:13:55,651 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:14:17,815 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:15:46,115 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:16:08,360 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:25:14,969 - INFO - User: Sonu - Cover
+2024-09-30 02:25:39,902 - ERROR - Error processing default request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /search.json?q=%20title:%20%22Playing%20Around%22&limit=2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001793E9E0550>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-09-30 02:25:39,903 - INFO - POST http://localhost:8000/cover - Status: 500
+2024-09-30 02:25:51,092 - INFO - User: Sonu - Cover
+2024-09-30 02:25:54,741 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:26:38,126 - INFO - User: Sonu - Cover
+2024-09-30 02:26:41,726 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:28:09,245 - INFO - User: Sonu - Cover
+2024-09-30 02:28:13,681 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:30:44,085 - INFO - User: Sonu - Cover Request
+2024-09-30 02:30:48,784 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:31:20,999 - INFO - User: Sonu - Cover Request
+2024-09-30 02:31:24,937 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:32:15,906 - INFO - User: Sonu - Cover Request
+2024-09-30 02:32:41,085 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:33:09,060 - INFO - User: Sonu - Cover Request
+2024-09-30 02:33:13,086 - ERROR - Error processing request: string indices must be integers, not 'str'
+2024-09-30 02:36:53,648 - INFO - User: Sonu - Cover Request
+2024-09-30 02:36:59,342 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 02:37:40,968 - INFO - User: Sonu - Cover Request
+2024-09-30 02:37:43,333 - ERROR - Book not found by title: EDWNARD RUTHERFURD THE FOREST
+2024-09-30 02:37:43,333 - INFO - Searching by author
+2024-09-30 02:37:44,335 - ERROR - Book not found by author: EDWNARD RUTHERFURD THE FOREST
+2024-09-30 02:37:44,336 - INFO - POST http://localhost:8000/cover - Status: 404
+2024-09-30 02:38:11,760 - INFO - User: Sonu - Cover Request
+2024-09-30 02:38:14,859 - ERROR - Book not found by title: EDWNARD RUTHERFURD THE FOREST
+2024-09-30 02:38:14,859 - INFO - Searching by author
+2024-09-30 02:38:15,842 - ERROR - Book not found by author: EDWNARD RUTHERFURD THE FOREST
+2024-09-30 02:38:15,843 - INFO - POST http://localhost:8000/cover - Status: 404
+2024-09-30 02:40:31,407 - INFO - User: Sonu - Cover Request
+2024-09-30 02:40:34,018 - ERROR - Book not found by title: MEMOIRS OF Cjeisha
+2024-09-30 02:40:34,018 - INFO - Searching by author
+2024-09-30 02:40:35,179 - ERROR - Book not found by author: MEMOIRS OF Cjeisha
+2024-09-30 02:40:35,180 - INFO - POST http://localhost:8000/cover - Status: 404
+2024-09-30 02:40:43,782 - INFO - User: Sonu - Cover Request
+2024-09-30 02:40:48,028 - INFO - POST http://localhost:8000/cover - Status: 200
+2024-09-30 02:50:06,575 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/ - Status: 404
+2024-09-30 02:50:06,835 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/favicon.ico - Status: 404
+2024-09-30 02:51:36,894 - INFO - API status check
+2024-09-30 02:51:36,895 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/status - Status: 200
+2024-09-30 02:52:18,808 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/ - Status: 404
+2024-09-30 02:52:18,846 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/ - Status: 404
+2024-09-30 02:52:38,403 - INFO - API status check
+2024-09-30 02:52:38,403 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/status - Status: 200
+2024-09-30 02:52:38,637 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/favicon.ico - Status: 404
+2024-09-30 02:53:53,457 - INFO - API status check
+2024-09-30 02:53:53,457 - INFO - GET https://8bce-152-58-24-229.ngrok-free.app/status - Status: 200
+2024-09-30 02:54:48,750 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:54:50,793 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:55:40,410 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:55:41,731 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:56:59,876 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:57:01,245 - ERROR - Error processing request: 'cover_i'
+2024-09-30 02:58:00,286 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:58:02,543 - INFO - POST https://8bce-152-58-24-229.ngrok-free.app/book - Status: 200
+2024-09-30 02:59:33,890 - INFO - User: Sonu - Book: Playing Around
+2024-09-30 02:59:56,167 - INFO - POST https://8bce-152-58-24-229.ngrok-free.app/book - Status: 200
+2024-09-30 03:03:48,157 - INFO - User: Sonu - User Created
+2024-09-30 03:03:48,182 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-30 03:05:04,166 - INFO - POST http://localhost:8000/user - Status: 422
+2024-09-30 03:05:12,965 - INFO - User: JohnDoe - User Created
+2024-09-30 03:05:12,967 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-30 03:05:48,980 - INFO - User: JohnDoe - User Created
+2024-09-30 03:05:48,982 - INFO - POST http://localhost:8000/user - Status: 200
+2024-09-30 03:07:20,608 - INFO - GET http://localhost:8000/login - Status: 405
+2024-09-30 03:08:11,882 - INFO - POST http://localhost:8000/login - Status: 422
+2024-09-30 03:08:31,470 - INFO - POST http://localhost:8000/login - Status: 422
+2024-09-30 03:09:46,063 - INFO - User: JohnDoe - Login
+2024-09-30 03:09:46,066 - INFO - POST http://localhost:8000/login - Status: 200
+2024-09-30 03:16:33,884 - INFO - API status check
+2024-09-30 03:16:33,885 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/status - Status: 200
+2024-09-30 03:16:34,172 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 404
+2024-09-30 03:17:38,126 - INFO - API status check
+2024-09-30 03:17:38,126 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/status - Status: 200
+2024-09-30 03:17:42,680 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 404
+2024-09-30 03:18:16,766 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 200
+2024-09-30 03:18:18,891 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 200
+2024-09-30 03:18:32,043 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.iso - Status: 404
+2024-09-30 03:18:38,689 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 03:26:26,131 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 03:26:30,095 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 200
+2024-09-30 03:26:41,047 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 200
+2024-09-30 03:26:45,530 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 200
+2024-09-30 03:27:46,747 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 404
+2024-09-30 03:28:05,047 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ - Status: 404
+2024-09-30 03:28:14,098 - INFO - API status check
+2024-09-30 03:28:14,100 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/status - Status: 200
+2024-09-30 03:29:23,891 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
