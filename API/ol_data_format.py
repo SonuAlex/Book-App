@@ -44,8 +44,20 @@ def get_book_data(query, title, OL_API_STRING) -> JSONResponse:
     book = book_data["docs"][0]
 
     if not caching(title):
-        work_id = book["key"].split("/")[-1]
-        image = "https://covers.openlibrary.org/b/id/" + str(book["cover_i"]) + "-L.jpg"
+        cover_i = None
+        work_id = None
+        # Iterate through the list of dictionaries in "docs"
+        for doc in book_data.get("docs", []):
+            if "cover_i" in doc:
+                cover_i = doc["cover_i"]
+                work_id = book["key"].split("/")[-1]
+                book = doc
+                break  # Exit the loop once we find the first occurrence
+        if cover_i is not None:
+            image = "https://covers.openlibrary.org/b/id/" + str(cover_i) + "-L.jpg?default=false"
+        else:
+            logging.info("Cover image not found for book: {title}")
+            image = None
         work = OL_API_STRING + "/works/" + work_id + ".json"
         
         # Work request
@@ -75,4 +87,67 @@ def get_book_data(query, title, OL_API_STRING) -> JSONResponse:
             "description": data["description"]
         }
     
+    return result
+
+def get_book_by_cover(query) -> JSONResponse:
+    # Default request
+    try:
+        response = requests.get('https://openlibrary.org/search.json?q= title: "' + query + '"&limit=2')
+    except Exception as e:
+        logging.error(f"Error processing default request: {e}")
+        return JSONResponse(status_code=500, content={"message": "Internal Server Error"})
+    
+    # Check for errors
+    if response.status_code != 200:
+        logging.error(f"Error processing request: {response.text}")
+        return JSONResponse(status_code=500, content={"message": "Internal Server Error"})
+    # Check for empty response
+    book_data = response.json()
+    
+    if book_data["numFound"] == 0:
+        logging.error(f"Book not found by title: {query}")
+        logging.info("Searching by author")
+        response = requests.get('https://openlibrary.org/search.json?author=' + query + "&limit=2")
+        book_data = response.json()
+        if book_data["numFound"] == 0:
+            logging.error(f"Book not found by author: {query}")
+            return JSONResponse(status_code=404, content={"message": "Book not found"})
+    
+    # Processing response
+    book = book_data["docs"][0]
+
+    cover_i = None
+    work_id = None
+    # Iterate through the list of dictionaries in "docs"
+    for doc in book_data.get("docs", []):
+        if "cover_i" in doc:
+            cover_i = doc["cover_i"]
+            work_id = book["key"].split("/")[-1]
+            book = doc
+            break  # Exit the loop once we find the first occurrence
+    if cover_i is not None:
+        image = "https://covers.openlibrary.org/b/id/" + str(cover_i) + "-L.jpg?default=false"
+    else:
+        logging.info("Cover image not found for book: {title}")
+        image = None
+    
+    work = "https://openlibrary.org/works/" + work_id + ".json"
+
+    # Work request
+    try:
+        workResponse = requests.get(work)
+    except Exception as e:
+        logging.error(f"Error processing work request: {e}")
+        return JSONResponse(status_code=500, content={"message": "Internal Server Error"})
+    
+    # Compiling result
+    desc = workResponse.json().get("description", "Description not available")
+    if desc != "Description not available":
+        desc = desc['value'][:desc['value'].find("\r")]
+    result = {
+        "coverImage": image,
+        "title": book["title"],
+        "author": book["author_name"][0],
+        "description": desc
+    }
     return result
