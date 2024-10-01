@@ -336,3 +336,2024 @@
 2024-09-30 03:28:14,098 - INFO - API status check
 2024-09-30 03:28:14,100 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/status - Status: 200
 2024-09-30 03:29:23,891 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 08:20:14,733 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:20:16,679 - ERROR - Book not found: put_title_here
+2024-09-30 08:20:16,681 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:20:23,146 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:20:24,377 - INFO - User: guest - Book: 
+2024-09-30 08:20:24,413 - ERROR - Book not found: put_title_here
+2024-09-30 08:20:24,414 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:20:25,815 - INFO - User: guest - Book: The
+2024-09-30 08:20:25,986 - ERROR - Error processing request: 
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+    <meta name="keywords" content="free books, books to read, free ebooks, audio books, read books for free, read books online, online library">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+    <meta name="theme-color" content="#e2dcc5">
+
+
+    <link rel="canonical" href="https://openlibrary.org/search.json?limit=3" />
+    <link rel="preconnect" href="https://analytics.archive.org">
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Open Library" href="/static/opensearch.xml">
+    <link rel="manifest" href="/static/manifest.json">
+
+    <link href="/static/images/openlibrary-128x128.png" rel="apple-touch-icon" />
+    <link href="/static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="/static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="/static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="/static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="/static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+    <link href="/static/build/page-user.css?v=bfda9503a9da846a6bcf029780e7e6c5" rel="stylesheet" type="text/css" />
+
+    <noscript>
+      <style>
+        /* Don't hide content with clamp if no js to show more/less */
+        .clamp {
+          -webkit-line-clamp: unset !important;
+        }
+
+        /* Don't show read-more sections collapsed */
+        .read-more__content {
+          max-height: unset !important;
+        }
+        /* Don't show read-more toggle buttons */
+        .read-more__toggle {
+          display: none !important;
+        }
+
+        /* @width-breakpoint-tablet media query: */
+        @media only screen and (min-width: 768px) {
+          /* Sticky navbar to top of screen if compact title cannot be stickied */
+          .work-menu {
+            top: 0 !important;
+          }
+        }
+      </style>
+    </noscript>
+ <script>
+
+/* @licstart  The following is the entire license notice for the
+ * JavaScript code in this page.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in this page.
+ */
+
+  </script>
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <!-- Drini, Google Search Console -->
+    <meta name="google-site-verification" content="XYOJ9Uj0MBr6wk7kj1IkttXrqY-bbRstFMADTfEt354" />
+    <!-- Drini, Bing Webmaster Tools -->
+    <meta name="msvalidate.01" content="8BEBECBEF537077737975A49D55B857D" />
+
+
+
+
+
+
+
+    <meta name="description" content="Open Library is an open, editable library catalog, building towards a web page for every book ever published. Read, borrow, and discover more than 3M books for free." />
+    
+    <title>Internal Error | Open Library</title>
+
+</head>
+
+
+
+
+<body class="" >
+  <script>
+      // Provide a signal that JS will load
+      document.body.className += ' client-js';
+  </script>
+  <span id="top"></span>
+  <div id="offline-info">It looks like you&#39;re offline.</div>
+  
+  
+  
+    <div id="donato"></div>
+    <script src="/cdn/archive.org/donate.js" data-platform="ol"></script>
+    
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+        <a class="iaLogo" href="https://archive.org"><img alt="Internet Archive logo" src="/static/images/ia-logo.svg" width="160"></a>
+        <a class="ghost-btn" href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">\u2665</span></a>
+      <div class="language-component header-dropdown">
+        <details>
+          <summary>
+            <img class="translate-icon" src="/static/images/language-icon.svg" title="Change Website Language" alt="Change Website Language"/>
+          </summary>
+          <div class="language-dropdown-component">
+            
+<ul class="locale-options dropdown-menu">
+  <li><a href="#" lang="cs" data-lang-id="cs" title="Czech">\u010ceština (cs)</a></li> 
+  <li><a href="#" lang="de" data-lang-id="de" title="German">Deutsch (de)</a></li> 
+  <li><a href="#" lang="en" data-lang-id="en" title="English">English (en)</a></li> 
+  <li><a href="#" lang="es" data-lang-id="es" title="Spanish">Español (es)</a></li> 
+  <li><a href="#" lang="fr" data-lang-id="fr" title="French">Français (fr)</a></li> 
+  <li><a href="#" lang="hr" data-lang-id="hr" title="Croatian">Hrvatski (hr)</a></li> 
+  <li><a href="#" lang="it" data-lang-id="it" title="Italian">Italiano (it)</a></li> 
+  <li><a href="#" lang="pt" data-lang-id="pt" title="Portuguese">Português (pt)</a></li> 
+  <li><a href="#" lang="hi" data-lang-id="hi" title="Hindi">\u0939\u093f\u0902\u0926\u0940 (hi)</a></li> 
+  <li><a href="#" lang="sc" data-lang-id="sc" title="Sardinian">Sardu (sc)</a></li> 
+  <li><a href="#" lang="te" data-lang-id="te" title="Telugu">\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (te)</a></li> 
+  <li><a href="#" lang="uk" data-lang-id="uk" title="Ukrainian">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)</a></li> 
+  <li><a href="#" lang="zh" data-lang-id="zh" title="Chinese">\u4e2d\u6587 (zh)</a></li> 
+</ul>
+
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<header id="header-bar" class="header-bar">
+
+
+
+  <div class="logo-component">
+    <a href="/" title="The Internet Archive&#39;s Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="/static/images/openlibrary-logo-tighter.svg"
+          width="189" height="47"
+          alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+
+  <ul class="navigation-component">
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mybooks-component header-dropdown">
+  <a href="/account/books" data-ol-link-track=MainNav|MyBooks>My Books</a>
+</div>
+</li>
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="browse-component header-dropdown">
+  <details>
+    <summary >
+      Browse
+      <span class="shift">Menu</span>
+      
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div
+    class="browse-dropdown-component navigation-dropdown-component"
+    >
+      <ul class="dropdown-menu browse-dropdown-menu">
+        <li>
+        <a href="/subjects" data-ol-link-track=MainNav|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=MainNav|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=MainNav|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=MainNav|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=MainNav|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=MainNav|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=MainNav|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=MainNav|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=MainNav|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+</li>
+  </ul>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value">All</span>
+            <select aria-label="Search by">
+              <option value="all">All</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="text">Text</option>
+              <option value="subject">Subject</option>
+              <option value="lists">Lists</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="/search" method="get">
+          <input type="text" name="q" placeholder="Search" aria-label="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" aria-label="Search checkbox" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+          <div class="vertical-separator"></div>
+          <a
+            id="barcode_scanner_link"
+            class="search-by-barcode-submit"
+            aria-label="Search by barcode"
+            title="Search by barcode"
+            href="/barcodescanner?returnTo=/isbn/$$$"
+          >
+          </a>
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="btn"
+         href="/account/login">Log In</a></li>
+    <li><a class="btn primary" href="/account/create">Sign Up</a></li>
+  </ul>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hamburger-component header-dropdown">
+  <details>
+    <summary data-ol-link-track="HeaderBar|Hamburger">
+      <img class="hamburger__icon" src="/static/images/hamburger-icon.svg" alt="additional options menu"/>
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div class="mask-menu"></div>
+    <div
+    class="app-drawer"
+    >
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li class="subsection">
+          My Open Library
+        </li>
+        <li class="login-links">
+          <a class="login-links__secondary" href="/account/login">Log In</a>
+          <a class="login-links__primary" href="/account/create">Sign Up</a>
+        </li>
+        <li class="subsection">
+          Browse
+        </li>
+        <li>
+        <a href="/subjects" data-ol-link-track=Hamburger|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=Hamburger|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=Hamburger|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=Hamburger|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=Hamburger|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=Hamburger|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=Hamburger|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=Hamburger|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=Hamburger|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+        <li class="subsection">
+          Contribute
+        </li>
+        <li>
+        <a href="/books/add" data-ol-link-track=Hamburger|AddBook>
+          Add a Book
+        </a>
+        </li>
+        <li>
+        <a href="/recentchanges" data-ol-link-track=Hamburger|RecentEdits>
+          Recent Community Edits
+        </a>
+        </li>
+        <li class="subsection">
+          Resources
+        </li>
+        <li>
+        <a href="/help" data-ol-link-track=Hamburger|Help>
+          Help &amp; Support
+        </a>
+        </li>
+        <li>
+        <a href="/developers" data-ol-link-track=Hamburger|DevelopersHelp>
+          Developer Center
+        </a>
+        </li>
+        <li>
+        <a href="/librarians" data-ol-link-track=Hamburger|LibrariansHelp>
+          Librarians Portal
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+
+</header>
+<header class="header-bar mobile">
+  <ul class="navigation-component mobile">
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mybooks-component header-dropdown">
+  <a href="/account/books" data-ol-link-track=MainNav|MyBooks>My Books</a>
+</div>
+</li>
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="browse-component header-dropdown">
+  <details>
+    <summary >
+      Browse
+      <span class="shift">Menu</span>
+      
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div
+    class="browse-dropdown-component navigation-dropdown-component"
+    >
+      <ul class="dropdown-menu browse-dropdown-menu">
+        <li>
+        <a href="/subjects" data-ol-link-track=MainNav|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=MainNav|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=MainNav|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=MainNav|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=MainNav|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=MainNav|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=MainNav|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=MainNav|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=MainNav|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+</li>
+  </ul>
+</header>
+
+  
+  <div id="test-body-mobile">
+    
+    <div class="flash-messages">
+    </div>
+    
+    
+    
+    
+
+<div id="contentHead">
+    <h1>Hmm...</h1>
+</div>
+
+<div id="contentBody">
+    <p>Sorry. There seems to be a problem with what you were just looking at.</p>
+    <p>We've noted the error 2024-09-30/025024880459 and will look into it as soon as possible. Head for <a href="/">home</a>?</p>
+
+</div>
+
+  </div>
+
+
+
+
+<!--For analytics-->
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="/about/vision">Vision</a></li>
+          <li><a href="/volunteer">Volunteer</a></li>
+          <li><a href="/partner-with-us">Partner With Us</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="https://blog.openlibrary.org/">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="/" title="Go home">Home</a></li>
+          <li><a href="/search" title="Explore Books">Books</a></li>
+          <li><a href="/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="/subjects" title="Explore subjects">Subjects</a></li>
+          <li><a href="/collections" title="Explore collections">Collections</a></li>
+          <li><a href="/advancedsearch" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="/developers" title="Explore Open Library Developer Center">Developer Center</a></li>
+          <li><a href="/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="/developers/dumps" title="Bulk Open Library data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="/help">Help Center</a></li>
+          <li><a href="/contact?path=%2Fsearch.json%3Ftitle%3D%26limit%3D3" title="Problems">Report A Problem</a></li>
+          <li><a href="/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+          <li><a href="/books/add" title="Add a new book to Open Library">Add a Book</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/releases" title="Release Notes">Release Notes</a></li>
+        </ul>
+        <aside>
+          <a class="footer-icon" title="Twitter" href="https://twitter.com/OpenLibrary"><img src="/static/images/tweet.svg" alt="" loading="lazy"></a>
+          <a class="footer-icon" title="GitHub" href="https://github.com/internetarchive/openlibrary"><img src="/static/images/github.svg" alt="" loading="lazy"></a>
+        </aside>
+      </div>
+      <div>
+        <h2>Change Website Language</h2>
+        
+<ul class="locale-options ">
+  <li><a href="#" lang="cs" data-lang-id="cs" title="Czech">\u010ceština (cs)</a></li> 
+  <li><a href="#" lang="de" data-lang-id="de" title="German">Deutsch (de)</a></li> 
+  <li><a href="#" lang="en" data-lang-id="en" title="English">English (en)</a></li> 
+  <li><a href="#" lang="es" data-lang-id="es" title="Spanish">Español (es)</a></li> 
+  <li><a href="#" lang="fr" data-lang-id="fr" title="French">Français (fr)</a></li> 
+  <li><a href="#" lang="hr" data-lang-id="hr" title="Croatian">Hrvatski (hr)</a></li> 
+  <li><a href="#" lang="it" data-lang-id="it" title="Italian">Italiano (it)</a></li> 
+  <li><a href="#" lang="pt" data-lang-id="pt" title="Portuguese">Português (pt)</a></li> 
+  <li><a href="#" lang="hi" data-lang-id="hi" title="Hindi">\u0939\u093f\u0902\u0926\u0940 (hi)</a></li> 
+  <li><a href="#" lang="sc" data-lang-id="sc" title="Sardinian">Sardu (sc)</a></li> 
+  <li><a href="#" lang="te" data-lang-id="te" title="Telugu">\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (te)</a></li> 
+  <li><a href="#" lang="uk" data-lang-id="uk" title="Ukrainian">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)</a></li> 
+  <li><a href="#" lang="zh" data-lang-id="zh" title="Chinese">\u4e2d\u6587 (zh)</a></li> 
+</ul>
+
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="/static/images/pantheon.png" alt="Open Library logo" loading="lazy">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="//archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="//archive.org/projects/">projects</a> include the <a href="//archive.org/web/">Wayback Machine</a>, <a href="//archive.org/">archive.org</a> and <a href="//archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/078cdf8">078cdf8</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/cdn/archive.org/analytics.js" type="text/javascript"></script>
+<script src="/static/build/all.js?v=a21ef3a03cda67f20430bc4628d27eb8" type="text/javascript"></script>
+<!-- Passes total_time for analytics to ol.analytics.js -->
+<div class="analytics-stats-time-calculator" data-time="0"></div>
+</body>
+</html>
+
+
+2024-09-30 08:20:25,986 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title= - Status: 500
+2024-09-30 08:20:31,175 - INFO - User: guest - Book: 
+2024-09-30 08:20:32,982 - ERROR - Error processing request: 
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+    <meta name="keywords" content="free books, books to read, free ebooks, audio books, read books for free, read books online, online library">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+    <meta name="theme-color" content="#e2dcc5">
+
+
+    <link rel="canonical" href="https://openlibrary.org/search.json?limit=3" />
+    <link rel="preconnect" href="https://analytics.archive.org">
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Open Library" href="/static/opensearch.xml">
+    <link rel="manifest" href="/static/manifest.json">
+
+    <link href="/static/images/openlibrary-128x128.png" rel="apple-touch-icon" />
+    <link href="/static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="/static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="/static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="/static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="/static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+    <link href="/static/build/page-user.css?v=bfda9503a9da846a6bcf029780e7e6c5" rel="stylesheet" type="text/css" />
+
+    <noscript>
+      <style>
+        /* Don't hide content with clamp if no js to show more/less */
+        .clamp {
+          -webkit-line-clamp: unset !important;
+        }
+
+        /* Don't show read-more sections collapsed */
+        .read-more__content {
+          max-height: unset !important;
+        }
+        /* Don't show read-more toggle buttons */
+        .read-more__toggle {
+          display: none !important;
+        }
+
+        /* @width-breakpoint-tablet media query: */
+        @media only screen and (min-width: 768px) {
+          /* Sticky navbar to top of screen if compact title cannot be stickied */
+          .work-menu {
+            top: 0 !important;
+          }
+        }
+      </style>
+    </noscript>
+ <script>
+
+/* @licstart  The following is the entire license notice for the
+ * JavaScript code in this page.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in this page.
+ */
+
+  </script>
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <!-- Drini, Google Search Console -->
+    <meta name="google-site-verification" content="XYOJ9Uj0MBr6wk7kj1IkttXrqY-bbRstFMADTfEt354" />
+    <!-- Drini, Bing Webmaster Tools -->
+    <meta name="msvalidate.01" content="8BEBECBEF537077737975A49D55B857D" />
+
+
+
+
+
+
+
+    <meta name="description" content="Open Library is an open, editable library catalog, building towards a web page for every book ever published. Read, borrow, and discover more than 3M books for free." />
+    
+    <title>Internal Error | Open Library</title>
+
+</head>
+
+
+
+
+<body class="" >
+  <script>
+      // Provide a signal that JS will load
+      document.body.className += ' client-js';
+  </script>
+  <span id="top"></span>
+  <div id="offline-info">It looks like you&#39;re offline.</div>
+  
+  
+  
+    <div id="donato"></div>
+    <script src="/cdn/archive.org/donate.js" data-platform="ol"></script>
+    
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+        <a class="iaLogo" href="https://archive.org"><img alt="Internet Archive logo" src="/static/images/ia-logo.svg" width="160"></a>
+        <a class="ghost-btn" href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">\u2665</span></a>
+      <div class="language-component header-dropdown">
+        <details>
+          <summary>
+            <img class="translate-icon" src="/static/images/language-icon.svg" title="Change Website Language" alt="Change Website Language"/>
+          </summary>
+          <div class="language-dropdown-component">
+            
+<ul class="locale-options dropdown-menu">
+  <li><a href="#" lang="cs" data-lang-id="cs" title="Czech">\u010ceština (cs)</a></li> 
+  <li><a href="#" lang="de" data-lang-id="de" title="German">Deutsch (de)</a></li> 
+  <li><a href="#" lang="en" data-lang-id="en" title="English">English (en)</a></li> 
+  <li><a href="#" lang="es" data-lang-id="es" title="Spanish">Español (es)</a></li> 
+  <li><a href="#" lang="fr" data-lang-id="fr" title="French">Français (fr)</a></li> 
+  <li><a href="#" lang="hr" data-lang-id="hr" title="Croatian">Hrvatski (hr)</a></li> 
+  <li><a href="#" lang="it" data-lang-id="it" title="Italian">Italiano (it)</a></li> 
+  <li><a href="#" lang="pt" data-lang-id="pt" title="Portuguese">Português (pt)</a></li> 
+  <li><a href="#" lang="hi" data-lang-id="hi" title="Hindi">\u0939\u093f\u0902\u0926\u0940 (hi)</a></li> 
+  <li><a href="#" lang="sc" data-lang-id="sc" title="Sardinian">Sardu (sc)</a></li> 
+  <li><a href="#" lang="te" data-lang-id="te" title="Telugu">\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (te)</a></li> 
+  <li><a href="#" lang="uk" data-lang-id="uk" title="Ukrainian">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)</a></li> 
+  <li><a href="#" lang="zh" data-lang-id="zh" title="Chinese">\u4e2d\u6587 (zh)</a></li> 
+</ul>
+
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<header id="header-bar" class="header-bar">
+
+
+
+  <div class="logo-component">
+    <a href="/" title="The Internet Archive&#39;s Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="/static/images/openlibrary-logo-tighter.svg"
+          width="189" height="47"
+          alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+
+  <ul class="navigation-component">
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mybooks-component header-dropdown">
+  <a href="/account/books" data-ol-link-track=MainNav|MyBooks>My Books</a>
+</div>
+</li>
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="browse-component header-dropdown">
+  <details>
+    <summary >
+      Browse
+      <span class="shift">Menu</span>
+      
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div
+    class="browse-dropdown-component navigation-dropdown-component"
+    >
+      <ul class="dropdown-menu browse-dropdown-menu">
+        <li>
+        <a href="/subjects" data-ol-link-track=MainNav|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=MainNav|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=MainNav|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=MainNav|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=MainNav|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=MainNav|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=MainNav|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=MainNav|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=MainNav|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+</li>
+  </ul>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value">All</span>
+            <select aria-label="Search by">
+              <option value="all">All</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="text">Text</option>
+              <option value="subject">Subject</option>
+              <option value="lists">Lists</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="/search" method="get">
+          <input type="text" name="q" placeholder="Search" aria-label="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" aria-label="Search checkbox" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+          <div class="vertical-separator"></div>
+          <a
+            id="barcode_scanner_link"
+            class="search-by-barcode-submit"
+            aria-label="Search by barcode"
+            title="Search by barcode"
+            href="/barcodescanner?returnTo=/isbn/$$$"
+          >
+          </a>
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="btn"
+         href="/account/login">Log In</a></li>
+    <li><a class="btn primary" href="/account/create">Sign Up</a></li>
+  </ul>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hamburger-component header-dropdown">
+  <details>
+    <summary data-ol-link-track="HeaderBar|Hamburger">
+      <img class="hamburger__icon" src="/static/images/hamburger-icon.svg" alt="additional options menu"/>
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div class="mask-menu"></div>
+    <div
+    class="app-drawer"
+    >
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li class="subsection">
+          My Open Library
+        </li>
+        <li class="login-links">
+          <a class="login-links__secondary" href="/account/login">Log In</a>
+          <a class="login-links__primary" href="/account/create">Sign Up</a>
+        </li>
+        <li class="subsection">
+          Browse
+        </li>
+        <li>
+        <a href="/subjects" data-ol-link-track=Hamburger|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=Hamburger|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=Hamburger|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=Hamburger|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=Hamburger|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=Hamburger|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=Hamburger|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=Hamburger|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=Hamburger|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+        <li class="subsection">
+          Contribute
+        </li>
+        <li>
+        <a href="/books/add" data-ol-link-track=Hamburger|AddBook>
+          Add a Book
+        </a>
+        </li>
+        <li>
+        <a href="/recentchanges" data-ol-link-track=Hamburger|RecentEdits>
+          Recent Community Edits
+        </a>
+        </li>
+        <li class="subsection">
+          Resources
+        </li>
+        <li>
+        <a href="/help" data-ol-link-track=Hamburger|Help>
+          Help &amp; Support
+        </a>
+        </li>
+        <li>
+        <a href="/developers" data-ol-link-track=Hamburger|DevelopersHelp>
+          Developer Center
+        </a>
+        </li>
+        <li>
+        <a href="/librarians" data-ol-link-track=Hamburger|LibrariansHelp>
+          Librarians Portal
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+
+</header>
+<header class="header-bar mobile">
+  <ul class="navigation-component mobile">
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mybooks-component header-dropdown">
+  <a href="/account/books" data-ol-link-track=MainNav|MyBooks>My Books</a>
+</div>
+</li>
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="browse-component header-dropdown">
+  <details>
+    <summary >
+      Browse
+      <span class="shift">Menu</span>
+      
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div
+    class="browse-dropdown-component navigation-dropdown-component"
+    >
+      <ul class="dropdown-menu browse-dropdown-menu">
+        <li>
+        <a href="/subjects" data-ol-link-track=MainNav|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=MainNav|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=MainNav|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=MainNav|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=MainNav|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=MainNav|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=MainNav|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=MainNav|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=MainNav|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+</li>
+  </ul>
+</header>
+
+  
+  <div id="test-body-mobile">
+    
+    <div class="flash-messages">
+    </div>
+    
+    
+    
+    
+
+<div id="contentHead">
+    <h1>Hmm...</h1>
+</div>
+
+<div id="contentBody">
+    <p>Sorry. There seems to be a problem with what you were just looking at.</p>
+    <p>We've noted the error 2024-09-30/025031684828 and will look into it as soon as possible. Head for <a href="/">home</a>?</p>
+
+</div>
+
+  </div>
+
+
+
+
+<!--For analytics-->
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="/about/vision">Vision</a></li>
+          <li><a href="/volunteer">Volunteer</a></li>
+          <li><a href="/partner-with-us">Partner With Us</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="https://blog.openlibrary.org/">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="/" title="Go home">Home</a></li>
+          <li><a href="/search" title="Explore Books">Books</a></li>
+          <li><a href="/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="/subjects" title="Explore subjects">Subjects</a></li>
+          <li><a href="/collections" title="Explore collections">Collections</a></li>
+          <li><a href="/advancedsearch" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="/developers" title="Explore Open Library Developer Center">Developer Center</a></li>
+          <li><a href="/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="/developers/dumps" title="Bulk Open Library data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="/help">Help Center</a></li>
+          <li><a href="/contact?path=%2Fsearch.json%3Ftitle%3D%26limit%3D3" title="Problems">Report A Problem</a></li>
+          <li><a href="/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+          <li><a href="/books/add" title="Add a new book to Open Library">Add a Book</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/releases" title="Release Notes">Release Notes</a></li>
+        </ul>
+        <aside>
+          <a class="footer-icon" title="Twitter" href="https://twitter.com/OpenLibrary"><img src="/static/images/tweet.svg" alt="" loading="lazy"></a>
+          <a class="footer-icon" title="GitHub" href="https://github.com/internetarchive/openlibrary"><img src="/static/images/github.svg" alt="" loading="lazy"></a>
+        </aside>
+      </div>
+      <div>
+        <h2>Change Website Language</h2>
+        
+<ul class="locale-options ">
+  <li><a href="#" lang="cs" data-lang-id="cs" title="Czech">\u010ceština (cs)</a></li> 
+  <li><a href="#" lang="de" data-lang-id="de" title="German">Deutsch (de)</a></li> 
+  <li><a href="#" lang="en" data-lang-id="en" title="English">English (en)</a></li> 
+  <li><a href="#" lang="es" data-lang-id="es" title="Spanish">Español (es)</a></li> 
+  <li><a href="#" lang="fr" data-lang-id="fr" title="French">Français (fr)</a></li> 
+  <li><a href="#" lang="hr" data-lang-id="hr" title="Croatian">Hrvatski (hr)</a></li> 
+  <li><a href="#" lang="it" data-lang-id="it" title="Italian">Italiano (it)</a></li> 
+  <li><a href="#" lang="pt" data-lang-id="pt" title="Portuguese">Português (pt)</a></li> 
+  <li><a href="#" lang="hi" data-lang-id="hi" title="Hindi">\u0939\u093f\u0902\u0926\u0940 (hi)</a></li> 
+  <li><a href="#" lang="sc" data-lang-id="sc" title="Sardinian">Sardu (sc)</a></li> 
+  <li><a href="#" lang="te" data-lang-id="te" title="Telugu">\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (te)</a></li> 
+  <li><a href="#" lang="uk" data-lang-id="uk" title="Ukrainian">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)</a></li> 
+  <li><a href="#" lang="zh" data-lang-id="zh" title="Chinese">\u4e2d\u6587 (zh)</a></li> 
+</ul>
+
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="/static/images/pantheon.png" alt="Open Library logo" loading="lazy">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="//archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="//archive.org/projects/">projects</a> include the <a href="//archive.org/web/">Wayback Machine</a>, <a href="//archive.org/">archive.org</a> and <a href="//archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/078cdf8">078cdf8</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/cdn/archive.org/analytics.js" type="text/javascript"></script>
+<script src="/static/build/all.js?v=a21ef3a03cda67f20430bc4628d27eb8" type="text/javascript"></script>
+<!-- Passes total_time for analytics to ol.analytics.js -->
+<div class="analytics-stats-time-calculator" data-time="0"></div>
+</body>
+</html>
+
+
+2024-09-30 08:20:32,983 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title= - Status: 500
+2024-09-30 08:20:32,989 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=The - Status: 200
+2024-09-30 08:20:33,608 - INFO - User: guest - Book: 
+2024-09-30 08:20:35,355 - ERROR - Error processing request: 
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+    <meta name="keywords" content="free books, books to read, free ebooks, audio books, read books for free, read books online, online library">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+    <meta name="theme-color" content="#e2dcc5">
+
+
+    <link rel="canonical" href="https://openlibrary.org/search.json?limit=3" />
+    <link rel="preconnect" href="https://analytics.archive.org">
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Open Library" href="/static/opensearch.xml">
+    <link rel="manifest" href="/static/manifest.json">
+
+    <link href="/static/images/openlibrary-128x128.png" rel="apple-touch-icon" />
+    <link href="/static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="/static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="/static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="/static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="/static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+    <link href="/static/build/page-user.css?v=bfda9503a9da846a6bcf029780e7e6c5" rel="stylesheet" type="text/css" />
+
+    <noscript>
+      <style>
+        /* Don't hide content with clamp if no js to show more/less */
+        .clamp {
+          -webkit-line-clamp: unset !important;
+        }
+
+        /* Don't show read-more sections collapsed */
+        .read-more__content {
+          max-height: unset !important;
+        }
+        /* Don't show read-more toggle buttons */
+        .read-more__toggle {
+          display: none !important;
+        }
+
+        /* @width-breakpoint-tablet media query: */
+        @media only screen and (min-width: 768px) {
+          /* Sticky navbar to top of screen if compact title cannot be stickied */
+          .work-menu {
+            top: 0 !important;
+          }
+        }
+      </style>
+    </noscript>
+ <script>
+
+/* @licstart  The following is the entire license notice for the
+ * JavaScript code in this page.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in this page.
+ */
+
+  </script>
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <!-- Drini, Google Search Console -->
+    <meta name="google-site-verification" content="XYOJ9Uj0MBr6wk7kj1IkttXrqY-bbRstFMADTfEt354" />
+    <!-- Drini, Bing Webmaster Tools -->
+    <meta name="msvalidate.01" content="8BEBECBEF537077737975A49D55B857D" />
+
+
+
+
+
+
+
+    <meta name="description" content="Open Library is an open, editable library catalog, building towards a web page for every book ever published. Read, borrow, and discover more than 3M books for free." />
+    
+    <title>Internal Error | Open Library</title>
+
+</head>
+
+
+
+
+<body class="" >
+  <script>
+      // Provide a signal that JS will load
+      document.body.className += ' client-js';
+  </script>
+  <span id="top"></span>
+  <div id="offline-info">It looks like you&#39;re offline.</div>
+  
+  
+  
+    <div id="donato"></div>
+    <script src="/cdn/archive.org/donate.js" data-platform="ol"></script>
+    
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+        <a class="iaLogo" href="https://archive.org"><img alt="Internet Archive logo" src="/static/images/ia-logo.svg" width="160"></a>
+        <a class="ghost-btn" href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">\u2665</span></a>
+      <div class="language-component header-dropdown">
+        <details>
+          <summary>
+            <img class="translate-icon" src="/static/images/language-icon.svg" title="Change Website Language" alt="Change Website Language"/>
+          </summary>
+          <div class="language-dropdown-component">
+            
+<ul class="locale-options dropdown-menu">
+  <li><a href="#" lang="cs" data-lang-id="cs" title="Czech">\u010ceština (cs)</a></li> 
+  <li><a href="#" lang="de" data-lang-id="de" title="German">Deutsch (de)</a></li> 
+  <li><a href="#" lang="en" data-lang-id="en" title="English">English (en)</a></li> 
+  <li><a href="#" lang="es" data-lang-id="es" title="Spanish">Español (es)</a></li> 
+  <li><a href="#" lang="fr" data-lang-id="fr" title="French">Français (fr)</a></li> 
+  <li><a href="#" lang="hr" data-lang-id="hr" title="Croatian">Hrvatski (hr)</a></li> 
+  <li><a href="#" lang="it" data-lang-id="it" title="Italian">Italiano (it)</a></li> 
+  <li><a href="#" lang="pt" data-lang-id="pt" title="Portuguese">Português (pt)</a></li> 
+  <li><a href="#" lang="hi" data-lang-id="hi" title="Hindi">\u0939\u093f\u0902\u0926\u0940 (hi)</a></li> 
+  <li><a href="#" lang="sc" data-lang-id="sc" title="Sardinian">Sardu (sc)</a></li> 
+  <li><a href="#" lang="te" data-lang-id="te" title="Telugu">\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (te)</a></li> 
+  <li><a href="#" lang="uk" data-lang-id="uk" title="Ukrainian">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)</a></li> 
+  <li><a href="#" lang="zh" data-lang-id="zh" title="Chinese">\u4e2d\u6587 (zh)</a></li> 
+</ul>
+
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<header id="header-bar" class="header-bar">
+
+
+
+  <div class="logo-component">
+    <a href="/" title="The Internet Archive&#39;s Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="/static/images/openlibrary-logo-tighter.svg"
+          width="189" height="47"
+          alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+
+  <ul class="navigation-component">
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mybooks-component header-dropdown">
+  <a href="/account/books" data-ol-link-track=MainNav|MyBooks>My Books</a>
+</div>
+</li>
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="browse-component header-dropdown">
+  <details>
+    <summary >
+      Browse
+      <span class="shift">Menu</span>
+      
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div
+    class="browse-dropdown-component navigation-dropdown-component"
+    >
+      <ul class="dropdown-menu browse-dropdown-menu">
+        <li>
+        <a href="/subjects" data-ol-link-track=MainNav|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=MainNav|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=MainNav|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=MainNav|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=MainNav|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=MainNav|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=MainNav|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=MainNav|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=MainNav|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+</li>
+  </ul>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value">All</span>
+            <select aria-label="Search by">
+              <option value="all">All</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="text">Text</option>
+              <option value="subject">Subject</option>
+              <option value="lists">Lists</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="/search" method="get">
+          <input type="text" name="q" placeholder="Search" aria-label="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" aria-label="Search checkbox" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+          <div class="vertical-separator"></div>
+          <a
+            id="barcode_scanner_link"
+            class="search-by-barcode-submit"
+            aria-label="Search by barcode"
+            title="Search by barcode"
+            href="/barcodescanner?returnTo=/isbn/$$$"
+          >
+          </a>
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="btn"
+         href="/account/login">Log In</a></li>
+    <li><a class="btn primary" href="/account/create">Sign Up</a></li>
+  </ul>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hamburger-component header-dropdown">
+  <details>
+    <summary data-ol-link-track="HeaderBar|Hamburger">
+      <img class="hamburger__icon" src="/static/images/hamburger-icon.svg" alt="additional options menu"/>
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div class="mask-menu"></div>
+    <div
+    class="app-drawer"
+    >
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li class="subsection">
+          My Open Library
+        </li>
+        <li class="login-links">
+          <a class="login-links__secondary" href="/account/login">Log In</a>
+          <a class="login-links__primary" href="/account/create">Sign Up</a>
+        </li>
+        <li class="subsection">
+          Browse
+        </li>
+        <li>
+        <a href="/subjects" data-ol-link-track=Hamburger|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=Hamburger|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=Hamburger|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=Hamburger|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=Hamburger|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=Hamburger|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=Hamburger|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=Hamburger|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=Hamburger|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+        <li class="subsection">
+          Contribute
+        </li>
+        <li>
+        <a href="/books/add" data-ol-link-track=Hamburger|AddBook>
+          Add a Book
+        </a>
+        </li>
+        <li>
+        <a href="/recentchanges" data-ol-link-track=Hamburger|RecentEdits>
+          Recent Community Edits
+        </a>
+        </li>
+        <li class="subsection">
+          Resources
+        </li>
+        <li>
+        <a href="/help" data-ol-link-track=Hamburger|Help>
+          Help &amp; Support
+        </a>
+        </li>
+        <li>
+        <a href="/developers" data-ol-link-track=Hamburger|DevelopersHelp>
+          Developer Center
+        </a>
+        </li>
+        <li>
+        <a href="/librarians" data-ol-link-track=Hamburger|LibrariansHelp>
+          Librarians Portal
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+
+</header>
+<header class="header-bar mobile">
+  <ul class="navigation-component mobile">
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mybooks-component header-dropdown">
+  <a href="/account/books" data-ol-link-track=MainNav|MyBooks>My Books</a>
+</div>
+</li>
+    <li>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="browse-component header-dropdown">
+  <details>
+    <summary >
+      Browse
+      <span class="shift">Menu</span>
+      
+      <img class="down-arrow" aria-hidden="true" src="/static/images/down-arrow.png" alt="" role="presentation" width="7" height="4">
+    </summary>
+    <div
+    class="browse-dropdown-component navigation-dropdown-component"
+    >
+      <ul class="dropdown-menu browse-dropdown-menu">
+        <li>
+        <a href="/subjects" data-ol-link-track=MainNav|Subjects>
+          Subjects
+        </a>
+        </li>
+        <li>
+        <a href="/trending" data-ol-link-track=MainNav|Trending>
+          Trending
+        </a>
+        </li>
+        <li>
+        <a href="/explore" data-ol-link-track=MainNav|Explore>
+          Library Explorer
+        </a>
+        </li>
+        <li>
+        <a href="/lists" data-ol-link-track=MainNav|Lists>
+          Lists
+        </a>
+        </li>
+        <li>
+        <a href="/collections" data-ol-link-track=MainNav|Collections>
+          Collections
+        </a>
+        </li>
+        <li>
+        <a href="/k-12" data-ol-link-track=MainNav|K12Library>
+          K-12 Student Library
+        </a>
+        </li>
+        <li>
+        <a href="/booktalks" data-ol-link-track=MainNav|BookTalks>
+          Book Talks
+        </a>
+        </li>
+        <li>
+        <a href="/random" data-ol-link-track=MainNav|RandomBook>
+          Random Book
+        </a>
+        </li>
+        <li>
+        <a href="/advancedsearch" data-ol-link-track=MainNav|AdvancedSearch>
+          Advanced Search
+        </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+</li>
+  </ul>
+</header>
+
+  
+  <div id="test-body-mobile">
+    
+    <div class="flash-messages">
+    </div>
+    
+    
+    
+    
+
+<div id="contentHead">
+    <h1>Hmm...</h1>
+</div>
+
+<div id="contentBody">
+    <p>Sorry. There seems to be a problem with what you were just looking at.</p>
+    <p>We've noted the error 2024-09-30/025034129001 and will look into it as soon as possible. Head for <a href="/">home</a>?</p>
+
+</div>
+
+  </div>
+
+
+
+
+<!--For analytics-->
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="/about/vision">Vision</a></li>
+          <li><a href="/volunteer">Volunteer</a></li>
+          <li><a href="/partner-with-us">Partner With Us</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="https://blog.openlibrary.org/">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="/" title="Go home">Home</a></li>
+          <li><a href="/search" title="Explore Books">Books</a></li>
+          <li><a href="/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="/subjects" title="Explore subjects">Subjects</a></li>
+          <li><a href="/collections" title="Explore collections">Collections</a></li>
+          <li><a href="/advancedsearch" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="/developers" title="Explore Open Library Developer Center">Developer Center</a></li>
+          <li><a href="/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="/developers/dumps" title="Bulk Open Library data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="/help">Help Center</a></li>
+          <li><a href="/contact?path=%2Fsearch.json%3Ftitle%3D%26limit%3D3" title="Problems">Report A Problem</a></li>
+          <li><a href="/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+          <li><a href="/books/add" title="Add a new book to Open Library">Add a Book</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/releases" title="Release Notes">Release Notes</a></li>
+        </ul>
+        <aside>
+          <a class="footer-icon" title="Twitter" href="https://twitter.com/OpenLibrary"><img src="/static/images/tweet.svg" alt="" loading="lazy"></a>
+          <a class="footer-icon" title="GitHub" href="https://github.com/internetarchive/openlibrary"><img src="/static/images/github.svg" alt="" loading="lazy"></a>
+        </aside>
+      </div>
+      <div>
+        <h2>Change Website Language</h2>
+        
+<ul class="locale-options ">
+  <li><a href="#" lang="cs" data-lang-id="cs" title="Czech">\u010ceština (cs)</a></li> 
+  <li><a href="#" lang="de" data-lang-id="de" title="German">Deutsch (de)</a></li> 
+  <li><a href="#" lang="en" data-lang-id="en" title="English">English (en)</a></li> 
+  <li><a href="#" lang="es" data-lang-id="es" title="Spanish">Español (es)</a></li> 
+  <li><a href="#" lang="fr" data-lang-id="fr" title="French">Français (fr)</a></li> 
+  <li><a href="#" lang="hr" data-lang-id="hr" title="Croatian">Hrvatski (hr)</a></li> 
+  <li><a href="#" lang="it" data-lang-id="it" title="Italian">Italiano (it)</a></li> 
+  <li><a href="#" lang="pt" data-lang-id="pt" title="Portuguese">Português (pt)</a></li> 
+  <li><a href="#" lang="hi" data-lang-id="hi" title="Hindi">\u0939\u093f\u0902\u0926\u0940 (hi)</a></li> 
+  <li><a href="#" lang="sc" data-lang-id="sc" title="Sardinian">Sardu (sc)</a></li> 
+  <li><a href="#" lang="te" data-lang-id="te" title="Telugu">\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (te)</a></li> 
+  <li><a href="#" lang="uk" data-lang-id="uk" title="Ukrainian">\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)</a></li> 
+  <li><a href="#" lang="zh" data-lang-id="zh" title="Chinese">\u4e2d\u6587 (zh)</a></li> 
+</ul>
+
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="/static/images/pantheon.png" alt="Open Library logo" loading="lazy">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="//archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="//archive.org/projects/">projects</a> include the <a href="//archive.org/web/">Wayback Machine</a>, <a href="//archive.org/">archive.org</a> and <a href="//archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/078cdf8">078cdf8</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/cdn/archive.org/analytics.js" type="text/javascript"></script>
+<script src="/static/build/all.js?v=a21ef3a03cda67f20430bc4628d27eb8" type="text/javascript"></script>
+<!-- Passes total_time for analytics to ol.analytics.js -->
+<div class="analytics-stats-time-calculator" data-time="0"></div>
+</body>
+</html>
+
+
+2024-09-30 08:20:35,355 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title= - Status: 500
+2024-09-30 08:20:48,398 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:20:48,866 - INFO - User: guest - Book: the alchemist
+2024-09-30 08:20:49,699 - ERROR - Book not found: put_title_here
+2024-09-30 08:20:49,700 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:20:50,224 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 08:20:52,525 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=the%20alchemist - Status: 200
+2024-09-30 08:20:56,631 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:20:57,906 - ERROR - Book not found: put_title_here
+2024-09-30 08:20:57,906 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:21:02,680 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:21:03,418 - INFO - User: guest - Book: The
+2024-09-30 08:21:03,940 - ERROR - Book not found: put_title_here
+2024-09-30 08:21:03,941 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:21:11,284 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=The - Status: 200
+2024-09-30 08:21:16,986 - INFO - User: guest - Book: The Alchemist
+2024-09-30 08:21:18,940 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=The%20Alchemist - Status: 200
+2024-09-30 08:21:19,877 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 08:21:36,397 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:21:39,556 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:21:49,405 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:21:53,072 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:23:44,307 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:23:47,659 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:24:19,294 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:24:20,648 - ERROR - Book not found: put_title_here
+2024-09-30 08:24:20,648 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:28:35,203 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:28:38,986 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:28:52,878 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:28:54,161 - ERROR - Book not found: put_title_here
+2024-09-30 08:28:54,162 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:37:20,643 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:37:22,497 - ERROR - Book not found: put_title_here
+2024-09-30 08:37:22,498 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:37:23,010 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 08:37:28,426 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:37:31,716 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:43:56,814 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:44:00,651 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:44:01,188 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 08:44:59,976 - INFO - User: guest - Book: Harry Potter and the Cursed Child
+2024-09-30 08:45:02,911 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Harry%20Potter%20and%20the%20Cursed%20Child - Status: 200
+2024-09-30 08:45:27,717 - INFO - User: guest - Book: Structure and Interpretation of Computer Programs
+2024-09-30 08:45:30,619 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Structure%20and%20Interpretation%20of%20Computer%20Programs - Status: 200
+2024-09-30 08:46:37,218 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:46:38,509 - ERROR - Book not found: put_title_here
+2024-09-30 08:46:38,509 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:46:39,030 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 08:46:55,451 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:46:56,709 - ERROR - Book not found: put_title_here
+2024-09-30 08:46:56,710 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:47:12,885 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:47:16,211 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 08:47:21,787 - INFO - User: guest - Book: The Metamorphosis of Prime Intellect
+2024-09-30 08:47:24,579 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=The%20Metamorphosis%20of%20Prime%20Intellect - Status: 200
+2024-09-30 08:47:31,885 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:47:32,369 - INFO - User: guest - Book: The Metamorphosis of Prime Intellectfh
+2024-09-30 08:47:33,210 - ERROR - Book not found: put_title_here
+2024-09-30 08:47:33,210 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:47:33,646 - ERROR - Book not found: The Metamorphosis of Prime Intellectfh
+2024-09-30 08:47:33,647 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=The%20Metamorphosis%20of%20Prime%20Intellectfh - Status: 404
+2024-09-30 08:48:06,841 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:48:08,128 - ERROR - Book not found: put_title_here
+2024-09-30 08:48:08,128 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:48:11,047 - INFO - User: guest - Book: put_title_here
+2024-09-30 08:48:12,336 - ERROR - Book not found: put_title_here
+2024-09-30 08:48:12,337 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=put_title_here - Status: 404
+2024-09-30 08:48:39,108 - INFO - User: guest - Book: Pompeii
+2024-09-30 08:48:42,460 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 09:32:40,993 - INFO - User: guest - Book: The Metamorphosis of Prime Intellectfh
+2024-09-30 09:32:42,685 - ERROR - Book not found: The Metamorphosis of Prime Intellectfh
+2024-09-30 09:32:42,686 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=The%20Metamorphosis%20of%20Prime%20Intellectfh - Status: 404
+2024-09-30 09:32:43,594 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-09-30 10:08:34,758 - INFO - User: guest - Book: Pompeii
+2024-09-30 10:08:59,863 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 10:09:39,209 - INFO - User: guest - Book: Pompeii
+2024-09-30 10:09:42,255 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-09-30 10:09:42,455 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
