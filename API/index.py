@@ -84,6 +84,17 @@ def read_root():
     logging.info("API status check")
     return {"status": "OK", "timestamp": datetime.now().isoformat()}
 
+@app.get('/book')  # POST request to /book
+def handle_book_request(user_id: str, title: str):  # When a user wants to search for a book detail by title
+    logging.info(f"User: {user_id} - Book: {title}")
+
+    # Search logic here
+    OL_API_STRING = os.environ.get("OPENLIB_API_STRING")
+    query = OL_API_STRING + "/search.json?title=" + title + "&limit=3"
+    
+    result = ol.get_book_data(query, title, OL_API_STRING)
+    return result
+
 # Example request: {"user_id": "123", "title": "The Great Gatsby"}
 @app.post('/book')  # POST request to /book
 def handle_book_request(request: BookRequest):  # When a user wants to search for a book detail by title
