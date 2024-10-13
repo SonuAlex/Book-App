@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223193146846",
+    "project_id": "bookstore-910aa",
+    "storage_bucket": "bookstore-910aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223193146846:android:f767b47370195ab786294f",
+        "android_client_info": {
+          "package_name": "com.sonualex.ddbookstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7wmtTf4cd2zYGW-kABPr_tEkuzugnYmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
