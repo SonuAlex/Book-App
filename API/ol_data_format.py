@@ -90,6 +90,39 @@ def get_book_data(query, title, OL_API_STRING) -> JSONResponse:
     
     return result
 
+def get_book_by_title(query, i=0) -> JSONResponse:
+    try:
+        response = requests.get(query)
+    except Exception as e:
+        logging.error(f"Error processing default request: {e}")
+        return JSONResponse(status_code=500, content={"message": "Internal Server Error"})
+    
+    if response.status_code != 200:
+        logging.error(f"{i}. Error processing request: {response.text}")
+        return JSONResponse(status_code=500, content={"message": "Internal Server Error"})
+    
+    book_data = response.json()
+    volumes = book_data['items']
+    book = None
+    for item in volumes:
+        if "description" in item['volumeInfo']:
+            book = item['volumeInfo']            
+            break
+
+
+    if book is not None:
+        if len(book['description'].split(' ')) > 150 and i < 7:
+            return get_book_by_title(query, i+1)
+        result = {
+            "coverImage": book["imageLinks"]["thumbnail"],
+            "title": book['title'],
+            "author": book['authors'][0],
+            "description": book["description"]
+        }
+        return result
+    else:
+        return JSONResponse(status_code=404, content={"message": "Book not found"})
+
 def get_book_by_cover(query) -> JSONResponse:
     # Default request
     try:

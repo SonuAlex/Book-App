@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile, Form
+from fastapi import FastAPI, File, UploadFile, Form, Request
 from fastapi.responses import JSONResponse, FileResponse
 from pydantic import BaseModel, Field
 from datetime import datetime, timedelta
@@ -75,7 +75,7 @@ try:
     db = client["bookstore"]
     collection = db["books"]
     userCollection = db["users"]
-    registerCollection = db["register"]
+    registerCollection = db["history"]
     requestCollection = db["requests"]
 except Exception as e:
     logging.error(f"Error connecting to MongoDB: {e}")
@@ -111,6 +111,23 @@ def get_all_books():
     books = collection.find()
     books_list = list(books)
     books_serializable = convert_objectid(books_list)
+    books_serializable.reverse()
+    return books_serializable
+
+@app.get('/borrowedBooks')
+def get_borrowed_books(user_id: str):
+    logging.info(f"User: {user_id} - Borrowed Books")
+    books = collection.find({"borrowed_by": user_id})
+    books_list = list(books)
+    books_serializable = convert_objectid(books_list)
+    return books_serializable
+
+@app.get('/ownedBooks')
+def get_owned_books(user_id: str):
+    logging.info(f"User: {user_id} - Owned Books")
+    books = collection.find({"user_id": user_id})
+    books_list = list(books)
+    books_serializable = convert_objectid(books_list)
     return books_serializable
 
 @app.get('/book')  # POST request to /book
@@ -118,10 +135,13 @@ def handle_book_request(user_id: str, title: str):  # When a user wants to searc
     logging.info(f"User: {user_id} - Book: {title}")
 
     # Search logic here
-    OL_API_STRING = os.environ.get("OPENLIB_API_STRING")
-    query = OL_API_STRING + "/search.json?title=" + title + "&limit=3"
+    # OL_API_STRING = os.environ.get("OPENLIB_API_STRING")
+    # query = OL_API_STRING + "/search.json?title=" + title + "&limit=3"
+
+    GOOGLE_API_STRING = os.environ.get("GOOGLE_API_STRING")
+    query = GOOGLE_API_STRING + title
     
-    result = ol.get_book_data(query, title, OL_API_STRING)
+    result = ol.get_book_by_title(query)
     return result
 
 # Example request: {"user_id": "123", "title": "The Great Gatsby"}
@@ -130,10 +150,13 @@ def handle_book_request(request: BookRequest):  # When a user wants to search fo
     logging.info(f"User: {request.user_id} - Book: {request.title}")
 
     # Search logic here
-    OL_API_STRING = os.environ.get("OPENLIB_API_STRING")
-    query = OL_API_STRING + "/search.json?title=" + request.title + "&limit=3"
+    # OL_API_STRING = os.environ.get("OPENLIB_API_STRING")
+    # query = OL_API_STRING + "/search.json?title=" + request.title + "&limit=3"
+
+    GOOGLE_API_STRING = os.environ.get("GOOGLE_API_STRING")
+    query = GOOGLE_API_STRING + request.title
     
-    result = ol.get_book_data(query, request.title, OL_API_STRING)
+    result = ol.get_book_by_title(query)
     return result
 
 @app.post('/cover') # POST request to /cover
@@ -161,6 +184,21 @@ def handle_submit_request(request: BookDetails):    # When a user wants to submi
         userCollection.update_one({"user_id": request.user_id}, {"$inc": {"hosted_books": 1}})
         collection.insert_one(request.model_dump())
         return {"status":200, "message": "Book submitted successfully"}
+
+@app.post('/deleteBook')
+def handle_delete_request(request: BookRequest):    # When a user wants to delete a book
+    logging.info(f"User: {request.user_id} - wants to delete : {request.title}")
+
+    # Delete logic here
+    book = collection.find_one({"title": request.title})
+    if book:
+        if book["user_id"] == request.user_id:
+            collection.delete_one({"title": request.title, "user_id": request.user_id})
+            userCollection.update_one({"user_id": request.user_id}, {"$inc": {"hosted_books": -1}})
+            logging.info(f"Book {request.title} deleted by {request.user_id}")
+            return {"status":200, "message": "Book deleted successfully"}
+    else:
+        return {"status":400, "message": "Book not found"}
 
 @app.post('/user')
 def handle_user_creation(user: userDetails):    #Creating new user in the system
@@ -217,6 +255,7 @@ def handle_return_request(user_id: str, title: str):    # When a user wants to r
         userCollection.update_one({"user_id": user_id}, {"$inc": {"borrowed_books": -1}, "$pull": {"borrowed_titles": title}})
         collection.update_one({"title": title}, {"$set": {"available": True, "borrowed_by": ""}})
         registerCollection.update_one({"title": title}, {"$set": {"returned": datetime.now().isoformat()}})
+        requestCollection.delete_one({"title": title, "user_id": user_id})
         logging.info(f"Book {title} returned by {user_id}")
         return {"status":200, "message": "Book returned successfully"}
     except Exception as e:
@@ -266,8 +305,8 @@ def handle_accept_request(request: BookRequest):    # When a user wants to accep
                 return {"status": 400, "message": "Request already accepted"}
             else:
                 requestCollection.update_one({"title": request.title, "user_id": request.user_id}, {"$set": {"response": 1}})
-                collection.update_one({"title": request.title}, {"$set": {"available": False, "borrowed_by": request.user_id}})
-                registerCollection.insert_one({"user_id": request.user_id, "title": request.title, "borrowed_on": datetime.now().isoformat()})
+                collection.update_one({"title": request.title}, {"$set": {"borrowed_by": request.user_id}})
+                registerCollection.insert_one({"user_id": request.user_id, "title": request.title, "borrowed_on": datetime.now().isoformat(), "returned": ""})
                 return {"status": 200, "message": "Request accepted"}
     return {"status": 400, "message": "Request not found"}
 
@@ -289,7 +328,7 @@ def handle_cancel_request(request: BookRequest):    # When a user wants to cance
     return {"status": 400, "message": "Request not found"}
 
 @app.post('/rejectRequest')
-def handle_reject_request(request: BookRequest):
+def handle_reject_request(request: BookRequest):    # When a user wants to reject a request
     logging.info(f"User: {request.user_id} - Reject Request: {request.title}")
 
     # Reject request logic here
@@ -306,23 +345,23 @@ def handle_reject_request(request: BookRequest):
     return {"status": 400, "message": "Request not found"}
 
 @app.get('/requests')
-def get_requests(user_id: str):
+def get_requests(user_id: str):   # When a user wants to get requests
     logging.info(f"User: {user_id} - Requests")
 
     # Get requests logic here
     incoming = []
-    data = requestCollection.find({"owner_id": user_id}, {'_id': 0})
+    data = requestCollection.find({"owner_id": user_id}, {'_id': 0}).sort("title", 1)
     for req in data:
         if req['response'] == 0:
             incoming.append(req)
     outgoing = []
-    data = requestCollection.find({"user_id": user_id}, {'_id': 0})
+    data = requestCollection.find({"user_id": user_id}, {'_id': 0}).sort("title", 1)
     for req in data:
         outgoing.append(req)
     return {"incoming": incoming, "outgoing": outgoing}
 
 @app.post('/updateUserSchema')
-def update_user_schema():
+def update_user_schema():   # When a user wants to update the schema
     logging.info("Updating user schema with new keys")
 
     # Get the fields from the userDetails class
@@ -342,6 +381,28 @@ def update_user_schema():
     except Exception as e:
         logging.error(f"Error updating user schema: {e}")
         return {"status": 500, "message": "Error updating user schema"}
+
+@app.get('/userName')
+def get_user_name(user_id: str):    # When a user wants to get the name
+    logging.info(f"User: {user_id} - Name")
+
+    # Get user name logic here
+    user = userCollection.find_one({"user_id": user_id})
+    if user:
+        return {"name": user["name"]}
+    else:
+        return {"status": 400, "message": "User not found"}
+
+@app.get('/response')
+def get_response(user_id: str, title: str):   # When a user wants to get the response
+    logging.info(f"User: {user_id} - Response for: {title}")
+
+    # Get response logic here
+    response = requestCollection.find_one({"user_id": user_id, "title": title})
+    if response:
+        return {"response": response["response"]}
+    else:
+        return {"status": 400, "message": "Request not found"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
