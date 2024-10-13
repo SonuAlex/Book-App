@@ -80,11 +80,12 @@ def get_book_data(query, title, OL_API_STRING) -> JSONResponse:
     
     else:
         data = collection.find_one({"title": title})
+        desc = data["description"].replace('\r', '').replace('\n', '').replace('\t', '')
         result = {
             "coverImage": data["coverImage"],
             "title": data["title"],
             "author": data["author"],
-            "description": data["description"]
+            "description": desc
         }
     
     return result

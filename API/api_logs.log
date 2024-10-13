@@ -2357,3 +2357,1226 @@
 2024-09-30 10:09:39,209 - INFO - User: guest - Book: Pompeii
 2024-09-30 10:09:42,255 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
 2024-09-30 10:09:42,455 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-10-08 10:21:54,203 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/items/5 - Status: 404
+2024-10-08 10:21:55,298 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/items/?item_id=5 - Status: 404
+2024-10-08 12:34:28,787 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 404
+2024-10-08 12:34:28,983 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-10-08 12:34:39,396 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 404
+2024-10-08 12:34:39,656 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/favicon.ico - Status: 200
+2024-10-08 12:35:04,631 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 404
+2024-10-08 12:35:05,577 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 404
+2024-10-08 12:35:10,962 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 404
+2024-10-08 12:35:12,201 - INFO - User: guest - Book: Pompeii
+2024-10-08 12:35:15,966 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-10-08 12:35:27,572 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 404
+2024-10-08 12:35:43,604 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title= - Status: 404
+2024-10-08 12:35:49,133 - INFO - User: guest - Book: Pompeii
+2024-10-08 12:35:51,683 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=guest&title=Pompeii - Status: 200
+2024-10-08 12:35:56,050 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title= - Status: 404
+2024-10-08 12:36:12,187 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=harry%20potter - Status: 404
+2024-10-08 12:36:36,365 - INFO - User: Sam - Book: Pompeii
+2024-10-08 12:36:39,112 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Pompeii - Status: 200
+2024-10-08 12:36:56,341 - INFO - User: Sam - Book: Harry potter
+2024-10-08 12:37:00,926 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/book?user_id=Sam&title=Harry%20potter - Status: 200
+2024-10-10 00:58:03,129 - INFO - All Books Request
+2024-10-10 00:58:03,141 - ERROR - Error processing request: [TypeError("'builtin_function_or_method' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-10-10 00:58:03,534 - INFO - GET http://localhost:8000/favicon.ico - Status: 200
+2024-10-10 00:59:05,365 - INFO - All Books Request
+2024-10-10 00:59:05,368 - ERROR - Error processing request: [TypeError("'builtin_function_or_method' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-10-10 01:03:23,081 - INFO - All Books Request
+2024-10-10 01:03:23,093 - INFO - GET http://localhost:8000/allBooks - Status: 200
+2024-10-10 01:16:21,026 - INFO - All Books Request
+2024-10-10 01:16:21,028 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:18:03,207 - INFO - User: Sonu - Book: David Copperfield
+2024-10-10 01:18:11,110 - INFO - POST http://localhost:8000/book - Status: 200
+2024-10-10 01:19:37,837 - INFO - User: Sonu - Submit
+2024-10-10 01:19:37,852 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-10-10 01:20:13,029 - INFO - All Books Request
+2024-10-10 01:20:13,030 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:22:14,181 - INFO - All Books Request
+2024-10-10 01:22:14,183 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:22:15,335 - INFO - All Books Request
+2024-10-10 01:22:15,336 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:22:42,778 - INFO - User: Sonu - Book: Harry Potter
+2024-10-10 01:23:07,651 - ERROR - Error processing work request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL82586W.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001CD8018FCD0>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-10-10 01:23:07,652 - INFO - POST http://localhost:8000/book - Status: 500
+2024-10-10 01:23:10,229 - INFO - User: Sonu - Book: Harry Potter
+2024-10-10 01:23:15,043 - INFO - POST http://localhost:8000/book - Status: 200
+2024-10-10 01:23:30,717 - INFO - POST http://localhost:8000/submit - Status: 422
+2024-10-10 01:26:59,651 - INFO - User: Sonu - Submit
+2024-10-10 01:26:59,654 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-10-10 01:27:02,740 - INFO - All Books Request
+2024-10-10 01:27:02,742 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:32:46,394 - INFO - All Books Request
+2024-10-10 01:32:46,395 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:34:14,904 - INFO - User: Sonu - Submit
+2024-10-10 01:34:14,908 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-10-10 01:34:17,663 - INFO - All Books Request
+2024-10-10 01:34:17,664 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:34:35,071 - INFO - User: Sonu - Book: The Alchemist
+2024-10-10 01:34:37,842 - INFO - POST http://localhost:8000/book - Status: 200
+2024-10-10 01:35:00,253 - INFO - User: Sonu - Submit
+2024-10-10 01:35:00,255 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-10-10 01:35:02,397 - INFO - All Books Request
+2024-10-10 01:35:02,397 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 01:39:18,548 - INFO - All Books Request
+2024-10-10 01:39:18,549 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 22:34:17,241 - INFO - All Books Request
+2024-10-10 22:34:17,263 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 22:34:34,492 - INFO - All Books Request
+2024-10-10 22:34:34,493 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 22:35:04,104 - INFO - All Books Request
+2024-10-10 22:35:04,106 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-10 22:35:40,320 - INFO - User: Sonu - Book: The Alchemist
+2024-10-10 22:36:01,376 - ERROR - Error processing default request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /search.json?title=The%20Alchemist&limit=3 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001761676B350>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-10-10 22:36:01,377 - INFO - POST http://localhost:8000/book - Status: 500
+2024-10-10 22:36:05,152 - INFO - User: Sonu - Book: The Alchemist
+2024-10-10 22:36:26,158 - ERROR - Error processing default request: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /search.json?title=The%20Alchemist&limit=3 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000017616D4AE10>, 'Connection to openlibrary.org timed out. (connect timeout=None)'))
+2024-10-10 22:36:26,158 - INFO - POST http://localhost:8000/book - Status: 500
+2024-10-10 22:42:17,797 - INFO - User: JohnDoe - Borrow: The Alchemist
+2024-10-10 22:42:17,850 - INFO - Book The Alchemist borrowed by JohnDoe
+2024-10-10 22:42:17,851 - INFO - GET http://localhost:8000/borrow?user_id=JohnDoe&title=The%20Alchemist - Status: 200
+2024-10-10 22:43:25,200 - INFO - User: JohnDoe - Return: The Alchemist
+2024-10-10 22:43:25,202 - INFO - Book The Alchemist returned by JohnDoe
+2024-10-10 22:43:25,202 - INFO - GET http://localhost:8000/return?user_id=JohnDoe&title=The%20Alchemist - Status: 200
+2024-10-10 22:43:46,948 - INFO - User: JohnDoe - Borrow: The Alchemist
+2024-10-10 22:43:46,952 - INFO - Book The Alchemist borrowed by JohnDoe
+2024-10-10 22:43:46,952 - INFO - GET http://localhost:8000/borrow?user_id=JohnDoe&title=The%20Alchemist - Status: 200
+2024-10-10 23:59:19,500 - INFO - User: JohnDoe - Return: The Alchemist
+2024-10-10 23:59:19,507 - INFO - Book The Alchemist returned by JohnDoe
+2024-10-10 23:59:19,508 - INFO - GET http://localhost:8000/return?user_id=JohnDoe&title=The%20Alchemist - Status: 200
+2024-10-10 23:59:21,001 - INFO - User: JohnDoe - Return: The Alchemist
+2024-10-10 23:59:21,003 - INFO - Book The Alchemist returned by JohnDoe
+2024-10-10 23:59:21,004 - INFO - GET http://localhost:8000/return?user_id=JohnDoe&title=The%20Alchemist - Status: 200
+2024-10-10 23:59:22,882 - INFO - User: JohnDoe - Return: The Alchemist
+2024-10-10 23:59:22,884 - INFO - Book The Alchemist returned by JohnDoe
+2024-10-10 23:59:22,885 - INFO - GET http://localhost:8000/return?user_id=JohnDoe&title=The%20Alchemist - Status: 200
+2024-10-11 02:45:32,509 - INFO - All Books Request
+2024-10-11 02:45:32,524 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:45:59,620 - INFO - All Books Request
+2024-10-11 02:45:59,621 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:50:35,791 - INFO - All Books Request
+2024-10-11 02:50:35,793 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:53:42,152 - INFO - All Books Request
+2024-10-11 02:53:42,153 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:54:09,986 - INFO - All Books Request
+2024-10-11 02:54:09,986 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:54:59,037 - INFO - All Books Request
+2024-10-11 02:54:59,039 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:55:27,755 - INFO - All Books Request
+2024-10-11 02:55:27,756 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:55:39,997 - INFO - All Books Request
+2024-10-11 02:55:39,998 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:55:58,831 - INFO - All Books Request
+2024-10-11 02:55:58,833 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:56:06,746 - INFO - All Books Request
+2024-10-11 02:56:06,747 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:56:50,750 - INFO - All Books Request
+2024-10-11 02:56:50,751 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:57:01,284 - INFO - All Books Request
+2024-10-11 02:57:01,286 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:57:15,346 - INFO - All Books Request
+2024-10-11 02:57:15,347 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 02:59:35,806 - INFO - All Books Request
+2024-10-11 02:59:35,808 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:00:11,362 - INFO - All Books Request
+2024-10-11 03:00:11,364 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:01:07,397 - INFO - All Books Request
+2024-10-11 03:01:07,398 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:01:25,670 - INFO - All Books Request
+2024-10-11 03:01:25,671 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:03:15,707 - INFO - All Books Request
+2024-10-11 03:03:15,709 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:03:21,346 - INFO - All Books Request
+2024-10-11 03:03:21,347 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:03:32,025 - INFO - All Books Request
+2024-10-11 03:03:32,027 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:04:11,949 - INFO - All Books Request
+2024-10-11 03:04:11,950 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:05:06,863 - INFO - All Books Request
+2024-10-11 03:05:06,864 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:06:53,297 - INFO - All Books Request
+2024-10-11 03:06:53,299 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:07:28,405 - INFO - All Books Request
+2024-10-11 03:07:28,407 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:08:09,343 - INFO - All Books Request
+2024-10-11 03:08:09,345 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:08:18,421 - INFO - All Books Request
+2024-10-11 03:08:18,422 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:10:12,302 - INFO - All Books Request
+2024-10-11 03:10:12,303 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:10:33,981 - INFO - All Books Request
+2024-10-11 03:10:33,982 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:10:38,608 - INFO - All Books Request
+2024-10-11 03:10:38,608 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:11:51,998 - INFO - All Books Request
+2024-10-11 03:11:51,998 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:22:10,423 - INFO - All Books Request
+2024-10-11 03:22:10,424 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:22:25,677 - INFO - All Books Request
+2024-10-11 03:22:25,677 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:26:14,591 - INFO - All Books Request
+2024-10-11 03:26:14,593 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:28:12,635 - INFO - All Books Request
+2024-10-11 03:28:12,637 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:28:30,606 - INFO - All Books Request
+2024-10-11 03:28:30,608 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:29:04,986 - INFO - All Books Request
+2024-10-11 03:29:04,988 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:29:31,639 - INFO - All Books Request
+2024-10-11 03:29:31,641 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:32:58,304 - INFO - All Books Request
+2024-10-11 03:32:58,305 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:33:34,260 - INFO - All Books Request
+2024-10-11 03:33:34,261 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:34:26,424 - INFO - All Books Request
+2024-10-11 03:34:26,425 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:41:39,632 - INFO - All Books Request
+2024-10-11 03:41:39,634 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 03:50:34,501 - INFO - All Books Request
+2024-10-11 03:50:34,502 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 04:10:11,038 - INFO - All Books Request
+2024-10-11 04:10:11,041 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 04:10:46,863 - INFO - All Books Request
+2024-10-11 04:10:46,864 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 04:11:19,188 - INFO - All Books Request
+2024-10-11 04:11:19,191 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 04:11:39,422 - INFO - All Books Request
+2024-10-11 04:11:39,424 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 14:18:41,141 - INFO - All Books Request
+2024-10-11 14:18:41,145 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 14:31:47,970 - INFO - All Books Request
+2024-10-11 14:31:47,971 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 14:39:32,763 - INFO - All Books Request
+2024-10-11 14:39:32,764 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 18:47:06,573 - INFO - User: Sonu - User Created
+2024-10-11 18:47:06,604 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 19:05:29,926 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 422
+2024-10-11 19:07:26,799 - INFO - User: fSzwfE57ZdaRqvcM0jDqQDgREWH2 - User Created
+2024-10-11 19:07:26,822 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 19:07:57,071 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 422
+2024-10-11 19:12:00,654 - INFO - User: po9dY1IIc7TDBW4IgvgflmDv76B2 - User Created
+2024-10-11 19:12:00,659 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 19:12:21,102 - INFO - User: user_id='po9dY1IIc7TDBW4IgvgflmDv76B2' - Verification complete
+2024-10-11 19:12:21,106 - ERROR - Error processing request: cannot encode object: verifyUser(user_id='po9dY1IIc7TDBW4IgvgflmDv76B2'), of type: <class '__main__.verifyUser'>
+2024-10-11 19:16:31,059 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - User Created
+2024-10-11 19:16:31,087 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 19:16:46,420 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Verification complete
+2024-10-11 19:16:46,423 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-11 19:30:17,934 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 404
+2024-10-11 19:31:50,103 - INFO - GET http://localhost:8000/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 404
+2024-10-11 19:32:29,064 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:32:29,067 - ERROR - Error processing request: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2024-10-11 19:33:45,796 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:33:45,800 - INFO - GET http://localhost:8000/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 19:34:09,935 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:34:09,937 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 19:38:20,101 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:38:20,103 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 19:43:46,075 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:43:46,077 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 19:45:06,574 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:45:06,577 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 19:45:36,406 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:45:36,407 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 19:46:03,575 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 19:46:03,576 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 20:00:16,211 - INFO - User: Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Requested Details
+2024-10-11 20:00:16,212 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Lpb7jpc3i1RH7L5pTZZDodYUXLq2 - Status: 200
+2024-10-11 20:01:46,612 - INFO - User: Pi4EZnPOS1YabIbQh85D7Y7PRQ13 - User Created
+2024-10-11 20:01:46,617 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 20:02:13,372 - INFO - User: Pi4EZnPOS1YabIbQh85D7Y7PRQ13 - Verification complete
+2024-10-11 20:02:13,375 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-11 20:02:15,436 - INFO - User: Pi4EZnPOS1YabIbQh85D7Y7PRQ13 - Requested Details
+2024-10-11 20:02:15,437 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Pi4EZnPOS1YabIbQh85D7Y7PRQ13 - Status: 200
+2024-10-11 21:03:06,734 - INFO - User: 6J0KLoQCh1da1XqtwFreGiyEkGl2 - User Created
+2024-10-11 21:03:06,738 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 21:04:42,176 - INFO - User: DVoy3TRTS2S5bQoynrbdqts8oID2 - User Created
+2024-10-11 21:04:42,178 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 21:06:46,782 - INFO - User: cpGvLDdauZeRoKCDNmFbU1ZExcA3 - User Created
+2024-10-11 21:06:46,784 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 21:07:07,367 - INFO - User: cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Verification complete
+2024-10-11 21:07:07,368 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-11 21:07:12,310 - INFO - User: cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Requested Details
+2024-10-11 21:07:12,310 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Status: 200
+2024-10-11 21:07:16,134 - INFO - User: cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Requested Details
+2024-10-11 21:07:16,135 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Status: 200
+2024-10-11 21:07:31,122 - INFO - User: cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Requested Details
+2024-10-11 21:07:31,123 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=cpGvLDdauZeRoKCDNmFbU1ZExcA3 - Status: 200
+2024-10-11 21:33:09,642 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - User Created
+2024-10-11 21:33:09,646 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 21:33:39,706 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Verification complete
+2024-10-11 21:33:39,708 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-11 21:34:37,596 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - User Created
+2024-10-11 21:34:37,598 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 21:34:57,932 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Verification complete
+2024-10-11 21:34:57,934 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-11 21:36:34,786 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - User Created
+2024-10-11 21:36:34,789 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-11 21:37:00,109 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Verification complete
+2024-10-11 21:37:00,111 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-11 21:37:06,249 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Details
+2024-10-11 21:37:06,250 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Status: 200
+2024-10-11 21:37:20,672 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Details
+2024-10-11 21:37:20,673 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Status: 200
+2024-10-11 21:37:50,119 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:37:50,120 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:46:46,315 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:46:46,317 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:48:10,422 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:48:10,423 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:48:58,256 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:48:58,258 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:49:05,617 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:49:05,618 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:50:39,877 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:50:39,878 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:50:56,412 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:50:56,413 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:51:01,910 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:51:01,911 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:51:15,518 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:51:15,519 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:51:56,016 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:51:56,016 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:52:01,811 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:52:01,811 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:52:28,430 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:52:28,431 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:53:20,836 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:53:20,837 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 21:55:59,996 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 21:55:59,997 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:02:30,172 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:02:30,173 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:02:44,011 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:02:44,013 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:03:00,550 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:03:00,551 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:05:14,362 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:05:14,364 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:05:29,575 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:05:29,576 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:16:01,143 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:16:01,144 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:18:47,476 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:18:47,478 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:19:03,544 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:19:03,545 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:19:11,345 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:19:11,346 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:21:23,050 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:21:23,051 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:21:25,811 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:21:25,812 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:23:46,433 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:23:46,435 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:24:27,335 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:24:27,337 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:24:38,942 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:24:38,942 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:24:44,620 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:24:44,621 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:27:04,151 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:27:04,152 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:27:31,126 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:27:31,127 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:28:22,393 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:28:22,394 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:28:32,413 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:28:32,415 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:28:36,312 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:28:36,312 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:29:10,101 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:29:10,103 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:31:22,757 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-11 22:31:22,759 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-11 22:50:37,020 - INFO - All Books Request
+2024-10-11 22:50:37,026 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 22:52:16,322 - INFO - All Books Request
+2024-10-11 22:52:16,323 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 22:53:29,654 - INFO - All Books Request
+2024-10-11 22:53:29,655 - INFO - GET http://localhost:8000/allBooks - Status: 200
+2024-10-11 22:56:11,201 - INFO - All Books Request
+2024-10-11 22:56:11,203 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 22:56:51,482 - INFO - All Books Request
+2024-10-11 22:56:51,483 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 22:57:07,460 - INFO - All Books Request
+2024-10-11 22:57:07,462 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 23:01:17,320 - INFO - All Books Request
+2024-10-11 23:01:17,323 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 23:07:24,405 - INFO - User: Sonu - Submit
+2024-10-11 23:07:24,422 - INFO - POST http://localhost:8000/submit - Status: 200
+2024-10-11 23:07:29,085 - INFO - All Books Request
+2024-10-11 23:07:29,089 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 23:08:46,557 - INFO - All Books Request
+2024-10-11 23:08:46,559 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 23:19:54,488 - INFO - POST http://localhost:8000/user - Status: 422
+2024-10-11 23:20:22,747 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - User Created
+2024-10-11 23:20:22,752 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:21:09,629 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - User Created
+2024-10-11 23:21:09,633 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:21:56,271 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - User Created
+2024-10-11 23:21:56,274 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:22:38,722 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - User Created
+2024-10-11 23:22:38,723 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:22:47,413 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - User Created
+2024-10-11 23:22:47,416 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:40:39,492 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 404
+2024-10-11 23:41:20,777 - INFO - All Books Request
+2024-10-11 23:41:20,779 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-11 23:41:27,168 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 404
+2024-10-11 23:41:57,075 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 404
+2024-10-11 23:43:34,458 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 404
+2024-10-11 23:44:13,800 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-11 23:44:13,802 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-11 23:44:35,844 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-11 23:44:35,846 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-11 23:45:25,523 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-11 23:45:25,530 - ERROR - Error processing request: The field 'requests' must be an array but is of type object in document {_id: ObjectId('6709658de84d59ffd7236c0e')}, full error: {'index': 0, 'code': 2, 'errmsg': "The field 'requests' must be an array but is of type object in document {_id: ObjectId('6709658de84d59ffd7236c0e')}"}
+2024-10-11 23:47:24,012 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - User Created
+2024-10-11 23:47:24,019 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:47:45,086 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - User Created
+2024-10-11 23:47:45,089 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:48:33,844 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - User Created
+2024-10-11 23:48:33,847 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:49:10,407 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-11 23:49:10,412 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-11 23:49:34,285 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-11 23:49:34,288 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-11 23:50:51,464 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - User Created
+2024-10-11 23:50:51,467 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:50:54,563 - INFO - POST http://localhost:8000/user - Status: 422
+2024-10-11 23:50:58,002 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - User Created
+2024-10-11 23:50:58,008 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:51:31,119 - INFO - POST http://localhost:8000/user - Status: 422
+2024-10-11 23:51:35,569 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - User Created
+2024-10-11 23:51:35,573 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-11 23:52:45,098 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-11 23:52:45,122 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-11 23:52:47,804 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-11 23:52:47,806 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 10:03:51,832 - INFO - Updating user schema with new keys
+2024-10-12 10:03:51,844 - INFO - User schema updated successfully
+2024-10-12 10:03:51,845 - INFO - POST http://localhost:8000/updateUserSchema - Status: 200
+2024-10-12 10:04:56,519 - INFO - GET http://localhost:8000/requestBorrow - Status: 405
+2024-10-12 10:05:14,400 - INFO - POST http://localhost:8000/requestBorrow - Status: 422
+2024-10-12 10:05:24,194 - INFO - User: 1 - Requested Borrow: David Copperfield
+2024-10-12 10:05:24,197 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:05:57,222 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:05:57,229 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:06:26,140 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:06:26,143 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:09:03,870 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:09:03,873 - ERROR - Error processing request: 'title'
+2024-10-12 10:11:44,748 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:11:44,772 - ERROR - Error processing request: 'David Copperfield'
+2024-10-12 10:21:52,670 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:21:52,676 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:22:31,596 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:22:31,599 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:24:32,975 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:24:32,995 - ERROR - Error processing request: 'BookRequest' object is not subscriptable
+2024-10-12 10:25:42,229 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:25:42,252 - ERROR - Error processing request: 'BookRequest' object is not subscriptable
+2024-10-12 10:27:49,827 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:27:49,850 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:29:19,927 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:29:19,951 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:36:53,842 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:36:53,867 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:37:59,860 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:37:59,883 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:38:39,024 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:38:39,028 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:38:54,192 - INFO - User: efg456 - Requested Borrow: David Copperfield
+2024-10-12 10:38:54,194 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:40:19,154 - INFO - User: efg456   - Requested Borrow: David Copperfield
+2024-10-12 10:40:19,159 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:40:32,976 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:40:32,978 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:42:39,414 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:42:39,418 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:54:51,208 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:54:51,215 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:55:03,522 - INFO - User: efg456 - Requested Borrow: David Copperfield
+2024-10-12 10:55:03,526 - ERROR - Error processing request: Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$push: [ { $set: { requests.David Copperfield: { $concatArrays: [ "$requests.David Copperfield", [ { efg456: false } ] ] } } } ]}, full error: {'index': 0, 'code': 9, 'errmsg': 'Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$push: [ { $set: { requests.David Copperfield: { $concatArrays: [ "$requests.David Copperfield", [ { efg456: false } ] ] } } } ]}'}
+2024-10-12 10:55:48,274 - INFO - User: efg456 - Requested Borrow: David Copperfield
+2024-10-12 10:55:48,279 - ERROR - Error processing request: Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$set: [ { $set: { requests.David Copperfield: { $concatArrays: [ "$requests.David Copperfield", [ { efg456: false } ] ] } } } ]}, full error: {'index': 0, 'code': 9, 'errmsg': 'Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$set: [ { $set: { requests.David Copperfield: { $concatArrays: [ "$requests.David Copperfield", [ { efg456: false } ] ] } } } ]}'}
+2024-10-12 10:56:35,326 - INFO - User: efg456 - Requested Borrow: David Copperfield
+2024-10-12 10:56:35,349 - ERROR - Error processing request: Cannot create field 'David Copperfield' in element {requests: [ { tJZa2yKtDeQDcjsaRZFETgHAqtm2: { Harry Potter and the Deathly Hallows: false } }, { tJZa2yKtDeQDcjsaRZFETgHAqtm2: { David Copperfield: false } }, { David Copperfield: [ { abc123: false } ] } ]}, full error: {'index': 0, 'code': 28, 'errmsg': "Cannot create field 'David Copperfield' in element {requests: [ { tJZa2yKtDeQDcjsaRZFETgHAqtm2: { Harry Potter and the Deathly Hallows: false } }, { tJZa2yKtDeQDcjsaRZFETgHAqtm2: { David Copperfield: false } }, { David Copperfield: [ { abc123: false } ] } ]}"}
+2024-10-12 10:57:30,846 - INFO - User: efg456 - Requested Borrow: David Copperfield
+2024-10-12 10:57:30,867 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:58:18,167 - INFO - User: efg456 - Requested Borrow: David Copperfield
+2024-10-12 10:58:18,169 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 10:58:24,856 - INFO - User: abc123 - Requested Borrow: David Copperfield
+2024-10-12 10:58:24,860 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:01:19,462 - INFO - All Books Request
+2024-10-12 11:01:19,465 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 11:08:51,256 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:08:51,257 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:09:18,895 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:09:18,896 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:11:11,162 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:11:11,164 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:11:13,996 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:11:13,998 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:10,883 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:10,885 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:12,949 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:12,950 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:14,858 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:14,859 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:15,850 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:15,852 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:17,188 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:17,190 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:27,149 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:27,150 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:39,450 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:39,452 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:46,024 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:46,026 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:49,130 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:49,133 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:12:50,409 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:12:50,410 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:13:07,661 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:13:07,663 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:20,831 - INFO - All Books Request
+2024-10-12 11:36:20,833 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 11:36:24,078 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:24,079 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:24,107 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:24,108 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:24,390 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:36:24,391 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:36:30,911 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:30,912 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:30,913 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:30,914 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:31,182 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:36:31,183 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:36:44,351 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:44,352 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:44,354 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:44,354 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:44,586 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:36:44,586 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:36:55,261 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:55,262 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:55,288 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:36:55,289 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:36:55,532 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:36:55,533 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:37:22,864 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:22,865 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:22,891 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:22,892 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:23,154 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:37:23,155 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:37:28,691 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:28,692 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:28,718 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:28,719 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:28,994 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:37:28,996 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:37:33,314 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:33,315 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:33,329 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:33,329 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:33,630 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:37:33,631 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:37:40,804 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:40,804 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:40,805 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:40,806 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:41,088 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:37:41,089 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:37:47,702 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:47,702 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:37:47,703 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:47,704 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:37:48,019 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:37:48,020 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:39:02,157 - INFO - All Books Request
+2024-10-12 11:39:02,158 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 11:39:16,525 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:39:16,526 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:39:16,538 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:39:16,539 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:39:16,840 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:39:16,842 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:40:35,172 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:40:35,172 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:40:36,107 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:40:36,109 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:40:36,378 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:40:36,379 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:41:12,181 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:41:12,182 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:41:12,184 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:41:12,184 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:41:12,467 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:41:12,469 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:42:18,716 - INFO - All Books Request
+2024-10-12 11:42:18,717 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 11:42:21,009 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:42:21,009 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:42:21,013 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:42:21,014 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:42:21,277 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:42:21,279 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:43:04,195 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:04,195 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:04,196 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:04,198 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:04,462 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:43:04,463 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:43:15,188 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:15,190 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:15,393 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:15,394 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:15,544 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:43:15,544 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:43:19,077 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:19,079 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:19,107 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:19,108 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:19,368 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:43:19,370 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:43:24,779 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:24,781 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:24,803 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:24,804 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:25,107 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:43:25,108 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:43:31,280 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:31,282 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:31,289 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:43:31,290 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:43:31,593 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:43:31,594 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:44:03,866 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:44:03,867 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:44:03,894 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:44:03,895 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:44:04,125 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:44:04,126 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:44:08,392 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:44:08,393 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:44:08,421 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:44:08,422 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:44:08,663 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:44:08,663 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:46:51,833 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:46:51,834 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:46:51,837 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:46:51,838 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:46:52,119 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:46:52,120 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:47:04,607 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:47:04,608 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:47:04,612 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:47:04,613 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:47:04,894 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:47:04,896 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:47:19,129 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:47:19,130 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:47:19,131 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:47:19,133 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:47:19,425 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:47:19,427 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:47:52,368 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:47:52,369 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:47:52,446 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:47:52,450 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:47:52,725 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:47:52,726 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:49:04,925 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:49:04,926 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:49:05,308 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:49:05,310 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:49:05,408 - INFO - User: Sonu Alex Antony - Requested Details
+2024-10-12 11:49:05,410 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=Sonu%20Alex%20Antony - Status: 200
+2024-10-12 11:51:16,062 - INFO - All Books Request
+2024-10-12 11:51:16,063 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 11:51:18,199 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:51:18,200 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:51:18,226 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:51:18,227 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:52:17,012 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:52:17,013 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:52:17,014 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:52:17,015 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:52:25,982 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:52:25,982 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:52:25,983 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:52:25,984 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:53:01,236 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:53:01,238 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:53:01,262 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:53:01,264 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:53:20,720 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:53:20,721 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:53:20,749 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:53:20,750 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:54:57,352 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:54:57,354 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:54:57,378 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:54:57,381 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:55:09,143 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:55:09,146 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:55:09,149 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:55:09,150 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:55:21,188 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:55:21,189 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:55:21,216 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:55:21,217 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:55:46,831 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-12 11:55:46,833 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:56:28,304 - INFO - All Books Request
+2024-10-12 11:56:28,306 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 11:56:29,777 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:56:29,779 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:56:29,786 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:56:29,787 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:56:40,165 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:56:40,166 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:56:40,166 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:56:40,168 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:56:50,435 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 11:56:50,438 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:57:24,973 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 11:57:24,976 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:57:48,055 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 11:57:48,058 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:58:47,821 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 11:58:47,828 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:58:50,095 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 11:58:50,100 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 11:59:06,121 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:59:06,124 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:59:06,141 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:59:06,144 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:59:46,350 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:59:46,351 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 11:59:46,352 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 11:59:46,354 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:00:46,636 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:00:46,638 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:00:47,033 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:00:47,034 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:01:13,284 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:01:13,285 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:01:13,287 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:01:13,288 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:01:29,178 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:01:29,178 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:01:29,179 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:01:29,180 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:05:36,698 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:05:36,700 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:05:37,005 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:05:37,007 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:06:19,675 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:06:19,676 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:06:19,703 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:06:19,705 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:06:31,521 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:06:31,521 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:06:31,528 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:06:31,529 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:07:10,746 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:07:10,747 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:07:11,058 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:07:11,060 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:07:21,469 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:07:21,469 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:07:21,470 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:07:21,471 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:07:59,023 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:07:59,024 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:07:59,025 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:07:59,026 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:08:08,948 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:08:08,949 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:08:08,976 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:08:08,978 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:08:19,001 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:08:19,003 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:08:19,066 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:08:19,068 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:09:20,670 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:09:20,671 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:09:20,674 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:09:20,675 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:09:34,024 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:09:34,024 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:09:34,051 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:09:34,052 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:09:57,318 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:09:57,319 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:09:57,344 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:09:57,344 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:10:21,128 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:10:21,129 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:10:21,129 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:10:21,131 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:10:32,680 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:10:32,682 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:10:32,682 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:10:32,684 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:10:36,265 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:10:36,268 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:10:41,272 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:10:41,273 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:10:41,283 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:10:41,283 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:11:25,100 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:11:25,102 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:11:26,596 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:11:26,599 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:11:46,401 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:11:46,405 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:12:44,904 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:12:44,907 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:13:13,323 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:13:13,326 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:14:41,069 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:14:41,091 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:14:42,073 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:14:42,078 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:14:56,215 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:14:56,219 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:19:09,313 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:19:09,316 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:22:29,569 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:22:29,573 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:22:31,865 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:22:31,869 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:22:32,934 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:22:32,937 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:23:15,458 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:23:15,460 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:23:16,950 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:23:16,953 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:25:22,124 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:25:22,129 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:25:25,141 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:25:25,145 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:25:28,244 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:25:28,247 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:25:44,751 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:25:44,753 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:25:46,221 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:25:46,223 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:30:41,714 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:30:41,720 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:31:02,011 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:31:02,012 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:31:02,362 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:31:02,364 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:31:18,885 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:31:18,885 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:31:18,914 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:31:18,915 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:31:19,958 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:31:19,962 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:31:22,407 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:31:22,409 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:31:22,417 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:31:22,418 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:32:04,848 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:32:04,849 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:32:05,550 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:32:05,551 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:32:08,719 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:32:08,722 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:32:17,763 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:32:17,768 - ERROR - Error processing request: $concatArrays only supports arrays, not object, full error: {'index': 0, 'code': 28664, 'errmsg': '$concatArrays only supports arrays, not object'}
+2024-10-12 12:33:14,603 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:33:14,605 - ERROR - Error processing request: $concatArrays only supports arrays, not object, full error: {'index': 0, 'code': 28664, 'errmsg': '$concatArrays only supports arrays, not object'}
+2024-10-12 12:33:15,328 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:33:15,332 - ERROR - Error processing request: $concatArrays only supports arrays, not object, full error: {'index': 0, 'code': 28664, 'errmsg': '$concatArrays only supports arrays, not object'}
+2024-10-12 12:33:32,162 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:33:32,166 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:33:32,863 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:33:32,866 - ERROR - Error processing request: $concatArrays only supports arrays, not object, full error: {'index': 0, 'code': 28664, 'errmsg': '$concatArrays only supports arrays, not object'}
+2024-10-12 12:33:33,461 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:33:33,464 - ERROR - Error processing request: $concatArrays only supports arrays, not object, full error: {'index': 0, 'code': 28664, 'errmsg': '$concatArrays only supports arrays, not object'}
+2024-10-12 12:34:19,240 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:34:19,262 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:34:19,965 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:34:19,971 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:34:20,646 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:34:20,650 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:36:01,512 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:36:01,520 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:36:02,187 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:36:02,190 - ERROR - Error processing request: 'BookRequest' object has no attribute 'use'
+2024-10-12 12:36:02,824 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:36:02,827 - ERROR - Error processing request: 'BookRequest' object has no attribute 'use'
+2024-10-12 12:37:09,673 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:37:09,675 - ERROR - Error processing request: 'BookRequest' object has no attribute 'use'
+2024-10-12 12:38:02,406 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:38:02,412 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:38:03,526 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:38:03,535 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:38:20,637 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:38:20,641 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:38:23,820 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:38:23,823 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:38:24,099 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:38:24,103 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:39:31,683 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:39:31,687 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:39:32,433 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:39:32,438 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:42:05,978 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:42:06,001 - ERROR - Error processing request: log() missing 1 required positional argument: 'msg'
+2024-10-12 12:46:47,678 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:46:47,701 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:47:32,542 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:47:32,543 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:47:32,580 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:47:32,581 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:50:14,620 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:50:14,625 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:50:55,389 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:50:55,399 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:52:07,463 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:52:07,467 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:52:08,208 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:52:08,211 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:52:08,802 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:52:08,806 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:52:09,408 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:52:09,411 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:54:07,238 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:54:07,242 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:54:07,995 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:54:07,998 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:54:13,381 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:54:13,384 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 12:54:16,133 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:54:16,136 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:55:03,197 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:55:03,197 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:55:03,198 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:55:03,200 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:55:16,666 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:55:16,667 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:55:16,706 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:55:16,707 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:55:23,143 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:55:23,144 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:55:23,185 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:55:23,186 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:56:58,739 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:56:58,740 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:56:58,780 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:56:58,781 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:57:48,097 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:57:48,099 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:57:48,101 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:57:48,102 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:57:50,844 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:57:50,845 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:57:50,846 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:57:50,846 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:57:50,848 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:57:50,849 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:57:54,367 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:57:54,370 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:57:54,370 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:57:54,371 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:15,219 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:15,220 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:15,259 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:15,260 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:16,151 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:16,152 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 12:58:16,156 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:16,158 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:16,158 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:58:16,159 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:42,581 - INFO - All Books Request
+2024-10-12 12:58:42,582 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 12:58:44,700 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:44,701 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:44,729 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:44,732 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:45,470 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 12:58:45,476 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 12:58:45,501 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:45,501 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 12:58:45,503 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 12:58:45,505 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:01:32,771 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:01:32,776 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:01:34,253 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:01:34,255 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:01:50,826 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:01:50,828 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:01:52,828 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:01:52,831 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:04:17,724 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:04:17,728 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:04:21,377 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:04:21,380 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:06:52,278 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:06:52,302 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:06:55,613 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:06:55,617 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:17:34,015 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:17:34,018 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:17:37,766 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:17:37,768 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:20:27,324 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:20:27,329 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:20:34,927 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: David Copperfield
+2024-10-12 13:20:34,929 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:20:50,998 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:20:51,000 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:25:11,097 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:25:11,120 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:25:12,724 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:25:12,725 - ERROR - Error processing request: 'requests'
+2024-10-12 13:26:27,863 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:26:27,867 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:31:45,950 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:31:45,953 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:31:57,103 - INFO - User: CNXk0Bv831ZCIQsSrjC47G1pX0s2 - Requested Borrow: David Copperfield
+2024-10-12 13:31:57,104 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:32:00,061 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:32:00,062 - ERROR - Error processing request: 'NoneType' object is not iterable
+2024-10-12 13:32:57,805 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:32:57,808 - ERROR - Error processing request: 'requests'
+2024-10-12 13:34:09,442 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:34:09,445 - ERROR - Error processing request: 'requests'
+2024-10-12 13:35:31,172 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:35:31,196 - ERROR - Error processing request: 'requests'
+2024-10-12 13:36:00,220 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:36:00,225 - ERROR - Error processing request: 'user_id'
+2024-10-12 13:37:12,954 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:37:12,958 - ERROR - Error processing request: 'user_id'
+2024-10-12 13:38:10,891 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:38:10,896 - ERROR - Error processing request: 'user_id'
+2024-10-12 13:39:38,134 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:40:40,241 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:40:40,269 - ERROR - Error processing request: Unrecognized pipeline stage name: '$push', full error: {'ok': 0.0, 'errmsg': "Unrecognized pipeline stage name: '$push'", 'code': 40324, 'codeName': 'Location40324'}
+2024-10-12 13:41:34,467 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:41:34,472 - INFO - POST http://localhost:8000/requestBorrow - Status: 200
+2024-10-12 13:42:52,936 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:52,938 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:52,959 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:52,960 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:54,190 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:42:54,193 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:42:54,221 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:54,223 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:54,225 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:54,226 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:57,270 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:57,271 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:57,314 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:57,315 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:58,087 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-12 13:42:58,091 - ERROR - Error processing request: 'Harry Potter and the Deathly Hallows'
+2024-10-12 13:42:58,112 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:58,114 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:58,114 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:58,116 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:59,591 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:59,593 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:42:59,610 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:42:59,610 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:43:25,338 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:43:25,341 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-12 13:43:25,341 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:43:25,341 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:43:25,343 - ERROR - Error processing request: 'Harry Potter and the Deathly Hallows'
+2024-10-12 13:43:25,345 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:44:47,498 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:44:47,500 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:44:47,538 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:44:47,539 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:44:51,555 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: The Alchemist
+2024-10-12 13:44:51,557 - ERROR - Error processing request: 'The Alchemist'
+2024-10-12 13:44:51,594 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:44:51,596 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:44:51,596 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:44:51,598 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:44:57,197 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:44:57,197 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:44:57,202 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:44:57,204 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:45:36,323 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: The Alchemist
+2024-10-12 13:45:36,326 - ERROR - Error processing request: 'The Alchemist'
+2024-10-12 13:46:00,923 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: The Alchemist
+2024-10-12 13:48:27,861 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: The Alchemist
+2024-10-12 13:48:46,459 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:48:46,460 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:48:47,843 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:48:47,883 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:48,435 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:48,435 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:48,438 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:48,439 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:49,378 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:49:49,381 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:49:49,423 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:49,424 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:49,429 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:49,430 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:51,154 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:51,155 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:51,184 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:51,185 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:51,919 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:51,920 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:49:51,949 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-12 13:49:51,953 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:49:51,978 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:49:51,980 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:07,075 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:07,076 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:07,077 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:07,078 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:09,804 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:09,804 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:09,805 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:09,805 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:10,779 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: The Alchemist
+2024-10-12 13:50:10,782 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:50:10,809 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:10,809 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:10,811 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:10,811 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:12,917 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:12,919 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:12,944 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:12,945 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:13,679 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:13,680 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:13,708 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Cursed Child
+2024-10-12 13:50:13,710 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:13,711 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:13,714 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:50:15,824 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:15,825 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:15,852 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:15,854 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:42,621 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:42,622 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:50:42,629 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:50:42,629 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:04,544 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:04,545 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:04,880 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:04,881 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:05,846 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 13:51:05,848 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:51:06,157 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:06,159 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:06,166 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:06,167 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:07,801 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:07,801 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:07,801 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:07,803 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:08,479 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-12 13:51:08,484 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:51:08,799 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:08,800 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:08,826 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:08,827 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:10,193 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:10,195 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:10,210 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:10,210 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:10,920 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: The Alchemist
+2024-10-12 13:51:10,924 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:51:11,228 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:11,229 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:11,230 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:11,230 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:12,844 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:12,845 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:12,874 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:12,875 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:13,559 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Cursed Child
+2024-10-12 13:51:13,563 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 13:51:13,849 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:13,850 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:51:13,871 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:51:13,872 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:36,009 - INFO - All Books Request
+2024-10-12 13:52:36,012 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 13:52:39,426 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:39,426 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:39,497 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:39,498 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:39,507 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:39,507 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:42,126 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:42,127 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:42,153 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:42,154 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:43,755 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:43,758 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:43,784 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:43,785 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:45,519 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:45,519 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 13:52:45,520 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 13:52:45,521 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:16:44,016 - INFO - All Books Request
+2024-10-12 14:16:44,018 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:16:52,124 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:16:52,126 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:16:52,129 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:16:52,129 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:16:56,241 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: David Copperfield
+2024-10-12 14:16:56,244 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 14:16:56,514 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:16:56,515 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:16:56,527 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:16:56,528 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:06,521 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:06,521 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:06,525 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:06,525 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:14,158 - INFO - User: AnWyFCgQmjOSbcWbA25tNq9tPBV2 - Requested Borrow: Harry Potter and the Deathly Hallows
+2024-10-12 14:17:14,161 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-12 14:17:14,436 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:14,437 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:14,440 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:14,440 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:19,562 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:19,563 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:19,564 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:19,565 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:22,108 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:22,109 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:22,161 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-12 14:17:22,162 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-12 14:17:35,229 - INFO - All Books Request
+2024-10-12 14:17:35,229 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:17:36,106 - INFO - All Books Request
+2024-10-12 14:17:36,107 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:17:36,834 - INFO - All Books Request
+2024-10-12 14:17:36,836 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:20:42,984 - INFO - All Books Request
+2024-10-12 14:20:42,985 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:20:43,536 - INFO - All Books Request
+2024-10-12 14:20:43,537 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:20:44,338 - INFO - All Books Request
+2024-10-12 14:20:44,339 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:20:45,342 - INFO - All Books Request
+2024-10-12 14:20:45,343 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:20:46,130 - INFO - All Books Request
+2024-10-12 14:20:46,131 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-12 14:20:46,850 - INFO - All Books Request
+2024-10-12 14:20:46,852 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200

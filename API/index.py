@@ -11,9 +11,21 @@ import os
 import ReadCover
 import numpy as np
 import cv2
+from bson import ObjectId
+
+def convert_objectid(data):
+    if isinstance(data, list):
+        return [convert_objectid(item) for item in data]
+    elif isinstance(data, dict):
+        return {key: convert_objectid(value) for key, value in data.items()}
+    elif isinstance(data, ObjectId):
+        return str(data)
+    else:
+        return data
 
 # Initializing the logger
-logging.basicConfig(filename='api_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+s = f"logs/{datetime.now().strftime('%d-%m-%Y')}.log"
+logging.basicConfig(filename=s, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 load_dotenv()
 app = FastAPI()
@@ -22,16 +34,24 @@ MONGODB_API = os.environ.get('MONGODB_API_STRING')
 local_host = 'mongodb://localhost:27017'
 
 # Initializing classes
+class RequestModel(BaseModel):
+    title: str
+    user_id: str
+    owner_id: str
+    response: int
+class verifyUser(BaseModel):
+    user_id: str
 class userDetails(BaseModel):
     user_id: str
     name: str
     email: str
     phone: int
-    password: str
-    hosted_books: int = Field(default=0)
-    borrowed_books: int = Field(default=0)
     flat_no: str
     role: str = Field(default="user")
+    isVerified: bool = Field(default=False)
+    hosted_books: int = Field(default=0)
+    borrowed_books: int = Field(default=0)
+    requests: list[dict[str, list[dict[str, bool]]]] = Field(default=[])
     borrowed_titles: list[str] = Field(default=[])
 class CoverRequest(BaseModel):
     user_id: str
@@ -56,6 +76,7 @@ try:
     collection = db["books"]
     userCollection = db["users"]
     registerCollection = db["register"]
+    requestCollection = db["requests"]
 except Exception as e:
     logging.error(f"Error connecting to MongoDB: {e}")
     raise
@@ -83,6 +104,14 @@ async def favicon():
 def read_root():
     logging.info("API status check")
     return {"status": "OK", "timestamp": datetime.now().isoformat()}
+
+@app.get('/allBooks')
+def get_all_books():
+    logging.info("All Books Request")
+    books = collection.find()
+    books_list = list(books)
+    books_serializable = convert_objectid(books_list)
+    return books_serializable
 
 @app.get('/book')  # POST request to /book
 def handle_book_request(user_id: str, title: str):  # When a user wants to search for a book detail by title
@@ -148,6 +177,18 @@ def handle_user_creation(user: userDetails):    #Creating new user in the system
         userCollection.insert_one(user.model_dump())
         return {"status":200, "message": "User created successfully"}
 
+@app.post('/verify')
+def handle_verified_request(abc: verifyUser):    # When a user wants to verify
+    logging.info(f"User: {abc.user_id} - Verification complete")
+
+    # Verification logic here
+    user = userCollection.find_one({"user_id": abc.user_id})
+    if user:
+        userCollection.update_one({"user_id": abc.user_id}, {"$set": {"isVerified": True}})
+        return {"status":200, "message": "User Verified"}
+    else:
+        return {"status":400, "message": "User not found"}
+
 @app.get('/borrow')
 def handle_borrow_request(user_id: str, title: str):    # When a user whants to borrow a book
     logging.info(f"User: {user_id} - Borrow: {title}")
@@ -182,16 +223,126 @@ def handle_return_request(user_id: str, title: str):    # When a user wants to r
         logging.error(f"Error returning book: {e}")
         return {"status":400, "message": "Book Return Failed"}
 
-@app.post('/login')
-def handle_login_request(request: validateUser):    # When a user wants to login
-    logging.info(f"User: {request.user_id} - Login")
+@app.get('/userDetails')
+def get_user_details(user_id: str):   # When a user wants to get details
+    logging.info(f"User: {user_id} - Requested Details")
 
-    # Login logic here
-    user = userCollection.find_one({"user_id": request.user_id, "password": request.password})
+    # User details logic here
+    user = userCollection.find_one({"user_id": user_id})
+    user = convert_objectid(user)
     if user:
-        return {"status":200, "message": "Login Successful", "user_id": user["user_id"], "name": user["name"], "role": user["role"]}
+        return user
     else:
-        return {"status":400, "message": "Login Failed"}
+        return {"status":400, "message": "User not found"}
+
+@app.post('/requestBorrow')
+def handle_request_borrow(data: BookRequest):    # When a user wants to request a borrow
+    logging.info(f"User: {data.user_id} - Requested Borrow: {data.title}")
+
+    # Request borrow logic here
+    bookData = collection.find_one({"title": data.title})
+    if data.user_id == bookData['user_id']:
+        return {"status": 400, "message": "You cannot borrow your own book"}
+    if not bookData:
+        return {"status": 400, "message": "Book not found"}
+    request = requestCollection.find()
+    for req in request:
+        if req['title'] == data.title and req['user_id'] == data.user_id:
+            return {"status": 400, "message": "Request already sent"}
+                
+    bookRequest = RequestModel(title=data.title, user_id=data.user_id, owner_id=bookData['user_id'], response=0)
+    requestCollection.insert_one(bookRequest.model_dump())
+    return {"status": 200, "message": "Request sent"}
+
+@app.post('/acceptRequest')
+def handle_accept_request(request: BookRequest):    # When a user wants to accept a request
+    logging.info(f"User: {request.user_id} - Accept Request: {request.title}")
+
+    # Accept request logic here
+    doc = requestCollection.find()
+    for data in doc:
+        if data['title'] == request.title and data['user_id'] == request.user_id:
+            if data['response'] == 1:
+                return {"status": 400, "message": "Request already accepted"}
+            else:
+                requestCollection.update_one({"title": request.title, "user_id": request.user_id}, {"$set": {"response": 1}})
+                collection.update_one({"title": request.title}, {"$set": {"available": False, "borrowed_by": request.user_id}})
+                registerCollection.insert_one({"user_id": request.user_id, "title": request.title, "borrowed_on": datetime.now().isoformat()})
+                return {"status": 200, "message": "Request accepted"}
+    return {"status": 400, "message": "Request not found"}
+
+@app.post('/cancelRequest')
+def handle_cancel_request(request: BookRequest):    # When a user wants to cancel a request
+    logging.info(f"User: {request.user_id} - Cancel Request: {request.title}")
+
+    # Cancel request logic here
+    doc = requestCollection.find()
+    for data in doc:
+        if data['title'] == request.title and data['user_id'] == request.user_id:
+            if data['response'] == 1:
+                return {"status": 400, "message": "Request already accepted"}
+            elif data['response'] == -1:
+                return {"status": 400, "message": "Request already rejected"}
+            else:
+                requestCollection.delete_one({"title": request.title, "user_id": request.user_id})
+                return {"status": 200, "message": "Request cancelled"}
+    return {"status": 400, "message": "Request not found"}
+
+@app.post('/rejectRequest')
+def handle_reject_request(request: BookRequest):
+    logging.info(f"User: {request.user_id} - Reject Request: {request.title}")
+
+    # Reject request logic here
+    doc = requestCollection.find()
+    for data in doc:
+        if data['title'] == request.title and data['user_id'] == request.user_id:
+            if data['response'] == 1:
+                return {"status": 400, "message": "Request already accepted"}
+            elif data['response'] == -1:
+                return {"status": 400, "message": "Request already rejected"}
+            else:
+                requestCollection.update_one({"title": request.title, "user_id": request.user_id}, {"$set": {"response": -1}})
+                return {"status": 200, "message": "Request rejected"}
+    return {"status": 400, "message": "Request not found"}
+
+@app.get('/requests')
+def get_requests(user_id: str):
+    logging.info(f"User: {user_id} - Requests")
+
+    # Get requests logic here
+    incoming = []
+    data = requestCollection.find({"owner_id": user_id}, {'_id': 0})
+    for req in data:
+        if req['response'] == 0:
+            incoming.append(req)
+    outgoing = []
+    data = requestCollection.find({"user_id": user_id}, {'_id': 0})
+    for req in data:
+        outgoing.append(req)
+    return {"incoming": incoming, "outgoing": outgoing}
+
+@app.post('/updateUserSchema')
+def update_user_schema():
+    logging.info("Updating user schema with new keys")
+
+    # Get the fields from the userDetails class
+    user_details_fields = userDetails.__fields__
+
+    # Prepare the new keys and their default values
+    new_keys = {field: field_info.default for field, field_info in user_details_fields.items()}
+
+    # Update all documents in the userCollection
+    try:
+        for user in userCollection.find():
+            update_fields = {key: value for key, value in new_keys.items() if key not in user}
+            if update_fields:
+                userCollection.update_one({"_id": user["_id"]}, {"$set": update_fields})
+        logging.info("User schema updated successfully")
+        return {"status": 200, "message": "User schema updated successfully"}
+    except Exception as e:
+        logging.error(f"Error updating user schema: {e}")
+        return {"status": 500, "message": "Error updating user schema"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
+    # os.system('ngrok http --url=ghoul-nearby-daily.ngrok-free.app 8000')
