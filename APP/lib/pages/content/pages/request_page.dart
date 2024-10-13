@@ -16,6 +16,7 @@ class RequestPage extends StatefulWidget {
 }
 
 class _RequestPageState extends State<RequestPage> {
+  late final int resposneValue;
   final StreamController<RequestData> _streamController =
       StreamController.broadcast();
 
@@ -36,13 +37,14 @@ class _RequestPageState extends State<RequestPage> {
     final response = await http.post(url, body: json.encode(request), headers: {
       'Content-Type': 'application/json',
     });
-    setState(() {
-      if (response.statusCode == 200) {
-        fetchRequestData(FirebaseAuth.instance.currentUser!.uid);
-      } else {
-        d.log('Failed to accept request: ${response.statusCode}');
-      }
-    });
+
+    if (response.statusCode == 200) {
+      setState(() {
+        fetchRequestData(userId);
+      });
+    } else {
+      d.log('Failed to accept request: ${response.statusCode}');
+    }
   }
 
   Future<void> rejectRequest(String title, String userId) async {
@@ -56,13 +58,13 @@ class _RequestPageState extends State<RequestPage> {
     final response = await http.post(url, body: json.encode(request), headers: {
       'Content-Type': 'application/json',
     });
-    setState(() {
-      if (response.statusCode == 200) {
-        fetchRequestData(FirebaseAuth.instance.currentUser!.uid);
-      } else {
-        d.log('Failed to reject request: ${response.statusCode}');
-      }
-    });
+    if (response.statusCode == 200) {
+      setState(() {
+        fetchRequestData(userId);
+      });
+    } else {
+      d.log('Failed to reject request: ${response.statusCode}');
+    }
   }
 
   Future<void> cancelRequest(String title, String userId) async {
@@ -76,13 +78,13 @@ class _RequestPageState extends State<RequestPage> {
     final response = await http.post(url, body: json.encode(request), headers: {
       'Content-Type': 'application/json',
     });
-    setState(() {
-      if (response.statusCode == 200) {
-        fetchRequestData(FirebaseAuth.instance.currentUser!.uid);
-      } else {
-        d.log('Failed to cancel request: ${response.statusCode}');
-      }
-    });
+    if (response.statusCode == 200) {
+      setState(() {
+        fetchRequestData(userId);
+      });
+    } else {
+      d.log('Failed to cancel request: ${response.statusCode}');
+    }
   }
 
   Future<void> fetchRequestData(String userId) async {
@@ -94,6 +96,13 @@ class _RequestPageState extends State<RequestPage> {
       if (response.statusCode == 200) {
         final data = json.decode(response.body) as Map<String, dynamic>;
         final requestData = RequestData.fromJson(data);
+
+        // Fetch response data for all outgoing requests
+        for (var request in requestData.outgoing) {
+          request.response =
+              await fetchResponseData(request.userId, request.title);
+        }
+
         _streamController.add(requestData);
       } else {
         d.log('Failed to load requests: ${response.statusCode}');
@@ -102,6 +111,19 @@ class _RequestPageState extends State<RequestPage> {
     } catch (e) {
       d.log('Failed to load requests: $e');
       _streamController.addError('Failed to load requests');
+    }
+  }
+
+  Future<int> fetchResponseData(String userId, String title) async {
+    final url = Uri.parse(
+        'https://ghoul-nearby-daily.ngrok-free.app/response?user_id=$userId&title=$title');
+    final response = await http.get(url);
+
+    if (response.statusCode == 200) {
+      return json.decode(response.body)['response'];
+    } else {
+      d.log('Failed to load response: ${response.statusCode}');
+      return -2; // Indicate an error
     }
   }
 
@@ -334,27 +356,45 @@ class _RequestPageState extends State<RequestPage> {
                             itemCount: requests.length,
                             itemBuilder: (context, index) {
                               final request = requests[index];
+
                               return ListTile(
                                 title: Text(request.title),
-                                subtitle: const Text(
-                                    'Book has yet to be accepted',
-                                    style: TextStyle(fontSize: 12)),
-                                trailing: SizedBox(
-                                  width: 48,
-                                  child: Row(
-                                    children: [
-                                      IconButton(
-                                        icon: const Icon(
-                                          Icons.close,
-                                          color: Colors.red,
-                                          size: 30,
-                                        ),
-                                        onPressed: () => cancelRequest(
-                                            request.title, request.userId),
-                                      )
-                                    ],
+                                subtitle: Text(
+                                  request.response == 0
+                                      ? 'Book has yet to be accepted'
+                                      : request.response == 1
+                                          ? 'Book has been accepted'
+                                          : request.response == -1
+                                              ? 'Book has been rejected'
+                                              : 'Error getting status of the book',
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    color: request.response == 1
+                                        ? Colors.green
+                                        : request.response == -1
+                                            ? Colors.red
+                                            : Colors.black,
                                   ),
                                 ),
+                                trailing: request.response == 0
+                                    ? SizedBox(
+                                        width: 48,
+                                        child: Row(
+                                          children: [
+                                            IconButton(
+                                              icon: const Icon(
+                                                Icons.close,
+                                                color: Colors.red,
+                                                size: 30,
+                                              ),
+                                              onPressed: () => cancelRequest(
+                                                  request.title,
+                                                  request.userId),
+                                            ),
+                                          ],
+                                        ),
+                                      )
+                                    : null,
                               );
                             },
                           ),

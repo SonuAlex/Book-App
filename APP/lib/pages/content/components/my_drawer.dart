@@ -39,7 +39,18 @@ class MyDrawer extends StatelessWidget {
               MyDrawerTile(
                 icon: const Icon(Icons.bookmark),
                 title: 'Borrowed Books',
-                onTap: () => Navigator.pop(context),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/borrowed_books_page');
+                },
+              ),
+              MyDrawerTile(
+                icon: const Icon(Icons.library_books_outlined),
+                title: 'My Books',
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/owned_books_page');
+                },
               ),
             ],
           ),
@@ -47,11 +58,11 @@ class MyDrawer extends StatelessWidget {
             padding: const EdgeInsets.only(bottom: 25.0),
             child: Column(
               children: [
-                MyDrawerTile(
-                  icon: const Icon(Icons.settings),
-                  title: 'Settings',
-                  onTap: () => Navigator.pop(context),
-                ),
+                // MyDrawerTile(
+                //   icon: const Icon(Icons.settings),
+                //   title: 'Settings',
+                //   onTap: () => Navigator.pop(context),
+                // ),
                 MyDrawerTile(
                   icon: const Icon(Icons.logout),
                   title: 'Logout',

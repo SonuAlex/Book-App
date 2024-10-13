@@ -61,10 +61,10 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ],
           ),
-          floatingActionButton: FloatingActionButton(
-            onPressed: () {},
-            child: const Icon(Icons.edit),
-          ),
+          // floatingActionButton: FloatingActionButton(
+          //   onPressed: () {},
+          //   child: const Icon(Icons.edit),
+          // ),
           body: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Center(

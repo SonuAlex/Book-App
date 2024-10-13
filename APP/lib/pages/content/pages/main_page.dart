@@ -55,7 +55,7 @@ class _MainPageState extends State<MainPage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () => Navigator.pushNamed(context, '/bookMainPage'),
         child: const Icon(Icons.add),
       ),
       drawer: const MyDrawer(),

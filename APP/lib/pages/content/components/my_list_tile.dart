@@ -23,10 +23,28 @@ class MyListTile extends StatelessWidget {
           title: Text(
             book.title!,
             style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            overflow: TextOverflow.ellipsis,
           ),
-          subtitle: Text(
-            book.author!,
-            style: const TextStyle(fontSize: 16),
+          subtitle: SizedBox(
+            height: 50,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  book.author!,
+                  style: const TextStyle(fontSize: 16),
+                  overflow: TextOverflow.ellipsis,
+                ),
+                Text(
+                  book.isAvailable! ? 'Available' : 'Not Available',
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: book.isAvailable! ? Colors.green : Colors.red,
+                  ),
+                ),
+              ],
+            ),
           ),
           trailing: const Icon(Icons.arrow_forward_rounded),
           onTap: () {

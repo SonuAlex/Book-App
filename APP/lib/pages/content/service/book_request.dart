@@ -2,7 +2,7 @@ class BookRequest {
   final String title;
   final String userId;
   final String ownerId;
-  final int response;
+  int response;
 
   BookRequest({
     required this.title,
@@ -38,6 +38,20 @@ class RequestData {
     return RequestData(
       incoming: parseRequests(json['incoming']),
       outgoing: parseRequests(json['outgoing']),
+    );
+  }
+}
+
+class ResponseData {
+  final int response;
+
+  ResponseData({
+    required this.response,
+  });
+
+  factory ResponseData.fromJson(Map<String, dynamic> json) {
+    return ResponseData(
+      response: json['response'],
     );
   }
 }

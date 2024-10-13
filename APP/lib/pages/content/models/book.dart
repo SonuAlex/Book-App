@@ -36,7 +36,7 @@ class Book {
 
   Future<String> getName(userId) async {
     final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=$userId');
+        'https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=$userId');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -47,7 +47,7 @@ class Book {
     }
   }
 
-  Future<String> requestBook(title) async {
+  Future<void> requestBook(title) async {
     final url =
         Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/requestBorrow');
     final Map<String, dynamic> request = {
@@ -61,8 +61,6 @@ class Book {
 
     Map<String, dynamic> data = jsonDecode(response.body);
     d.log('${data.toString()} for the book $title');
-
-    return '';
 
     // if (response.statusCode == 200) {
     //   if(response['status'] == 400) {
