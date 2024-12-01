@@ -25,7 +25,7 @@ class StoreUser {
 
   Future<void> addUser() async {
     // Add user using api
-    final url = Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/user');
+    final url = Uri.parse('http://172.25.246.253:8000/user');
     Map<String, dynamic> request = {
       'user_id': userId,
       'name': fullName,
@@ -47,7 +47,7 @@ class StoreUser {
   }
 
   Future<void> verifyUser() async {
-    final url = Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/verify');
+    final url = Uri.parse('http://172.25.246.253:8000/verify');
     Map<String, dynamic> request = {
       'user_id': userId,
     };
@@ -66,8 +66,8 @@ class StoreUser {
   }
 
   Future<Map<String, dynamic>> getUser(getUserId) async {
-    final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=$getUserId');
+    final url =
+        Uri.parse('http://172.25.246.253:8000/userDetails?user_id=$getUserId');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -79,8 +79,8 @@ class StoreUser {
 
   Future<bool> hasRequested(title, userId, ownerId) async {
     try {
-      final url = Uri.parse(
-          'https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=$userId');
+      final url =
+          Uri.parse('http://172.25.246.253:8000/requests?user_id=$userId');
       final response = await http.get(url);
       final data = json.decode(response.body)['outgoing'];
       for (var request in data) {

@@ -54,7 +54,9 @@ class BookMainPage extends StatelessWidget {
                 ),
               ),
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/image_options_page');
+                },
                 child: const Text('By Cover Image'),
               ),
             ),

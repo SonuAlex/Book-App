@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:developer' as d;
 
-import 'package:ddbookstore/pages/content/models/book.dart';
 import 'package:ddbookstore/pages/content/service/book_request.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -28,8 +27,7 @@ class _RequestPageState extends State<RequestPage> {
 
   Future<void> acceptRequest(String title, String userId) async {
     // Implement accept request logic here
-    final url =
-        Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/acceptRequest');
+    final url = Uri.parse('http://172.25.246.253:8000/acceptRequest');
     final Map<String, dynamic> request = {
       'title': title,
       'user_id': userId,
@@ -40,7 +38,7 @@ class _RequestPageState extends State<RequestPage> {
 
     if (response.statusCode == 200) {
       setState(() {
-        fetchRequestData(userId);
+        fetchRequestData(FirebaseAuth.instance.currentUser!.uid);
       });
     } else {
       d.log('Failed to accept request: ${response.statusCode}');
@@ -49,8 +47,7 @@ class _RequestPageState extends State<RequestPage> {
 
   Future<void> rejectRequest(String title, String userId) async {
     // Implement reject request logic here
-    final url =
-        Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/rejectRequest');
+    final url = Uri.parse('http://172.25.246.253:8000/rejectRequest');
     final Map<String, dynamic> request = {
       'title': title,
       'user_id': userId,
@@ -60,7 +57,7 @@ class _RequestPageState extends State<RequestPage> {
     });
     if (response.statusCode == 200) {
       setState(() {
-        fetchRequestData(userId);
+        fetchRequestData(FirebaseAuth.instance.currentUser!.uid);
       });
     } else {
       d.log('Failed to reject request: ${response.statusCode}');
@@ -69,8 +66,7 @@ class _RequestPageState extends State<RequestPage> {
 
   Future<void> cancelRequest(String title, String userId) async {
     // Implement cancel request logic here
-    final url =
-        Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/cancelRequest');
+    final url = Uri.parse('http://172.25.246.253:8000/cancelRequest');
     final Map<String, dynamic> request = {
       'title': title,
       'user_id': userId,
@@ -80,7 +76,7 @@ class _RequestPageState extends State<RequestPage> {
     });
     if (response.statusCode == 200) {
       setState(() {
-        fetchRequestData(userId);
+        fetchRequestData(FirebaseAuth.instance.currentUser!.uid);
       });
     } else {
       d.log('Failed to cancel request: ${response.statusCode}');
@@ -88,8 +84,8 @@ class _RequestPageState extends State<RequestPage> {
   }
 
   Future<void> fetchRequestData(String userId) async {
-    final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=$userId');
+    final url =
+        Uri.parse('http://172.25.246.253:8000/requests?user_id=$userId');
     try {
       final response = await http.get(url);
 
@@ -116,7 +112,7 @@ class _RequestPageState extends State<RequestPage> {
 
   Future<int> fetchResponseData(String userId, String title) async {
     final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/response?user_id=$userId&title=$title');
+        'http://172.25.246.253:8000/response?user_id=$userId&title=$title');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -206,99 +202,49 @@ class _RequestPageState extends State<RequestPage> {
                             itemBuilder: (context, index) {
                               final request = requests[index];
 
-                              return FutureBuilder<String>(
-                                future: Book().getName(request.userId),
-                                builder: (context, snapshot) {
-                                  if (snapshot.connectionState ==
-                                      ConnectionState.waiting) {
-                                    return const ListTile(
-                                      title: Text('Loading...'),
-                                    );
-                                  } else if (snapshot.hasError) {
-                                    return ListTile(
-                                      title: Text(request.title),
-                                      subtitle: const Text(
-                                          'Failed to load user name',
-                                          style: TextStyle(fontSize: 12)),
-                                      trailing: SizedBox(
-                                        width: 100,
-                                        child: Row(
-                                          children: [
-                                            IconButton(
-                                              icon: const Icon(
-                                                Icons.check,
-                                                color: Colors.green,
-                                                size: 30,
-                                              ),
-                                              onPressed: () => acceptRequest(
-                                                  request.title,
-                                                  request.userId),
-                                            ),
-                                            IconButton(
-                                              icon: const Icon(
-                                                Icons.close,
-                                                color: Colors.red,
-                                                size: 30,
-                                              ),
-                                              onPressed: () => rejectRequest(
-                                                  request.title,
-                                                  request.userId),
-                                            )
-                                          ],
-                                        ),
+                              return ListTile(
+                                title: Text(request.title),
+                                subtitle: RichText(
+                                  text: TextSpan(
+                                    children: [
+                                      const TextSpan(
+                                        text: 'Requested by: ',
+                                        style: TextStyle(
+                                            fontSize: 12, color: Colors.black),
                                       ),
-                                    );
-                                  } else {
-                                    return ListTile(
-                                      title: Text(request.title),
-                                      subtitle: RichText(
-                                        text: TextSpan(
-                                          children: [
-                                            const TextSpan(
-                                              text: 'Requested by: ',
-                                              style: TextStyle(
-                                                  fontSize: 12,
-                                                  color: Colors.black),
-                                            ),
-                                            TextSpan(
-                                              text: snapshot.data,
-                                              style: const TextStyle(
-                                                  fontSize: 12,
-                                                  color: Colors.green),
-                                            ),
-                                          ],
-                                        ),
+                                      TextSpan(
+                                        text: request.requestedBy,
+                                        style: const TextStyle(
+                                            fontSize: 12, color: Colors.green),
                                       ),
-                                      trailing: SizedBox(
-                                        width: 100,
-                                        child: Row(
-                                          children: [
-                                            IconButton(
-                                              icon: const Icon(
-                                                Icons.check,
-                                                color: Colors.green,
-                                                size: 30,
-                                              ),
-                                              onPressed: () => acceptRequest(
-                                                  request.title,
-                                                  request.userId),
-                                            ),
-                                            IconButton(
-                                              icon: const Icon(
-                                                Icons.close,
-                                                color: Colors.red,
-                                                size: 30,
-                                              ),
-                                              onPressed: () => rejectRequest(
-                                                  request.title,
-                                                  request.userId),
-                                            )
-                                          ],
+                                    ],
+                                  ),
+                                ),
+                                trailing: SizedBox(
+                                  width: 100,
+                                  child: Row(
+                                    children: [
+                                      IconButton(
+                                        icon: const Icon(
+                                          Icons.check,
+                                          color: Colors.green,
+                                          size: 30,
                                         ),
+                                        onPressed: () => acceptRequest(
+                                            request.title, request.userId),
                                       ),
-                                    );
-                                  }
-                                },
+                                      IconButton(
+                                        icon: const Icon(
+                                          Icons.close,
+                                          color: Colors.red,
+                                          size: 30,
+                                        ),
+                                        onPressed: () => rejectRequest(
+                                            request.title, request.userId),
+                                      )
+                                    ],
+                                  ),
+                                ),
                               );
                             },
                           ),
@@ -357,45 +303,49 @@ class _RequestPageState extends State<RequestPage> {
                             itemBuilder: (context, index) {
                               final request = requests[index];
 
-                              return ListTile(
-                                title: Text(request.title),
-                                subtitle: Text(
-                                  request.response == 0
-                                      ? 'Book has yet to be accepted'
-                                      : request.response == 1
-                                          ? 'Book has been accepted'
+                              if (request.response == 0) {
+                                return ListTile(
+                                  title: Text(request.title),
+                                  subtitle: Text(
+                                    // request.response == 0 ?
+                                    'Book has yet to be accepted',
+                                    // : request.response == 1
+                                    //     ? 'Book has been accepted'
+                                    //     : request.response == -1
+                                    //         ? 'Book has been rejected'
+                                    //         : 'Error getting status of the book',
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                      color: request.response == 1
+                                          ? Colors.green
                                           : request.response == -1
-                                              ? 'Book has been rejected'
-                                              : 'Error getting status of the book',
-                                  style: TextStyle(
-                                    fontSize: 12,
-                                    color: request.response == 1
-                                        ? Colors.green
-                                        : request.response == -1
-                                            ? Colors.red
-                                            : Colors.black,
+                                              ? Colors.red
+                                              : Colors.black,
+                                    ),
                                   ),
-                                ),
-                                trailing: request.response == 0
-                                    ? SizedBox(
-                                        width: 48,
-                                        child: Row(
-                                          children: [
-                                            IconButton(
-                                              icon: const Icon(
-                                                Icons.close,
-                                                color: Colors.red,
-                                                size: 30,
+                                  trailing: request.response == 0
+                                      ? SizedBox(
+                                          width: 48,
+                                          child: Row(
+                                            children: [
+                                              IconButton(
+                                                icon: const Icon(
+                                                  Icons.close,
+                                                  color: Colors.red,
+                                                  size: 30,
+                                                ),
+                                                onPressed: () => cancelRequest(
+                                                    request.title,
+                                                    request.userId),
                                               ),
-                                              onPressed: () => cancelRequest(
-                                                  request.title,
-                                                  request.userId),
-                                            ),
-                                          ],
-                                        ),
-                                      )
-                                    : null,
-                              );
+                                            ],
+                                          ),
+                                        )
+                                      : null,
+                                );
+                              } else {
+                                return const ListTile();
+                              }
                             },
                           ),
                         );

@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "223193146846",
     "project_id": "bookstore-910aa",
-    "storage_bucket": "bookstore-910aa.appspot.com"
+    "storage_bucket": "bookstore-910aa.firebasestorage.app"
   },
   "client": [
     {

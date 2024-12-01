@@ -2,7 +2,7 @@ import 'package:ddbookstore/firebase_options.dart';
 import 'package:ddbookstore/pages/bookInsertion/pages/book_main_page.dart';
 import 'package:ddbookstore/pages/bookInsertion/pages/book_title_entry.dart';
 import 'package:ddbookstore/pages/bookInsertion/pages/display_details_page.dart';
-import 'package:ddbookstore/pages/bookInsertion/pages/loading_page.dart';
+import 'package:ddbookstore/pages/bookInsertion/pages/image_options_page.dart';
 import 'package:ddbookstore/pages/content/pages/book_details_page.dart';
 import 'package:ddbookstore/pages/content/pages/borrowed_books_page.dart';
 import 'package:ddbookstore/pages/content/pages/main_page.dart';
@@ -48,8 +48,8 @@ class MyApp extends StatelessWidget {
         // Book Entry Pages
         '/bookMainPage': (context) => const BookMainPage(),
         '/bookTitleEntry': (context) => const BookTitleEntry(),
-        '/titleLoadingPage': (context) => const LoadingPage(),
         '/displayDetailsPage': (context) => const DisplayDetailsPage(),
+        '/image_options_page': (context) => const ImageOptionsPage(),
       },
     );
   }

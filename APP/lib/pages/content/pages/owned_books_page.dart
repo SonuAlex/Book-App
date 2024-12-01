@@ -15,8 +15,8 @@ class OwnedBooksPage extends StatefulWidget {
 class _OwnedBooksPageState extends State<OwnedBooksPage> {
   Future<List<Map<String, dynamic>>> fetchOwnedBooks() async {
     final userId = FirebaseAuth.instance.currentUser!.uid;
-    final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=$userId');
+    final url =
+        Uri.parse('http://172.25.246.253:8000/ownedBooks?user_id=$userId');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -39,8 +39,7 @@ class _OwnedBooksPageState extends State<OwnedBooksPage> {
   }
 
   Future<void> deleteBook(String title) async {
-    final url =
-        Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/deleteBook');
+    final url = Uri.parse('http://172.25.246.253:8000/deleteBook');
     final Map<String, dynamic> request = {
       'title': title,
       'user_id': FirebaseAuth.instance.currentUser!.uid,

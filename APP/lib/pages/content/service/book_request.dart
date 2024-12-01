@@ -2,12 +2,14 @@ class BookRequest {
   final String title;
   final String userId;
   final String ownerId;
+  final String requestedBy;
   int response;
 
   BookRequest({
     required this.title,
     required this.userId,
     required this.ownerId,
+    required this.requestedBy,
     required this.response,
   });
 
@@ -16,6 +18,7 @@ class BookRequest {
       title: json['title'],
       userId: json['user_id'],
       ownerId: json['owner_id'],
+      requestedBy: json['requested_by'],
       response: json['response'],
     );
   }
