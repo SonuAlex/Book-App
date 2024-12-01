@@ -1,0 +1,8 @@
+2024-10-20 16:55:41,270 - INFO - All Books Request
+2024-10-20 16:55:41,330 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-20 16:55:48,116 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Cover Request
+2024-10-20 16:55:49,918 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-20 16:55:50,088 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: ALGORITHMS MADE EASY
+2024-10-20 16:55:50,911 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-20 17:08:01,806 - INFO - All Books Request
+2024-10-20 17:08:01,811 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
