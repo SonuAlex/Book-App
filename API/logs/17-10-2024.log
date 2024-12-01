@@ -1,0 +1,127 @@
+2024-10-17 22:32:24,298 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - User Created
+2024-10-17 22:32:24,335 - INFO - POST http://localhost:8000/user - Status: 200
+2024-10-17 22:35:58,201 - INFO - All Books Request
+2024-10-17 22:35:58,207 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-17 22:35:59,859 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-17 22:35:59,863 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:36:26,344 - INFO - All Books Request
+2024-10-17 22:36:26,349 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-17 22:36:41,105 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Details
+2024-10-17 22:36:41,108 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:36:51,792 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:36:51,801 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:36:56,142 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Details
+2024-10-17 22:36:56,145 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:06,500 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Owned Books
+2024-10-17 22:37:06,503 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:10,635 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:10,638 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:10,674 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:10,678 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:15,241 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Borrow: Steve Jobs
+2024-10-17 22:37:15,243 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-17 22:37:15,514 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:15,517 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:15,541 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:15,542 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:18,143 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:18,146 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:18,169 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:18,172 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:19,164 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Borrow: Steve Jobs
+2024-10-17 22:37:19,166 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-17 22:37:19,404 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:19,407 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:19,412 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:19,415 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:20,565 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Borrow: Steve Jobs
+2024-10-17 22:37:20,567 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-17 22:37:20,804 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:20,806 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:20,812 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:20,815 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:29,877 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:29,878 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-17 22:37:29,881 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:29,883 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-17 22:37:30,664 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Borrow: Apple Confidential 2.0
+2024-10-17 22:37:30,666 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-17 22:37:30,915 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-17 22:37:30,915 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:30,917 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-17 22:37:30,922 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:33,488 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Borrowed Books
+2024-10-17 22:37:33,491 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:38,207 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:38,210 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:40,656 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:40,656 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:40,659 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:40,661 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:41,923 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Borrow: The Story of McDonaldÃ¢Â\x80Â\x99s
+2024-10-17 22:37:41,924 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-17 22:37:42,157 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 22:37:42,157 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:42,160 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 22:37:42,162 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 22:37:45,369 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 22:37:45,370 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-17 22:37:45,373 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-17 22:37:45,375 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 23:29:04,633 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Borrow: Mahanayak Narendra Modi
+2024-10-17 23:29:04,635 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-17 23:29:04,843 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-17 23:29:04,843 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requests
+2024-10-17 23:29:04,846 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-17 23:29:04,850 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 23:29:07,515 - INFO - User: LTFd8tkCFQZjNYdwVDpXb9950OO2 - Requested Details
+2024-10-17 23:29:07,519 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=LTFd8tkCFQZjNYdwVDpXb9950OO2 - Status: 200
+2024-10-17 23:29:19,737 - INFO - All Books Request
+2024-10-17 23:29:19,740 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-17 23:29:20,852 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-17 23:29:20,855 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-17 23:29:20,884 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 23:29:20,886 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 23:29:22,033 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requested Borrow: Steve Jobs
+2024-10-17 23:29:22,037 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-17 23:29:22,253 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 23:29:22,254 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-17 23:29:22,257 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 23:29:22,260 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-17 23:29:26,913 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-17 23:29:26,917 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-17 23:29:27,135 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Response for: Steve Jobs
+2024-10-17 23:29:27,137 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=3RvRclOzahdSynkNmgIH3cgyXP13&title=Steve%20Jobs - Status: 200
+2024-10-17 23:29:31,986 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-17 23:29:31,989 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-17 23:29:32,213 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Response for: Steve Jobs
+2024-10-17 23:29:32,215 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=3RvRclOzahdSynkNmgIH3cgyXP13&title=Steve%20Jobs - Status: 200
+2024-10-17 23:29:34,408 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-17 23:29:34,411 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-17 23:29:34,412 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-17 23:29:34,414 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-17 23:29:38,711 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requested Details
+2024-10-17 23:29:38,713 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-18 00:53:24,044 - INFO - All Books Request
+2024-10-18 00:53:24,049 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-18 00:53:29,190 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-18 00:53:29,194 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-18 00:53:29,311 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Response for: Steve Jobs
+2024-10-18 00:53:29,313 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=3RvRclOzahdSynkNmgIH3cgyXP13&title=Steve%20Jobs - Status: 200
+2024-10-18 00:53:37,598 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-18 00:53:37,602 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-18 00:53:37,622 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-18 00:53:37,625 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-18 00:53:45,191 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-18 00:53:45,192 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requests
+2024-10-18 00:53:45,194 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-18 00:53:45,197 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-18 00:53:48,443 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Requested Details
+2024-10-18 00:53:48,445 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=3RvRclOzahdSynkNmgIH3cgyXP13 - Status: 200
+2024-10-18 00:54:16,852 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Book: 
+2024-10-18 00:54:27,898 - ERROR - Error processing default request: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /books/v1/volumes?q= (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CCEF0A9650>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2024-10-18 00:54:27,900 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 500
+2024-10-18 00:54:35,576 - INFO - User: 3RvRclOzahdSynkNmgIH3cgyXP13 - Book: Harry Potter
+2024-10-18 00:54:39,510 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-18 00:55:19,378 - INFO - All Books Request
+2024-10-18 00:55:19,382 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200

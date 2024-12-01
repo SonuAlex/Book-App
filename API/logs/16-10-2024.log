@@ -1,0 +1,1349 @@
+2024-10-16 00:27:49,365 - INFO - All Books Request
+2024-10-16 00:27:49,377 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 00:27:55,975 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 00:27:55,979 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:27:58,334 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-10-16 00:27:58,337 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:00,693 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Owned Books
+2024-10-16 00:28:00,696 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:03,987 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-16 00:28:03,990 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:16,072 - INFO - All Books Request
+2024-10-16 00:28:16,075 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 00:28:17,499 - INFO - All Books Request
+2024-10-16 00:28:17,502 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 00:28:19,052 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:19,055 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:19,334 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Response for: David Copperfield
+2024-10-16 00:28:19,337 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852&title=David%20Copperfield - Status: 200
+2024-10-16 00:28:21,229 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Borrowed Books
+2024-10-16 00:28:21,232 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:23,260 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Owned Books
+2024-10-16 00:28:23,262 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:25,215 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requested Details
+2024-10-16 00:28:25,217 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:26,462 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:26,464 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:26,472 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:26,477 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:27,663 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:27,668 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:27,689 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:27,692 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:54,542 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:54,544 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:54,569 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:54,574 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:55,419 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:55,422 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:55,446 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:55,448 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:56,297 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:56,297 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:56,300 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:56,302 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:57,132 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:57,136 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:57,142 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:57,144 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:57,970 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:57,974 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:28:57,998 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:58,003 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:59,817 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:28:59,817 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:28:59,820 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:28:59,823 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:00,695 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:00,699 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:29:00,701 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:00,703 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:29:13,920 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:13,923 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:14,222 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Response for: David Copperfield
+2024-10-16 00:29:14,224 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852&title=David%20Copperfield - Status: 200
+2024-10-16 00:29:16,901 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Cancel Request: David Copperfield
+2024-10-16 00:29:16,905 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cancelRequest - Status: 200
+2024-10-16 00:29:17,190 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:17,192 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:19,624 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:19,625 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:29:19,627 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:29:19,630 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:20,341 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requested Borrow: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 00:29:20,347 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 00:29:20,582 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:29:20,584 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:29:20,600 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:20,603 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:21,991 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:29:21,993 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:29:21,995 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:21,998 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:23,240 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requested Borrow: David Copperfield
+2024-10-16 00:29:23,244 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 00:29:23,461 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 00:29:23,461 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:23,464 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 00:29:23,465 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:26,193 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:26,197 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:26,467 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Response for: David Copperfield
+2024-10-16 00:29:26,470 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852&title=David%20Copperfield - Status: 200
+2024-10-16 00:29:26,721 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 00:29:26,724 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 00:29:27,705 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Cancel Request: David Copperfield
+2024-10-16 00:29:27,707 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cancelRequest - Status: 200
+2024-10-16 00:29:27,975 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:27,978 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:28,252 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 00:29:28,255 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 00:29:29,770 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Cancel Request: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 00:29:29,773 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cancelRequest - Status: 200
+2024-10-16 00:29:30,071 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:30,073 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 00:29:31,498 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 00:29:31,501 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 09:28:33,963 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - User Created
+2024-10-16 09:28:33,983 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-16 09:28:34,323 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - User Created
+2024-10-16 09:28:34,326 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/user - Status: 200
+2024-10-16 09:29:04,204 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Verification complete
+2024-10-16 09:29:04,207 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-16 09:29:04,268 - INFO - All Books Request
+2024-10-16 09:29:04,271 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:29:04,707 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Verification complete
+2024-10-16 09:29:04,710 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/verify - Status: 200
+2024-10-16 09:29:43,563 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:29:45,726 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:29:45,968 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: STELLAR ACHIEVEMENT 2025 BATCH
+2024-10-16 09:29:47,561 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:30:07,625 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:30:07,629 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:30:07,794 - INFO - All Books Request
+2024-10-16 09:30:07,795 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: STELLAR ACHIEVEMENT 2025 BATCH
+2024-10-16 09:30:07,798 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:30:08,501 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:30:12,302 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:30:12,304 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:30:12,321 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:30:12,324 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:30:43,930 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:30:44,961 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:30:55,869 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:30:56,619 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:31:07,828 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:31:07,830 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:31:07,854 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:31:07,860 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:11,076 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:31:11,080 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:31:11,367 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:31:11,370 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:31:11,370 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:31:11,374 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:14,744 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:31:14,747 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:14,767 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:31:14,770 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:31:16,049 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: David Copperfield
+2024-10-16 09:31:16,053 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:31:16,311 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:31:16,316 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:16,580 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:31:16,583 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:31:20,317 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 09:31:20,320 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:32,112 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:31:32,115 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:32,322 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:31:32,325 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:31:32,621 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:31:32,624 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:31:42,977 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:31:42,980 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:43,162 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:31:43,165 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:31:43,372 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:31:43,375 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:31:50,450 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:31:50,453 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:31:59,822 - INFO - All Books Request
+2024-10-16 09:31:59,824 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:32:02,185 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 09:32:02,188 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 09:32:04,700 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 09:32:04,703 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 09:32:07,141 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:32:07,144 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:07,167 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requests
+2024-10-16 09:32:07,171 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 09:32:08,976 - INFO - User: vXDvrxIiAkSOuRHm3z0U7qNDC852 - Requested Details
+2024-10-16 09:32:08,978 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=vXDvrxIiAkSOuRHm3z0U7qNDC852 - Status: 200
+2024-10-16 09:32:09,548 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:32:09,551 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:09,731 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:32:09,733 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:32:09,884 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:32:09,886 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:32:17,395 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:32:17,396 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:32:17,398 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:17,400 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:25,488 - INFO - All Books Request
+2024-10-16 09:32:25,490 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:32:27,889 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:32:27,892 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:30,410 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Accept Request: David Copperfield
+2024-10-16 09:32:30,414 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:32:30,692 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:32:30,695 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:31,660 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Accept Request: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:32:31,663 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:32:31,929 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:32:31,931 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:36,172 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-16 09:32:36,175 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:38,246 - INFO - All Books Request
+2024-10-16 09:32:38,248 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:32:39,263 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:32:39,263 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:32:39,265 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:39,268 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:41,350 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:32:41,351 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:32:41,353 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:32:41,355 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:51,364 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:32:51,367 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:54,061 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Return: David Copperfield
+2024-10-16 09:32:54,064 - INFO - Book David Copperfield returned by OFZ1GqgndQdwK1T8PO6vlp3TEg22
+2024-10-16 09:32:54,066 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/return?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:32:54,250 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:32:54,252 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:32:56,152 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Return: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:32:56,155 - INFO - Book Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char returned by OFZ1GqgndQdwK1T8PO6vlp3TEg22
+2024-10-16 09:32:56,156 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/return?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:32:56,300 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:32:56,304 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:03,209 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:33:03,211 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:10,399 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:33:10,402 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:33:10,423 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:33:10,427 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:11,868 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:33:11,873 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:33:12,017 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:33:12,018 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:33:12,021 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:12,024 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:33:13,922 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:33:13,924 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:33:13,926 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:13,928 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:33:14,706 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: David Copperfield
+2024-10-16 09:33:14,710 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:33:15,010 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:33:15,010 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:33:15,013 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:33:15,015 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:18,000 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:33:18,004 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:18,198 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:33:18,200 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:33:18,501 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:33:18,503 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:33:21,791 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:33:21,792 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:25,591 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:33:25,593 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:34,373 - INFO - All Books Request
+2024-10-16 09:33:34,376 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:33:50,408 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:33:50,410 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:53,299 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:33:53,303 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:33:53,432 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:33:53,435 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:33:53,597 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:33:53,599 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:33:56,062 - INFO - All Books Request
+2024-10-16 09:33:56,064 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:33:58,138 - INFO - All Books Request
+2024-10-16 09:33:58,140 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:34:00,478 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:34:00,481 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:03,547 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:34:03,548 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:34:03,550 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:34:03,552 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:19,543 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Owned Books
+2024-10-16 09:34:19,547 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:22,687 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - wants to delete : Mathematical Methods
+2024-10-16 09:34:22,688 - INFO - Book Mathematical Methods deleted by OFZ1GqgndQdwK1T8PO6vlp3TEg22
+2024-10-16 09:34:22,690 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/deleteBook - Status: 200
+2024-10-16 09:34:22,985 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Owned Books
+2024-10-16 09:34:22,987 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:25,286 - INFO - All Books Request
+2024-10-16 09:34:25,289 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:34:32,803 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 09:34:32,806 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:47,508 - INFO - All Books Request
+2024-10-16 09:34:47,523 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:34:50,647 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:34:50,647 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:34:50,650 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:34:50,653 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:55,100 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:34:55,100 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:34:55,103 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:34:55,105 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:57,150 - INFO - All Books Request
+2024-10-16 09:34:57,152 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:34:59,423 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:34:59,426 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:34:59,428 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:34:59,430 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:35:00,098 - INFO - All Books Request
+2024-10-16 09:35:00,100 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:35:01,952 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:35:01,954 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:35:01,966 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:35:01,969 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:35:02,212 - INFO - All Books Request
+2024-10-16 09:35:02,215 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:35:04,692 - INFO - All Books Request
+2024-10-16 09:35:04,695 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:35:05,742 - INFO - All Books Request
+2024-10-16 09:35:05,744 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:35:27,874 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:35:29,511 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:35:31,495 - INFO - All Books Request
+2024-10-16 09:35:31,498 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:35:43,203 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:35:43,682 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:36:00,063 - INFO - All Books Request
+2024-10-16 09:36:00,065 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:36:17,658 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:36:18,112 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:37:08,220 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:37:09,261 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:37:23,496 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:37:24,021 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:38:24,889 - INFO - All Books Request
+2024-10-16 09:38:24,891 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:38:26,175 - INFO - All Books Request
+2024-10-16 09:38:26,177 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:38:27,167 - INFO - All Books Request
+2024-10-16 09:38:27,170 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:38:27,727 - INFO - All Books Request
+2024-10-16 09:38:27,729 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:38:28,330 - INFO - All Books Request
+2024-10-16 09:38:28,333 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:39:50,975 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: diary of young girl
+2024-10-16 09:39:54,961 - ERROR - Error processing request: 'imageLinks'
+2024-10-16 09:40:16,129 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: the diary of young girl
+2024-10-16 09:40:17,000 - ERROR - Error processing request: 'imageLinks'
+2024-10-16 09:40:40,815 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Anne Frank
+2024-10-16 09:40:41,684 - ERROR - Error processing request: 'imageLinks'
+2024-10-16 09:41:01,057 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: The diary of a young girl
+2024-10-16 09:41:01,871 - ERROR - Error processing request: 'imageLinks'
+2024-10-16 09:41:09,583 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: The diary of a young girl
+2024-10-16 09:41:10,287 - ERROR - Error processing request: 'imageLinks'
+2024-10-16 09:42:04,843 - INFO - User: Sonu - Book: The diary of a young girl
+2024-10-16 09:42:05,779 - ERROR - Error processing request: 'imageLinks'
+2024-10-16 09:42:10,244 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Cover Request
+2024-10-16 09:42:11,970 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-10-16 09:42:58,437 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:42:58,440 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:42:58,442 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:42:58,444 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:43:02,976 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:43:02,979 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:43:06,354 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Borrowed Books
+2024-10-16 09:43:06,356 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:43:10,077 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Owned Books
+2024-10-16 09:43:10,079 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:43:14,215 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:43:14,218 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:43:14,355 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:43:14,357 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:43:14,506 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:43:14,508 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:43:18,903 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 09:43:18,906 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:44:59,672 - INFO - All Books Request
+2024-10-16 09:44:59,697 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:45:07,742 - INFO - User: Sonu - Book: The diary of a young girl
+2024-10-16 09:45:08,722 - INFO - POST http://localhost:8000/book - Status: 200
+2024-10-16 09:45:20,967 - INFO - User: Sonu - Book: Anne Frank
+2024-10-16 09:45:21,737 - INFO - POST http://localhost:8000/book - Status: 200
+2024-10-16 09:45:27,167 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: The diary of the young Girl
+2024-10-16 09:45:27,958 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:45:31,840 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:45:31,845 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:45:32,006 - INFO - All Books Request
+2024-10-16 09:45:32,010 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:45:32,013 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: The diary of the young Girl
+2024-10-16 09:45:32,721 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:46:20,762 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Anne Frank
+2024-10-16 09:46:21,469 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:46:23,792 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:46:23,797 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:46:23,972 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Anne Frank
+2024-10-16 09:46:23,983 - INFO - All Books Request
+2024-10-16 09:46:23,985 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:46:24,796 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:46:34,016 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Captain 
+2024-10-16 09:46:39,922 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:46:42,738 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:46:42,741 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:46:42,975 - INFO - All Books Request
+2024-10-16 09:46:42,978 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:46:42,987 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Captain 
+2024-10-16 09:46:48,643 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:46:53,165 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Nothing 
+2024-10-16 09:46:54,116 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:46:55,582 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:46:55,585 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:46:55,728 - INFO - All Books Request
+2024-10-16 09:46:55,730 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:46:55,739 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Nothing 
+2024-10-16 09:46:56,696 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:02,019 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Love
+2024-10-16 09:47:03,687 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:09,368 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:47:09,371 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:47:09,511 - INFO - All Books Request
+2024-10-16 09:47:09,515 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:47:09,516 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Love
+2024-10-16 09:47:17,402 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:19,458 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Gokuk
+2024-10-16 09:47:20,217 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:22,266 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:47:22,269 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:47:22,563 - INFO - All Books Request
+2024-10-16 09:47:22,563 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Gokuk
+2024-10-16 09:47:22,566 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:47:23,187 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:28,829 - INFO - All Books Request
+2024-10-16 09:47:28,833 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:47:29,378 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Gokul
+2024-10-16 09:47:30,179 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:33,653 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:47:33,656 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:47:33,850 - INFO - All Books Request
+2024-10-16 09:47:33,851 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Gokul
+2024-10-16 09:47:33,854 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:47:39,645 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Bheam
+2024-10-16 09:47:41,643 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:43,104 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:45,004 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:47:45,008 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:47:45,143 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Bheam
+2024-10-16 09:47:45,164 - INFO - All Books Request
+2024-10-16 09:47:45,166 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:47:45,297 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Wings of fire
+2024-10-16 09:47:46,100 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:46,400 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:47:54,114 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Myre
+2024-10-16 09:47:59,689 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:48:01,850 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:48:01,853 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:48:02,038 - INFO - All Books Request
+2024-10-16 09:48:02,038 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Myre
+2024-10-16 09:48:02,041 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:48:02,878 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:48:20,602 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: wings of fire 
+2024-10-16 09:48:21,391 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:48:25,648 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:48:25,652 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:48:25,806 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: wings of fire 
+2024-10-16 09:48:25,869 - INFO - All Books Request
+2024-10-16 09:48:25,872 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:48:25,929 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:48:25,931 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:48:26,619 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:48:28,981 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:48:28,981 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:48:28,985 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:48:28,996 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:48:49,323 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 09:48:49,326 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:48:49,990 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Moby-Dick 
+2024-10-16 09:48:50,908 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:48:52,762 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:48:52,765 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:48:53,021 - INFO - All Books Request
+2024-10-16 09:48:53,025 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:48:53,273 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Moby-Dick 
+2024-10-16 09:48:54,058 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:49:00,498 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 09:49:00,500 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:49:36,360 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:49:36,363 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:49:36,371 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:49:36,373 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:49:40,051 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Owned Books
+2024-10-16 09:49:40,055 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:49:50,387 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Three musketeers 
+2024-10-16 09:49:51,246 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:49:51,940 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:49:51,944 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:49:52,090 - INFO - All Books Request
+2024-10-16 09:49:52,094 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:49:52,096 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Three musketeers 
+2024-10-16 09:49:52,776 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:15,997 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: three men in a boat
+2024-10-16 09:50:16,917 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:18,210 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:50:18,213 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:50:18,370 - INFO - All Books Request
+2024-10-16 09:50:18,373 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:50:18,390 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: three men in a boat
+2024-10-16 09:50:19,102 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:23,753 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Hellen Keller
+2024-10-16 09:50:24,572 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:25,257 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:50:25,260 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:50:25,441 - INFO - All Books Request
+2024-10-16 09:50:25,442 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Hellen Keller
+2024-10-16 09:50:25,446 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:50:26,124 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:34,470 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:50:34,475 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:50:34,494 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:50:34,497 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:50:34,549 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Little Stuart
+2024-10-16 09:50:38,081 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 09:50:38,084 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:50:40,563 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:42,288 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:50:42,291 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:50:42,454 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Little Stuart
+2024-10-16 09:50:42,456 - INFO - All Books Request
+2024-10-16 09:50:42,458 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:50:45,944 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Sonu
+2024-10-16 09:50:46,801 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:47,963 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:49,462 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:50:49,465 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:50:49,617 - INFO - All Books Request
+2024-10-16 09:50:49,620 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:50:49,645 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Sonu
+2024-10-16 09:50:50,317 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:50:56,471 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Varun
+2024-10-16 09:51:00,346 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Bhaghavatgita
+2024-10-16 09:51:02,161 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:51:06,016 - ERROR - Error processing request: 'authors'
+2024-10-16 09:51:06,229 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:51:06,231 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:51:06,389 - INFO - All Books Request
+2024-10-16 09:51:06,389 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Varun
+2024-10-16 09:51:06,392 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:51:11,795 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Dsa
+2024-10-16 09:51:11,923 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:51:17,893 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Bhaghavat gita
+2024-10-16 09:51:19,854 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:51:25,091 - ERROR - Error processing request: 'authors'
+2024-10-16 09:51:29,026 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:51:29,030 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:51:29,198 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Dsa
+2024-10-16 09:51:29,225 - INFO - All Books Request
+2024-10-16 09:51:29,228 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:51:34,567 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:51:36,030 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: C++
+2024-10-16 09:51:36,717 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:51:38,549 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:51:38,552 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:51:38,754 - INFO - All Books Request
+2024-10-16 09:51:38,759 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:51:38,780 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: C++
+2024-10-16 09:51:39,464 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:51:55,732 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Thayoli
+2024-10-16 09:52:01,235 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:06,123 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:52:06,127 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:52:06,326 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Thayoli
+2024-10-16 09:52:06,354 - INFO - All Books Request
+2024-10-16 09:52:06,358 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:52:11,398 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:13,472 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Hitler
+2024-10-16 09:52:19,198 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:20,642 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:52:20,645 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:52:20,860 - INFO - All Books Request
+2024-10-16 09:52:20,864 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:52:20,887 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Hitler
+2024-10-16 09:52:26,718 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:27,022 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: India
+2024-10-16 09:52:27,845 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:30,747 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:52:30,751 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:52:30,902 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: India
+2024-10-16 09:52:30,929 - INFO - All Books Request
+2024-10-16 09:52:30,932 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:52:32,597 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Jeoff Bezoz
+2024-10-16 09:52:32,631 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:39,142 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:52:42,680 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:52:42,683 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:52:42,823 - INFO - All Books Request
+2024-10-16 09:52:42,826 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:52:42,849 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Jeoff Bezoz
+2024-10-16 09:52:48,749 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:02,725 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Modi
+2024-10-16 09:53:07,113 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: McDonald's 
+2024-10-16 09:53:08,292 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:12,722 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:53:12,726 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:53:12,917 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Modi
+2024-10-16 09:53:12,920 - INFO - All Books Request
+2024-10-16 09:53:12,923 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:53:13,103 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:14,127 - INFO - All Books Request
+2024-10-16 09:53:14,131 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:53:15,443 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:53:15,448 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:53:15,617 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: McDonald's 
+2024-10-16 09:53:15,620 - INFO - All Books Request
+2024-10-16 09:53:15,623 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:53:15,950 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Owned Books
+2024-10-16 09:53:15,952 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:18,496 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:21,215 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:27,804 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Apple 
+2024-10-16 09:53:28,568 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:30,555 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Submit
+2024-10-16 09:53:30,558 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:53:30,699 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Book: Apple 
+2024-10-16 09:53:30,710 - INFO - All Books Request
+2024-10-16 09:53:30,713 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:53:31,492 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:36,839 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Steve Jobs
+2024-10-16 09:53:38,499 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:53:38,506 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:38,690 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:53:38,693 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:53:38,901 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:53:38,903 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:53:41,989 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:43,482 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-10-16 09:53:43,486 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-10-16 09:53:43,669 - INFO - All Books Request
+2024-10-16 09:53:43,672 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:53:43,686 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Steve Jobs
+2024-10-16 09:53:45,752 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:45,752 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:45,755 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:45,757 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:46,587 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Apple Confidential 2.0
+2024-10-16 09:53:46,590 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:53:46,787 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:46,789 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:46,792 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:46,794 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:49,195 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:49,198 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:49,199 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:49,202 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:49,461 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-10-16 09:53:49,935 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Mahanayak Narendra Modi
+2024-10-16 09:53:49,938 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:53:50,163 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:50,164 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:50,166 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:50,168 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:52,058 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:52,060 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:52,118 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:52,122 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:52,969 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Historical Dictionary of India
+2024-10-16 09:53:52,973 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:53:53,202 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:53,204 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:53,206 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:53,208 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:55,072 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:55,072 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:55,075 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:55,077 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:55,720 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Hitler: Personal Recollections
+2024-10-16 09:53:55,724 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:53:55,876 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:55,879 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:55,893 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:55,896 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:55,993 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:53:55,995 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:56,126 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:53:56,129 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:53:56,276 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:53:56,278 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:53:57,460 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:57,463 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:57,538 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:57,542 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:58,118 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 09:53:58,121 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:53:58,390 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:58,390 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:58,392 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:58,394 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:53:58,729 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: Apple Confidential 2.0
+2024-10-16 09:53:58,732 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:53:58,890 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:53:58,893 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:59,109 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:53:59,111 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:53:59,326 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:53:59,328 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:53:59,671 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:53:59,671 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:53:59,674 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:53:59,677 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:00,341 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: The C Book, Featuring the ANSI C Standard
+2024-10-16 09:54:00,344 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:00,515 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:00,515 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:00,518 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:00,521 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:00,869 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: Historical Dictionary of India
+2024-10-16 09:54:00,871 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:54:01,013 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:01,016 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:01,156 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:01,159 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:01,318 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:01,322 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:01,588 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:01,590 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:01,593 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:01,596 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:01,989 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: Hitler: Personal Recollections
+2024-10-16 09:54:01,992 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:54:02,129 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:02,132 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:02,250 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Codeless Data Structures and Algorithms
+2024-10-16 09:54:02,254 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:02,329 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:02,332 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:02,539 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:02,539 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:02,542 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:02,544 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:02,605 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:02,607 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:03,327 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: Mahanayak Narendra Modi
+2024-10-16 09:54:03,329 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:54:03,489 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:03,492 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:03,646 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:03,648 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:03,788 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:03,791 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:04,619 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:04,623 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:04,625 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:04,630 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:05,223 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: Codeless Data Structures and Algorithms
+2024-10-16 09:54:05,226 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:54:05,376 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:05,378 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:05,517 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:05,519 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:05,658 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:05,660 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:06,322 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: The C Book, Featuring the ANSI C Standard
+2024-10-16 09:54:06,325 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:54:06,465 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:06,467 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:06,593 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:06,594 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:06,596 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:06,598 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:06,619 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:06,623 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:06,789 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:06,791 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:07,278 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 09:54:07,281 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:07,769 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:07,775 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:07,790 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:07,792 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:08,559 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Reject Request: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 09:54:08,562 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/rejectRequest - Status: 200
+2024-10-16 09:54:08,719 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:08,722 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:08,879 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:08,882 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:09,080 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:09,083 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:09,122 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:09,125 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:09,128 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:09,131 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:09,798 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Sonu's Stories
+2024-10-16 09:54:09,804 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:10,015 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:10,018 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:10,020 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:10,022 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:11,078 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 09:54:11,082 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:54:11,229 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:11,232 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:11,415 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:54:11,417 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:54:11,559 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:54:11,561 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:54:12,789 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:12,791 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:12,859 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:12,862 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:12,889 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:54:12,892 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:13,178 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:54:13,180 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:14,738 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:14,738 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:54:14,741 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:14,743 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:17,743 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:17,743 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:54:17,746 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:17,748 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:18,152 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:18,154 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:18,235 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:18,238 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:18,832 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: S G Myre
+2024-10-16 09:54:18,837 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:19,078 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:19,081 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:19,395 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:19,398 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:20,439 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:20,439 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:20,442 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:20,444 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:20,736 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Chhota Bheem Vol. 42
+2024-10-16 09:54:20,740 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:20,897 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:20,897 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:20,899 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:20,901 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:22,680 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:22,680 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:22,682 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:22,684 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:23,359 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 09:54:23,363 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:23,559 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:23,561 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:23,573 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:23,577 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:23,929 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Owned Books
+2024-10-16 09:54:23,931 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:25,210 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:25,215 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:54:25,238 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:54:25,240 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:54:25,907 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Dragon Ball Super, Vol. 5
+2024-10-16 09:54:25,912 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:54:26,097 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:54:26,100 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:10,106 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:10,107 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:10,109 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:10,111 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:12,209 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:12,212 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:12,214 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:12,217 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:13,549 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Love Is
+2024-10-16 09:56:13,553 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:56:13,707 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:13,711 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:13,712 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:13,714 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:15,499 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:15,503 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:15,523 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:15,526 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:16,204 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Nothing
+2024-10-16 09:56:16,207 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:56:16,381 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:16,385 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:16,387 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:16,389 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:17,818 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:17,819 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:17,821 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:17,824 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:18,540 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Captain on the High Seas
+2024-10-16 09:56:18,544 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:56:18,718 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:18,719 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:18,721 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:18,724 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:20,068 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:20,069 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:20,071 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:20,073 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:20,694 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: Who Was Anne Frank?
+2024-10-16 09:56:20,698 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:56:20,880 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:20,880 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:20,883 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:20,885 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:22,411 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:22,415 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:22,437 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:22,440 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:23,087 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Borrow: The Diary of a Young Girl
+2024-10-16 09:56:23,090 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 09:56:23,302 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:23,302 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:23,305 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:23,308 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:24,730 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:56:24,732 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:24,735 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:24,737 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:29,460 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:29,463 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:29,501 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:56:29,503 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:30,971 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 09:56:30,975 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:56:32,181 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:32,186 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:37,560 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:56:37,560 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:56:37,562 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:56:37,564 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:10,654 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-10-16 09:57:10,657 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:12,827 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-10-16 09:57:12,830 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:16,065 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Owned Books
+2024-10-16 09:57:16,068 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:20,078 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:57:20,082 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:20,271 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Apple Confidential 2.0
+2024-10-16 09:57:20,274 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Apple%20Confidential%202.0 - Status: 200
+2024-10-16 09:57:20,477 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Captain on the High Seas
+2024-10-16 09:57:20,481 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Captain%20on%20the%20High%20Seas - Status: 200
+2024-10-16 09:57:20,651 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Chhota Bheem Vol. 42
+2024-10-16 09:57:20,654 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Chhota%20Bheem%20Vol.%2042 - Status: 200
+2024-10-16 09:57:21,104 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Codeless Data Structures and Algorithms
+2024-10-16 09:57:21,106 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Codeless%20Data%20Structures%20and%20Algorithms - Status: 200
+2024-10-16 09:57:21,240 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:21,243 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Dragon%20Ball%20Super,%20Vol.%205 - Status: 200
+2024-10-16 09:57:21,393 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 09:57:21,395 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Gokul%20Village%20and%20the%20Mystery%20of%20the%20Vanishing%20Colors - Status: 200
+2024-10-16 09:57:21,533 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Historical Dictionary of India
+2024-10-16 09:57:21,535 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Historical%20Dictionary%20of%20India - Status: 200
+2024-10-16 09:57:21,718 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Hitler: Personal Recollections
+2024-10-16 09:57:21,720 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Hitler:%20Personal%20Recollections - Status: 200
+2024-10-16 09:57:21,853 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Love Is
+2024-10-16 09:57:21,855 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Love%20Is - Status: 200
+2024-10-16 09:57:21,987 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Mahanayak Narendra Modi
+2024-10-16 09:57:21,991 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Mahanayak%20Narendra%20Modi - Status: 200
+2024-10-16 09:57:22,130 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Nothing
+2024-10-16 09:57:22,133 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Nothing - Status: 200
+2024-10-16 09:57:22,278 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: S G Myre
+2024-10-16 09:57:22,281 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=S%20G%20Myre - Status: 200
+2024-10-16 09:57:22,404 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Sonu's Stories
+2024-10-16 09:57:22,407 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Sonu's%20Stories - Status: 200
+2024-10-16 09:57:22,542 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The C Book, Featuring the ANSI C Standard
+2024-10-16 09:57:22,545 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20C%20Book,%20Featuring%20the%20ANSI%20C%20Standard - Status: 200
+2024-10-16 09:57:22,678 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The Diary of a Young Girl
+2024-10-16 09:57:22,681 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20Diary%20of%20a%20Young%20Girl - Status: 200
+2024-10-16 09:57:22,873 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 09:57:22,876 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20SHROUDED%20SATANISM%20in%20FEUDAL%20LANGUAGES! - Status: 200
+2024-10-16 09:57:23,056 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 09:57:23,058 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Varun%20Dhawan%2049%20Success%20Secrets%20-%2049%20Most%20Asked%20Questions%20on%20Varun%20Dhawan%20-%20What%20You%20Need%20to%20Know - Status: 200
+2024-10-16 09:57:23,228 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Who Was Anne Frank?
+2024-10-16 09:57:23,231 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Who%20Was%20Anne%20Frank? - Status: 200
+2024-10-16 09:57:25,481 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Accept Request: David Copperfield
+2024-10-16 09:57:25,484 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:25,644 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:57:25,647 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:27,052 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Apple Confidential 2.0
+2024-10-16 09:57:27,054 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Apple%20Confidential%202.0 - Status: 200
+2024-10-16 09:57:27,183 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Captain on the High Seas
+2024-10-16 09:57:27,184 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Captain%20on%20the%20High%20Seas - Status: 200
+2024-10-16 09:57:27,373 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Chhota Bheem Vol. 42
+2024-10-16 09:57:27,375 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Chhota%20Bheem%20Vol.%2042 - Status: 200
+2024-10-16 09:57:27,521 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Codeless Data Structures and Algorithms
+2024-10-16 09:57:27,523 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Codeless%20Data%20Structures%20and%20Algorithms - Status: 200
+2024-10-16 09:57:27,675 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:27,677 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Dragon%20Ball%20Super,%20Vol.%205 - Status: 200
+2024-10-16 09:57:27,873 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Accept Request: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:27,877 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:28,027 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:57:28,031 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:28,040 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 09:57:28,043 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Gokul%20Village%20and%20the%20Mystery%20of%20the%20Vanishing%20Colors - Status: 200
+2024-10-16 09:57:28,179 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Apple Confidential 2.0
+2024-10-16 09:57:28,179 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Historical Dictionary of India
+2024-10-16 09:57:28,181 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Apple%20Confidential%202.0 - Status: 200
+2024-10-16 09:57:28,183 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Historical%20Dictionary%20of%20India - Status: 200
+2024-10-16 09:57:28,316 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Captain on the High Seas
+2024-10-16 09:57:28,319 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Captain%20on%20the%20High%20Seas - Status: 200
+2024-10-16 09:57:28,457 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Chhota Bheem Vol. 42
+2024-10-16 09:57:28,460 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Chhota%20Bheem%20Vol.%2042 - Status: 200
+2024-10-16 09:57:28,574 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Hitler: Personal Recollections
+2024-10-16 09:57:28,575 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Hitler:%20Personal%20Recollections - Status: 200
+2024-10-16 09:57:28,602 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Codeless Data Structures and Algorithms
+2024-10-16 09:57:28,605 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Codeless%20Data%20Structures%20and%20Algorithms - Status: 200
+2024-10-16 09:57:28,710 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Love Is
+2024-10-16 09:57:28,713 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Love%20Is - Status: 200
+2024-10-16 09:57:28,741 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:28,744 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Dragon%20Ball%20Super,%20Vol.%205 - Status: 200
+2024-10-16 09:57:28,868 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Mahanayak Narendra Modi
+2024-10-16 09:57:28,871 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Mahanayak%20Narendra%20Modi - Status: 200
+2024-10-16 09:57:28,883 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 09:57:28,885 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Gokul%20Village%20and%20the%20Mystery%20of%20the%20Vanishing%20Colors - Status: 200
+2024-10-16 09:57:29,028 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Nothing
+2024-10-16 09:57:29,031 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Nothing - Status: 200
+2024-10-16 09:57:29,033 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Historical Dictionary of India
+2024-10-16 09:57:29,034 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Historical%20Dictionary%20of%20India - Status: 200
+2024-10-16 09:57:29,174 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: S G Myre
+2024-10-16 09:57:29,177 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=S%20G%20Myre - Status: 200
+2024-10-16 09:57:29,205 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Hitler: Personal Recollections
+2024-10-16 09:57:29,208 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Hitler:%20Personal%20Recollections - Status: 200
+2024-10-16 09:57:29,302 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Sonu's Stories
+2024-10-16 09:57:29,305 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Sonu's%20Stories - Status: 200
+2024-10-16 09:57:29,343 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Love Is
+2024-10-16 09:57:29,346 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Love%20Is - Status: 200
+2024-10-16 09:57:29,439 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The C Book, Featuring the ANSI C Standard
+2024-10-16 09:57:29,442 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20C%20Book,%20Featuring%20the%20ANSI%20C%20Standard - Status: 200
+2024-10-16 09:57:29,472 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Mahanayak Narendra Modi
+2024-10-16 09:57:29,475 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Mahanayak%20Narendra%20Modi - Status: 200
+2024-10-16 09:57:29,616 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The Diary of a Young Girl
+2024-10-16 09:57:29,618 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20Diary%20of%20a%20Young%20Girl - Status: 200
+2024-10-16 09:57:29,629 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Nothing
+2024-10-16 09:57:29,632 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Nothing - Status: 200
+2024-10-16 09:57:29,756 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 09:57:29,758 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20SHROUDED%20SATANISM%20in%20FEUDAL%20LANGUAGES! - Status: 200
+2024-10-16 09:57:29,786 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: S G Myre
+2024-10-16 09:57:29,788 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=S%20G%20Myre - Status: 200
+2024-10-16 09:57:29,901 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 09:57:29,904 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Varun%20Dhawan%2049%20Success%20Secrets%20-%2049%20Most%20Asked%20Questions%20on%20Varun%20Dhawan%20-%20What%20You%20Need%20to%20Know - Status: 200
+2024-10-16 09:57:29,979 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Sonu's Stories
+2024-10-16 09:57:29,981 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Sonu's%20Stories - Status: 200
+2024-10-16 09:57:30,151 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The C Book, Featuring the ANSI C Standard
+2024-10-16 09:57:30,153 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20C%20Book,%20Featuring%20the%20ANSI%20C%20Standard - Status: 200
+2024-10-16 09:57:30,197 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Who Was Anne Frank?
+2024-10-16 09:57:30,200 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Who%20Was%20Anne%20Frank? - Status: 200
+2024-10-16 09:57:30,327 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The Diary of a Young Girl
+2024-10-16 09:57:30,330 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20Diary%20of%20a%20Young%20Girl - Status: 200
+2024-10-16 09:57:30,479 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 09:57:30,481 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20SHROUDED%20SATANISM%20in%20FEUDAL%20LANGUAGES! - Status: 200
+2024-10-16 09:57:30,700 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 09:57:30,703 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Varun%20Dhawan%2049%20Success%20Secrets%20-%2049%20Most%20Asked%20Questions%20on%20Varun%20Dhawan%20-%20What%20You%20Need%20to%20Know - Status: 200
+2024-10-16 09:57:30,848 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Who Was Anne Frank?
+2024-10-16 09:57:30,851 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Who%20Was%20Anne%20Frank? - Status: 200
+2024-10-16 09:57:36,654 - INFO - All Books Request
+2024-10-16 09:57:36,657 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:57:41,030 - INFO - All Books Request
+2024-10-16 09:57:41,034 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 09:57:44,281 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 09:57:44,281 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 09:57:44,284 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:44,286 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 09:57:47,032 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:47,035 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:47,175 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:47,178 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:47,324 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:47,327 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:52,054 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Captain on the High Seas
+2024-10-16 09:57:52,058 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:52,198 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:52,202 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:52,327 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:52,329 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:52,455 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:52,457 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:53,243 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Chhota Bheem Vol. 42
+2024-10-16 09:57:53,249 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:53,365 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:53,370 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:53,507 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:53,510 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:53,670 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:53,672 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:53,831 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:53,834 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:53,954 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:53,957 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:54,041 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:54,044 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:54,107 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:54,108 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:54,184 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:54,187 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:54,212 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:54,214 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:54,242 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:54,243 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:54,345 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:54,348 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:54,351 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Dragon Ball Super, Vol. 5
+2024-10-16 09:57:54,353 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:54,387 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:54,391 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:54,548 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:54,552 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:54,623 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:54,626 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:54,628 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:54,633 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:54,828 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:54,830 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:54,832 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:54,834 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:55,022 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:55,024 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:56,722 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 09:57:56,727 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:56,847 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:56,854 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:56,886 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 09:57:56,891 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:56,993 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:56,996 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:57,025 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:57,028 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:57,555 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:57,557 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:57,566 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:57,568 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:57,717 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:57,720 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:58,288 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Love Is
+2024-10-16 09:57:58,293 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:58,417 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:58,421 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:58,579 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:58,582 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:57:58,722 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:57:58,724 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:57:59,534 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Nothing
+2024-10-16 09:57:59,539 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:57:59,703 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:57:59,706 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:57:59,913 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:57:59,915 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:58:00,110 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:58:00,112 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:58:00,821 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: S G Myre
+2024-10-16 09:58:00,825 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:58:00,955 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:58:00,959 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:58:01,115 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:58:01,118 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:58:01,251 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:58:01,253 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:58:01,946 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: Sonu's Stories
+2024-10-16 09:58:01,949 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:58:02,080 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:58:02,083 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:58:02,220 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:58:02,223 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:58:02,378 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:58:02,382 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 09:58:03,002 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Accept Request: The Diary of a Young Girl
+2024-10-16 09:58:03,008 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/acceptRequest - Status: 200
+2024-10-16 09:58:03,126 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 09:58:03,130 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 09:58:03,252 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 09:58:03,256 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 09:58:03,397 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 09:58:03,399 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 10:00:05,305 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-10-16 10:00:05,308 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:13,830 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-10-16 10:00:13,833 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:15,293 - INFO - All Books Request
+2024-10-16 10:00:15,297 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:00:22,122 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 10:00:22,126 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:22,251 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Apple Confidential 2.0
+2024-10-16 10:00:22,253 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Apple%20Confidential%202.0 - Status: 200
+2024-10-16 10:00:22,442 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Captain on the High Seas
+2024-10-16 10:00:22,444 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Captain%20on%20the%20High%20Seas - Status: 200
+2024-10-16 10:00:22,588 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Chhota Bheem Vol. 42
+2024-10-16 10:00:22,591 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Chhota%20Bheem%20Vol.%2042 - Status: 200
+2024-10-16 10:00:22,718 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Codeless Data Structures and Algorithms
+2024-10-16 10:00:22,720 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Codeless%20Data%20Structures%20and%20Algorithms - Status: 200
+2024-10-16 10:00:22,866 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Dragon Ball Super, Vol. 5
+2024-10-16 10:00:22,869 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Dragon%20Ball%20Super,%20Vol.%205 - Status: 200
+2024-10-16 10:00:23,045 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 10:00:23,047 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Gokul%20Village%20and%20the%20Mystery%20of%20the%20Vanishing%20Colors - Status: 200
+2024-10-16 10:00:23,197 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Historical Dictionary of India
+2024-10-16 10:00:23,199 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Historical%20Dictionary%20of%20India - Status: 200
+2024-10-16 10:00:23,338 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Hitler: Personal Recollections
+2024-10-16 10:00:23,340 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Hitler:%20Personal%20Recollections - Status: 200
+2024-10-16 10:00:23,506 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Love Is
+2024-10-16 10:00:23,509 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Love%20Is - Status: 200
+2024-10-16 10:00:23,697 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Mahanayak Narendra Modi
+2024-10-16 10:00:23,699 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Mahanayak%20Narendra%20Modi - Status: 200
+2024-10-16 10:00:23,837 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Nothing
+2024-10-16 10:00:23,839 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Nothing - Status: 200
+2024-10-16 10:00:23,999 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: S G Myre
+2024-10-16 10:00:24,001 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=S%20G%20Myre - Status: 200
+2024-10-16 10:00:24,170 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Sonu's Stories
+2024-10-16 10:00:24,173 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Sonu's%20Stories - Status: 200
+2024-10-16 10:00:24,332 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The C Book, Featuring the ANSI C Standard
+2024-10-16 10:00:24,334 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20C%20Book,%20Featuring%20the%20ANSI%20C%20Standard - Status: 200
+2024-10-16 10:00:24,479 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The Diary of a Young Girl
+2024-10-16 10:00:24,482 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20Diary%20of%20a%20Young%20Girl - Status: 200
+2024-10-16 10:00:24,630 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 10:00:24,631 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20SHROUDED%20SATANISM%20in%20FEUDAL%20LANGUAGES! - Status: 200
+2024-10-16 10:00:24,780 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 10:00:24,782 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Varun%20Dhawan%2049%20Success%20Secrets%20-%2049%20Most%20Asked%20Questions%20on%20Varun%20Dhawan%20-%20What%20You%20Need%20to%20Know - Status: 200
+2024-10-16 10:00:24,966 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Who Was Anne Frank?
+2024-10-16 10:00:24,969 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Who%20Was%20Anne%20Frank? - Status: 200
+2024-10-16 10:00:30,371 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:00:30,371 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 10:00:30,373 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:30,376 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:30,426 - INFO - All Books Request
+2024-10-16 10:00:30,429 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:00:33,006 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-10-16 10:00:33,009 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:33,178 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Apple Confidential 2.0
+2024-10-16 10:00:33,180 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Apple%20Confidential%202.0 - Status: 200
+2024-10-16 10:00:33,368 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Captain on the High Seas
+2024-10-16 10:00:33,371 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Captain%20on%20the%20High%20Seas - Status: 200
+2024-10-16 10:00:33,518 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Chhota Bheem Vol. 42
+2024-10-16 10:00:33,519 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Chhota%20Bheem%20Vol.%2042 - Status: 200
+2024-10-16 10:00:33,680 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Codeless Data Structures and Algorithms
+2024-10-16 10:00:33,683 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Codeless%20Data%20Structures%20and%20Algorithms - Status: 200
+2024-10-16 10:00:33,837 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Dragon Ball Super, Vol. 5
+2024-10-16 10:00:33,840 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Dragon%20Ball%20Super,%20Vol.%205 - Status: 200
+2024-10-16 10:00:34,000 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Gokul Village and the Mystery of the Vanishing Colors
+2024-10-16 10:00:34,003 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Gokul%20Village%20and%20the%20Mystery%20of%20the%20Vanishing%20Colors - Status: 200
+2024-10-16 10:00:34,139 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Historical Dictionary of India
+2024-10-16 10:00:34,142 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Historical%20Dictionary%20of%20India - Status: 200
+2024-10-16 10:00:34,290 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Hitler: Personal Recollections
+2024-10-16 10:00:34,292 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Hitler:%20Personal%20Recollections - Status: 200
+2024-10-16 10:00:34,441 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Love Is
+2024-10-16 10:00:34,443 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Love%20Is - Status: 200
+2024-10-16 10:00:34,627 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Mahanayak Narendra Modi
+2024-10-16 10:00:34,631 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Mahanayak%20Narendra%20Modi - Status: 200
+2024-10-16 10:00:34,779 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Nothing
+2024-10-16 10:00:34,782 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Nothing - Status: 200
+2024-10-16 10:00:34,938 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: S G Myre
+2024-10-16 10:00:34,940 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=S%20G%20Myre - Status: 200
+2024-10-16 10:00:35,127 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Sonu's Stories
+2024-10-16 10:00:35,129 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Sonu's%20Stories - Status: 200
+2024-10-16 10:00:35,293 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The C Book, Featuring the ANSI C Standard
+2024-10-16 10:00:35,296 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20C%20Book,%20Featuring%20the%20ANSI%20C%20Standard - Status: 200
+2024-10-16 10:00:35,460 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The Diary of a Young Girl
+2024-10-16 10:00:35,462 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20Diary%20of%20a%20Young%20Girl - Status: 200
+2024-10-16 10:00:35,606 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-10-16 10:00:35,609 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20SHROUDED%20SATANISM%20in%20FEUDAL%20LANGUAGES! - Status: 200
+2024-10-16 10:00:35,759 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-10-16 10:00:35,762 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Varun%20Dhawan%2049%20Success%20Secrets%20-%2049%20Most%20Asked%20Questions%20on%20Varun%20Dhawan%20-%20What%20You%20Need%20to%20Know - Status: 200
+2024-10-16 10:00:35,936 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Who Was Anne Frank?
+2024-10-16 10:00:35,938 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Who%20Was%20Anne%20Frank? - Status: 200
+2024-10-16 10:00:36,824 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:00:36,827 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:00:36,851 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:00:36,853 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:37,561 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: Steve Jobs
+2024-10-16 10:00:37,564 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 10:00:37,718 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:00:37,718 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:00:37,721 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:00:37,723 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:00:39,238 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 10:00:39,242 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:00:39,245 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:00:39,247 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:00:42,542 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:00:42,545 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:00:42,568 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:00:42,570 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:01:02,410 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:01:02,413 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:01:02,433 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:01:02,437 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:03,558 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: The Story of McDonaldÃ¢Â\x80Â\x99s
+2024-10-16 10:01:03,559 - ERROR - Error processing request: 'NoneType' object is not subscriptable
+2024-10-16 10:01:03,700 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:01:03,703 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:03,713 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:01:03,714 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:01:05,807 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:01:05,811 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:05,836 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 10:01:05,838 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:07,319 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:01:07,321 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:01:07,347 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:01:07,350 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:09,000 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Borrow: The Everything Store: Jeff Bezos and the Age of Amazon
+2024-10-16 10:01:09,003 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/requestBorrow - Status: 200
+2024-10-16 10:01:09,260 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:01:09,261 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-10-16 10:01:09,263 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-10-16 10:01:09,265 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:11,679 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:01:11,683 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:11,705 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-10-16 10:01:11,708 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:34,335 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 10:01:34,338 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:01:39,456 - INFO - All Books Request
+2024-10-16 10:01:39,459 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:45,974 - INFO - All Books Request
+2024-10-16 10:01:45,978 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:47,795 - INFO - All Books Request
+2024-10-16 10:01:47,802 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:48,615 - INFO - All Books Request
+2024-10-16 10:01:48,619 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:49,225 - INFO - All Books Request
+2024-10-16 10:01:49,228 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:50,549 - INFO - All Books Request
+2024-10-16 10:01:50,558 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:51,765 - INFO - All Books Request
+2024-10-16 10:01:51,772 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:52,641 - INFO - All Books Request
+2024-10-16 10:01:52,646 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:53,596 - INFO - All Books Request
+2024-10-16 10:01:53,602 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:54,280 - INFO - All Books Request
+2024-10-16 10:01:54,286 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:54,992 - INFO - All Books Request
+2024-10-16 10:01:54,996 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:55,716 - INFO - All Books Request
+2024-10-16 10:01:55,720 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:01:56,460 - INFO - All Books Request
+2024-10-16 10:01:56,464 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:02:04,278 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requests
+2024-10-16 10:02:04,282 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:02:04,418 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: David Copperfield
+2024-10-16 10:02:04,419 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=David%20Copperfield - Status: 200
+2024-10-16 10:02:04,562 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Oliver Twist in Plain and Simple English (Includes Study Guide, Complete Unabridged Book, Historical Context, Biography and Char
+2024-10-16 10:02:04,565 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Oliver%20Twist%20in%20Plain%20and%20Simple%20English%20(Includes%20Study%20Guide,%20Complete%20Unabridged%20Book,%20Historical%20Context,%20Biography%20and%20Char - Status: 200
+2024-10-16 10:02:04,701 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: Steve Jobs
+2024-10-16 10:02:04,703 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=Steve%20Jobs - Status: 200
+2024-10-16 10:02:04,871 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Response for: The Everything Store: Jeff Bezos and the Age of Amazon
+2024-10-16 10:02:04,873 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22&title=The%20Everything%20Store:%20Jeff%20Bezos%20and%20the%20Age%20of%20Amazon - Status: 200
+2024-10-16 10:02:13,624 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Requested Details
+2024-10-16 10:02:13,629 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-10-16 10:02:51,691 - INFO - GET http://172.25.246.253:8000/ - Status: 200
+2024-10-16 10:02:53,111 - INFO - GET http://172.25.246.253:8000/favicon.ico - Status: 200
+2024-10-16 10:04:59,549 - INFO - All Books Request
+2024-10-16 10:04:59,556 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-10-16 10:24:04,309 - INFO - GET http://172.25.246.253:8000/ - Status: 200
+2024-10-16 10:24:04,417 - INFO - GET http://172.25.246.253:8000/favicon.ico - Status: 200

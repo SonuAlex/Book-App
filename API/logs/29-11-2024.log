@@ -1,0 +1,132 @@
+2024-11-29 09:32:45,116 - INFO - All Books Request
+2024-11-29 09:33:15,637 - ERROR - Error processing request: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 67493cd239ead03db357ee34, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+2024-11-29 09:33:23,082 - INFO - All Books Request
+2024-11-29 09:33:34,408 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-11-29 09:33:39,780 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:33:53,165 - ERROR - Error processing request: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 67493cd239ead03db357ee34, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+2024-11-29 09:34:04,839 - ERROR - Error processing request: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 67493cd239ead03db357ee34, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+2024-11-29 09:34:09,907 - ERROR - Error processing request: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 67493cd239ead03db357ee34, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+2024-11-29 09:34:35,207 - INFO - All Books Request
+2024-11-29 09:35:05,442 - ERROR - Error processing request: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 67493cd239ead03db357ee34, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+2024-11-29 09:35:50,007 - INFO - All Books Request
+2024-11-29 09:36:20,130 - ERROR - Error processing request: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it, Timeout: 30s, Topology Description: <TopologyDescription id: 67493cd239ead03db357ee34, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it')>]>
+2024-11-29 09:42:04,998 - INFO - All Books Request
+2024-11-29 09:42:05,068 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:42:16,434 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:42:16,455 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:42:17,548 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Apple Confidential 2.0
+2024-11-29 09:42:17,550 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Apple%20Confidential%202.0 - Status: 200
+2024-11-29 09:42:17,920 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Captain on the High Seas
+2024-11-29 09:42:17,924 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Captain%20on%20the%20High%20Seas - Status: 200
+2024-11-29 09:42:18,305 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Chhota Bheem Vol. 42
+2024-11-29 09:42:18,308 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Chhota%20Bheem%20Vol.%2042 - Status: 200
+2024-11-29 09:42:18,685 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Codeless Data Structures and Algorithms
+2024-11-29 09:42:18,688 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Codeless%20Data%20Structures%20and%20Algorithms - Status: 200
+2024-11-29 09:42:19,036 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Dragon Ball Super, Vol. 5
+2024-11-29 09:42:19,039 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Dragon%20Ball%20Super,%20Vol.%205 - Status: 200
+2024-11-29 09:42:19,408 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Gokul Village and the Mystery of the Vanishing Colors
+2024-11-29 09:42:19,411 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Gokul%20Village%20and%20the%20Mystery%20of%20the%20Vanishing%20Colors - Status: 200
+2024-11-29 09:42:19,780 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Historical Dictionary of India
+2024-11-29 09:42:19,782 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Historical%20Dictionary%20of%20India - Status: 200
+2024-11-29 09:42:20,152 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Hitler: Personal Recollections
+2024-11-29 09:42:20,154 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Hitler:%20Personal%20Recollections - Status: 200
+2024-11-29 09:42:20,524 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Love Is
+2024-11-29 09:42:20,527 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Love%20Is - Status: 200
+2024-11-29 09:42:20,895 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Mahanayak Narendra Modi
+2024-11-29 09:42:20,898 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Mahanayak%20Narendra%20Modi - Status: 200
+2024-11-29 09:42:21,387 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Nothing
+2024-11-29 09:42:21,391 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Nothing - Status: 200
+2024-11-29 09:42:21,696 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: S G Myre
+2024-11-29 09:42:21,699 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=S%20G%20Myre - Status: 200
+2024-11-29 09:42:22,017 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Sonu's Stories
+2024-11-29 09:42:22,020 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Sonu's%20Stories - Status: 200
+2024-11-29 09:42:22,321 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The C Book, Featuring the ANSI C Standard
+2024-11-29 09:42:22,323 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20C%20Book,%20Featuring%20the%20ANSI%20C%20Standard - Status: 200
+2024-11-29 09:42:22,676 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The Diary of a Young Girl
+2024-11-29 09:42:22,679 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20Diary%20of%20a%20Young%20Girl - Status: 200
+2024-11-29 09:42:23,049 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: The SHROUDED SATANISM in FEUDAL LANGUAGES!
+2024-11-29 09:42:23,052 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=The%20SHROUDED%20SATANISM%20in%20FEUDAL%20LANGUAGES! - Status: 200
+2024-11-29 09:42:23,423 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Varun Dhawan 49 Success Secrets - 49 Most Asked Questions on Varun Dhawan - What You Need to Know
+2024-11-29 09:42:23,425 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Varun%20Dhawan%2049%20Success%20Secrets%20-%2049%20Most%20Asked%20Questions%20on%20Varun%20Dhawan%20-%20What%20You%20Need%20to%20Know - Status: 200
+2024-11-29 09:42:23,794 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Response for: Who Was Anne Frank?
+2024-11-29 09:42:23,796 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/response?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2&title=Who%20Was%20Anne%20Frank? - Status: 200
+2024-11-29 09:42:33,271 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:42:33,271 - INFO - User: OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Name
+2024-11-29 09:42:33,275 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:42:33,282 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=OFZ1GqgndQdwK1T8PO6vlp3TEg22 - Status: 200
+2024-11-29 09:42:38,718 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-11-29 09:42:38,721 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:42:44,033 - INFO - All Books Request
+2024-11-29 09:42:44,036 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:42:53,070 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Helen Keller
+2024-11-29 09:42:54,770 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-11-29 09:42:58,452 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-11-29 09:42:58,455 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-11-29 09:43:37,375 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Cover Request
+2024-11-29 09:43:39,240 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-11-29 09:43:39,724 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: ALGORITHMS MADE EASY
+2024-11-29 09:43:41,267 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-11-29 09:45:01,256 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Cover Request
+2024-11-29 09:45:05,658 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-11-29 09:45:09,845 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: THE EYEBAL COLTEGTOR
+2024-11-29 09:45:17,487 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-11-29 09:47:30,334 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Submit
+2024-11-29 09:47:30,346 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/submit - Status: 200
+2024-11-29 09:47:30,880 - INFO - All Books Request
+2024-11-29 09:47:30,880 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: THE EYEBAL COLTEGTOR
+2024-11-29 09:47:30,885 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:47:35,148 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-11-29 09:47:35,149 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:47:35,152 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:35,154 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:42,872 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:47:42,876 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:42,903 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-11-29 09:47:42,906 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:43,466 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-11-29 09:47:46,962 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-11-29 09:47:46,962 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:47:46,966 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:46,967 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:49,225 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-11-29 09:47:49,227 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:49,233 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:47:49,236 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:50,569 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-11-29 09:47:50,569 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:47:50,572 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:50,574 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:53,154 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Name
+2024-11-29 09:47:53,154 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requests
+2024-11-29 09:47:53,157 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:53,160 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/requests?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:47:55,628 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Requested Details
+2024-11-29 09:47:55,631 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/userDetails?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:48:09,357 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Owned Books
+2024-11-29 09:48:09,359 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:48:14,366 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Owned Books
+2024-11-29 09:48:14,369 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/ownedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:48:25,198 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-11-29 09:48:25,199 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:48:27,972 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-11-29 09:48:27,975 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:48:29,273 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Borrowed Books
+2024-11-29 09:48:29,275 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Status: 200
+2024-11-29 09:48:33,138 - INFO - All Books Request
+2024-11-29 09:48:33,141 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:48:35,147 - INFO - All Books Request
+2024-11-29 09:48:35,151 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:49:23,165 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Cover Request
+2024-11-29 09:49:24,355 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-11-29 09:49:24,839 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Simple Habits for Complex Times
+2024-11-29 09:49:26,620 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-11-29 09:49:47,287 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Cover Request
+2024-11-29 09:49:48,418 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/cover - Status: 200
+2024-11-29 09:49:48,774 - INFO - User: tJZa2yKtDeQDcjsaRZFETgHAqtm2 - Book: Simple Habits for Complex Times
+2024-11-29 09:49:51,922 - INFO - POST https://ghoul-nearby-daily.ngrok-free.app/book - Status: 200
+2024-11-29 09:50:09,054 - INFO - All Books Request
+2024-11-29 09:50:09,056 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:51:01,651 - INFO - All Books Request
+2024-11-29 09:51:01,655 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
+2024-11-29 09:51:12,364 - INFO - All Books Request
+2024-11-29 09:51:12,367 - INFO - GET https://ghoul-nearby-daily.ngrok-free.app/allBooks - Status: 200
