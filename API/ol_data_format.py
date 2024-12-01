@@ -105,13 +105,13 @@ def get_book_by_title(query, i=0) -> JSONResponse:
     volumes = book_data['items']
     book = None
     for item in volumes:
-        if "description" in item['volumeInfo']:
+        if "description" in item['volumeInfo'] and "imageLinks" in item['volumeInfo']:
             book = item['volumeInfo']            
             break
 
 
     if book is not None:
-        if len(book['description'].split(' ')) > 150 and i < 7:
+        if len(book['description'].split(' ')) > 150 and i < 4:
             return get_book_by_title(query, i+1)
         result = {
             "coverImage": book["imageLinks"]["thumbnail"],

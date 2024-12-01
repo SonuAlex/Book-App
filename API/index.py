@@ -12,6 +12,7 @@ import ReadCover
 import numpy as np
 import cv2
 from bson import ObjectId
+import metrics.ApiMetrics as ApiMetrics
 
 def convert_objectid(data):
     if isinstance(data, list):
@@ -38,6 +39,7 @@ class RequestModel(BaseModel):
     title: str
     user_id: str
     owner_id: str
+    requested_by: str
     response: int
 class verifyUser(BaseModel):
     user_id: str
@@ -75,8 +77,9 @@ try:
     db = client["bookstore"]
     collection = db["books"]
     userCollection = db["users"]
-    registerCollection = db["history"]
+    historyCollection = db["history"]
     requestCollection = db["requests"]
+    apiMetrics = db["apiMetrics"]
 except Exception as e:
     logging.error(f"Error connecting to MongoDB: {e}")
     raise
@@ -88,6 +91,9 @@ async def log_requests(request, call_next):
     except Exception as e:
         logging.error(f"Error processing request: {e}")
         return JSONResponse(status_code=500, content={"message": "Internal Server Error"})
+    metrics = ApiMetrics.Metrics(request)
+    metrics.saveMongoDBMetrics()
+    metrics.saveCSVMetrics()
     log_message = f"{request.method} {request.url} - Status: {response.status_code}"
     logging.info(log_message)
     return response
@@ -169,10 +175,14 @@ async def handle_cover_request(user_id: str = Form(...), file: UploadFile = File
     image = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
 
     bookTitle = ReadCover.extract_book_title(image)
-    print(f'Extracted Image Title is: {bookTitle}')
-    result = ol.get_book_by_cover(bookTitle)
+    # print(f'Extracted Image Title is: {bookTitle}')
+    # result = ol.get_book_by_cover(bookTitle)
+    result = {
+        "title": bookTitle
+    }
+    print(bookTitle)
 
-    return result
+    return JSONResponse(content=result)
 
 @app.post('/submit')
 def handle_submit_request(request: BookDetails):    # When a user wants to submit a book
@@ -237,7 +247,7 @@ def handle_borrow_request(user_id: str, title: str):    # When a user whants to 
         if book["available"]:
             userCollection.update_one({"user_id": user_id}, {"$inc": {"borrowed_books": 1}, "$push": {"borrowed_titles": title}})
             collection.update_one({"title": title}, {"$set": {"available": False, "borrowed_by": user_id}})
-            registerCollection.insert_one({"user_id": user_id, "title": title, "borrowed_on": datetime.now().isoformat(), "deadline": (datetime.now() + timedelta(days=7)).isoformat(), "returned": ""})
+            historyCollection.insert_one({"user_id": user_id, "title": title, "borrowed_on": datetime.now().isoformat(), "deadline": (datetime.now() + timedelta(days=7)).isoformat(), "returned": ""})
             logging.info(f"Book {title} borrowed by {user_id}")
             return {"status":200, "message": "Book borrowed successfully", "deadline": (datetime.now() + timedelta(days=7)).isoformat()}
         else:
@@ -254,7 +264,7 @@ def handle_return_request(user_id: str, title: str):    # When a user wants to r
     try:
         userCollection.update_one({"user_id": user_id}, {"$inc": {"borrowed_books": -1}, "$pull": {"borrowed_titles": title}})
         collection.update_one({"title": title}, {"$set": {"available": True, "borrowed_by": ""}})
-        registerCollection.update_one({"title": title}, {"$set": {"returned": datetime.now().isoformat()}})
+        historyCollection.update_one({"title": title}, {"$set": {"returned": datetime.now().isoformat()}})
         requestCollection.delete_one({"title": title, "user_id": user_id})
         logging.info(f"Book {title} returned by {user_id}")
         return {"status":200, "message": "Book returned successfully"}
@@ -289,7 +299,8 @@ def handle_request_borrow(data: BookRequest):    # When a user wants to request 
         if req['title'] == data.title and req['user_id'] == data.user_id:
             return {"status": 400, "message": "Request already sent"}
                 
-    bookRequest = RequestModel(title=data.title, user_id=data.user_id, owner_id=bookData['user_id'], response=0)
+    requestdBy = userCollection.find_one({"user_id":data.user_id})['name']
+    bookRequest = RequestModel(title=data.title, user_id=data.user_id, owner_id=bookData['user_id'], requested_by=requestdBy, response=0)
     requestCollection.insert_one(bookRequest.model_dump())
     return {"status": 200, "message": "Request sent"}
 
@@ -305,8 +316,8 @@ def handle_accept_request(request: BookRequest):    # When a user wants to accep
                 return {"status": 400, "message": "Request already accepted"}
             else:
                 requestCollection.update_one({"title": request.title, "user_id": request.user_id}, {"$set": {"response": 1}})
-                collection.update_one({"title": request.title}, {"$set": {"borrowed_by": request.user_id}})
-                registerCollection.insert_one({"user_id": request.user_id, "title": request.title, "borrowed_on": datetime.now().isoformat(), "returned": ""})
+                collection.update_one({"title": request.title}, {"$set": {"available": False, "borrowed_by": request.user_id}})
+                historyCollection.insert_one({"user_id": request.user_id, "title": request.title, "borrowed_on": datetime.now().isoformat()})
                 return {"status": 200, "message": "Request accepted"}
     return {"status": 400, "message": "Request not found"}
 
