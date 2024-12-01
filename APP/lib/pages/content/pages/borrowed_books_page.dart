@@ -16,8 +16,8 @@ class BorrowedBooksPage extends StatefulWidget {
 class _BorrowedBooksPageState extends State<BorrowedBooksPage> {
   Future<List<Map<String, dynamic>>> fetchBorrowedBooks() async {
     final userId = FirebaseAuth.instance.currentUser!.uid;
-    final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/borrowedBooks?user_id=$userId');
+    final url =
+        Uri.parse('http://172.25.246.253:8000/borrowedBooks?user_id=$userId');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -42,7 +42,7 @@ class _BorrowedBooksPageState extends State<BorrowedBooksPage> {
   Future<void> returnBook(String title) async {
     final userId = FirebaseAuth.instance.currentUser!.uid;
     final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/return?user_id=$userId&title=$title');
+        'http://172.25.246.253:8000/return?user_id=$userId&title=$title');
     final response = await http.get(url);
 
     if (response.statusCode != 200) {

@@ -1,3 +1,5 @@
+import 'dart:developer' as d;
+
 import 'package:ddbookstore/pages/content/models/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +28,7 @@ class _ProfilePageState extends State<ProfilePage> {
             child: CircularProgressIndicator(),
           );
         }
+        d.log('Hello');
 
         if (snapshot.hasError) {
           return const Center(

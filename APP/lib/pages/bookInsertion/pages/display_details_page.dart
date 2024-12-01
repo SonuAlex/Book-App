@@ -21,7 +21,7 @@ class _DisplayDetailsPageState extends State<DisplayDetailsPage> {
   }
 
   Future<Map<String, dynamic>> getDataByTitle(String title) async {
-    final url = Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/book');
+    final url = Uri.parse('http://172.25.246.253:8000/book');
     final request = {
       "user_id": FirebaseAuth.instance.currentUser!.uid,
       "title": title,
@@ -39,7 +39,7 @@ class _DisplayDetailsPageState extends State<DisplayDetailsPage> {
   }
 
   Future<Map<String, dynamic>> addBookToUser(Map<String, dynamic> data) async {
-    final url = Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/submit');
+    final url = Uri.parse('http://172.25.246.253:8000/submit');
     final response = await http.post(url, body: json.encode(data), headers: {
       'Content-Type': 'application/json',
     });

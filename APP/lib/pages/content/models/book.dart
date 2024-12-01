@@ -23,7 +23,7 @@ class Book {
   });
 
   Future<List<dynamic>> bookDetails() async {
-    final url = Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/allBooks');
+    final url = Uri.parse('http://172.25.246.253:8000/allBooks');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -35,8 +35,8 @@ class Book {
   }
 
   Future<String> getName(userId) async {
-    final url = Uri.parse(
-        'https://ghoul-nearby-daily.ngrok-free.app/userName?user_id=$userId');
+    final url =
+        Uri.parse('http://172.25.246.253:8000/userName?user_id=$userId');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
@@ -48,8 +48,7 @@ class Book {
   }
 
   Future<void> requestBook(title) async {
-    final url =
-        Uri.parse('https://ghoul-nearby-daily.ngrok-free.app/requestBorrow');
+    final url = Uri.parse('http://172.25.246.253:8000/requestBorrow');
     final Map<String, dynamic> request = {
       'title': title,
       'user_id': FirebaseAuth.instance.currentUser!.uid,

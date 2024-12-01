@@ -54,6 +54,16 @@ class _BookDetailsPageState extends State<BookDetailsPage> {
                     children: [
                       ElevatedButton(
                         onPressed: () async {
+                          if (book.ownedBy ==
+                              FirebaseAuth.instance.currentUser!.uid) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content:
+                                    Text('You cannot borrow your own book'),
+                              ),
+                            );
+                            return;
+                          }
                           await book.requestBook(book.title);
                           setState(() {});
                         },
